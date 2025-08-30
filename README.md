@@ -1,23 +1,98 @@
-# OCA Purchase Modules
+## Packages Included (96 packages)
 
-This repository contains OCA (Odoo Community Association) Purchase modules for Odoo.
-
-## Description
-
-This collection includes Purchase related modules from the OCA project, providing enhanced purchasing functionality for Odoo installations.
-
-## Structure
-
-This is a submodule within the larger Bringout Odoo ecosystem. Individual OCA Purchase addon packages are organized within this repository.
-
-## Usage
-
-This repository is designed to be used as a git submodule within the main Odoo project structure.
-
-## License
-
-Individual modules may have their own licensing terms. Please refer to each module's documentation for specific license information.
-
-## Contributing
-
-Contributions should follow OCA guidelines and standards for Odoo addon development.
+- **odoo-bringout-oca-purchase-workflow-partner_supplierinfo_smartbutton**
+- **odoo-bringout-oca-purchase-workflow-procurement_purchase_no_grouping**
+- **odoo-bringout-oca-purchase-workflow-product_main_seller**
+- **odoo-bringout-oca-purchase-workflow-product_supplier_code_purchase**
+- **odoo-bringout-oca-purchase-workflow-product_supplierinfo_purchase_contact**
+- **odoo-bringout-oca-purchase-workflow-product_supplierinfo_qty_multiplier**
+- **odoo-bringout-oca-purchase-workflow-product_supplierinfo_security**
+- **odoo-bringout-oca-purchase-workflow-product_supplierinfo_update_price**
+- **odoo-bringout-oca-purchase-workflow-purchase_advance_payment**
+- **odoo-bringout-oca-purchase-workflow-purchase_all_shipments**
+- **odoo-bringout-oca-purchase-workflow-purchase_allowed_product**
+- **odoo-bringout-oca-purchase-workflow-purchase_blanket_order**
+- **odoo-bringout-oca-purchase-workflow-purchase_cancel_reason**
+- **odoo-bringout-oca-purchase-workflow-purchase_commercial_partner**
+- **odoo-bringout-oca-purchase-workflow-purchase_date_planned_manual**
+- **odoo-bringout-oca-purchase-workflow-purchase_default_terms_conditions**
+- **odoo-bringout-oca-purchase-workflow-purchase_delivery_split_date**
+- **odoo-bringout-oca-purchase-workflow-purchase_deposit**
+- **odoo-bringout-oca-purchase-workflow-purchase_discount**
+- **odoo-bringout-oca-purchase-workflow-purchase_exception**
+- **odoo-bringout-oca-purchase-workflow-purchase_fop_shipping**
+- **odoo-bringout-oca-purchase-workflow-purchase_force_invoiced**
+- **odoo-bringout-oca-purchase-workflow-purchase_force_invoiced_quantity**
+- **odoo-bringout-oca-purchase-workflow-purchase_fully_invoiced**
+- **odoo-bringout-oca-purchase-workflow-purchase_fully_received**
+- **odoo-bringout-oca-purchase-workflow-purchase_invoice_method**
+- **odoo-bringout-oca-purchase-workflow-purchase_invoice_new_picking_line**
+- **odoo-bringout-oca-purchase-workflow-purchase_invoice_plan**
+- **odoo-bringout-oca-purchase-workflow-purchase_landed_cost**
+- **odoo-bringout-oca-purchase-workflow-purchase_last_price_info**
+- **odoo-bringout-oca-purchase-workflow-purchase_line_procurement_group**
+- **odoo-bringout-oca-purchase-workflow-purchase_location_by_line**
+- **odoo-bringout-oca-purchase-workflow-purchase_lot**
+- **odoo-bringout-oca-purchase-workflow-purchase_manual_delivery**
+- **odoo-bringout-oca-purchase-workflow-purchase_merge**
+- **odoo-bringout-oca-purchase-workflow-purchase_minimum_amount**
+- **odoo-bringout-oca-purchase-workflow-purchase_no_rfq**
+- **odoo-bringout-oca-purchase-workflow-purchase_only_by_packaging**
+- **odoo-bringout-oca-purchase-workflow-purchase_open_qty**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_approval_block**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_approved**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_archive**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_downpayment**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_duplicate_check**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_general_discount**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_hide_receipt_status**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_line_menu**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_line_receipt_status**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_line_sequence**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_line_stock_available**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_no_zero_price**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_owner**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_price_recalculation**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_product_attachment_mgmt**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_product_recommendation**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_purchase_manager**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_qty_change_no_recompute**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_revision**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_secondary_unit**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_supplier_return**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_supplierinfo_update**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_type**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_type_dashboard**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_uninvoiced_amount**
+- **odoo-bringout-oca-purchase-workflow-purchase_order_weight_volume**
+- **odoo-bringout-oca-purchase-workflow-purchase_packaging_default**
+- **odoo-bringout-oca-purchase-workflow-purchase_packaging_level_qty**
+- **odoo-bringout-oca-purchase-workflow-purchase_partner_incoterm**
+- **odoo-bringout-oca-purchase-workflow-purchase_partner_selectable_option**
+- **odoo-bringout-oca-purchase-workflow-purchase_product_packaging_container_deposit**
+- **odoo-bringout-oca-purchase-workflow-purchase_quick**
+- **odoo-bringout-oca-purchase-workflow-purchase_reception_status**
+- **odoo-bringout-oca-purchase-workflow-purchase_reorder_control**
+- **odoo-bringout-oca-purchase-workflow-purchase_request**
+- **odoo-bringout-oca-purchase-workflow-purchase_request_department**
+- **odoo-bringout-oca-purchase-workflow-purchase_request_exception**
+- **odoo-bringout-oca-purchase-workflow-purchase_request_tier_validation**
+- **odoo-bringout-oca-purchase-workflow-purchase_request_type**
+- **odoo-bringout-oca-purchase-workflow-purchase_requisition_tier_validation**
+- **odoo-bringout-oca-purchase-workflow-purchase_return**
+- **odoo-bringout-oca-purchase-workflow-purchase_sale_link_by_origin**
+- **odoo-bringout-oca-purchase-workflow-purchase_security**
+- **odoo-bringout-oca-purchase-workflow-purchase_sign**
+- **odoo-bringout-oca-purchase-workflow-purchase_split_by_route**
+- **odoo-bringout-oca-purchase-workflow-purchase_stock_packaging**
+- **odoo-bringout-oca-purchase-workflow-purchase_stock_price_unit_sync**
+- **odoo-bringout-oca-purchase-workflow-purchase_tag**
+- **odoo-bringout-oca-purchase-workflow-purchase_tier_validation**
+- **odoo-bringout-oca-purchase-workflow-purchase_transport_mode**
+- **odoo-bringout-oca-purchase-workflow-purchase_triple_discount**
+- **odoo-bringout-oca-purchase-workflow-purchase_vendor_promotion**
+- **odoo-bringout-oca-purchase-workflow-purchase_warn_message**
+- **odoo-bringout-oca-purchase-workflow-purchase_work_acceptance**
+- **odoo-bringout-oca-purchase-workflow-purchase_work_acceptance_evaluation**
+- **odoo-bringout-oca-purchase-workflow-sale_purchase_force_vendor**
+- **odoo-bringout-oca-purchase-workflow-supplier_calendar**

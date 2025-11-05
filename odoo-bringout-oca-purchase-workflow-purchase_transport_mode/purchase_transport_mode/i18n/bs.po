@@ -23,6 +23,8 @@ msgstr "Svi zahtjevi načina transporta su zadovoljeni"
 msgid ""
 "Collect and validate order details to satisfy transport mode requirements"
 msgstr ""
+"Prikupiti i validirati detalje narudžbe kako bi se zadovoljili zahtjevi "
+"načina transporta"
 
 #. module: purchase_transport_mode
 #: model:ir.model,name:purchase_transport_mode.model_res_company
@@ -36,13 +38,11 @@ msgstr "Kontakt"
 
 #. module: purchase_transport_mode
 #: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode__create_uid
-#: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode_constraint__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: purchase_transport_mode
 #: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode__create_date
-#: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode_constraint__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -53,7 +53,6 @@ msgstr "Opis"
 
 #. module: purchase_transport_mode
 #: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode__display_name
-#: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode_constraint__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -64,31 +63,26 @@ msgstr "Domena zasnovana na nabavci"
 
 #. module: purchase_transport_mode
 #: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode__id
-#: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode_constraint__id
 msgid "ID"
 msgstr "ID"
 
 #. module: purchase_transport_mode
 #: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode____last_update
-#: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode_constraint____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: purchase_transport_mode
 #: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode__write_uid
-#: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode_constraint__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: purchase_transport_mode
 #: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode__write_date
-#: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode_constraint__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
 #. module: purchase_transport_mode
 #: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode__name
-#: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode_constraint__name
 msgid "Name"
 msgstr "Naziv:"
 
@@ -104,10 +98,6 @@ msgstr "Nalog za nabavu"
 
 #. module: purchase_transport_mode
 #: model:ir.actions.act_window,name:purchase_transport_mode.purchase_transport_mode_action
-#: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode_constraint__purchase_transport_mode_id
-#: model:ir.model.fields,field_description:purchase_transport_mode.field_res_partner__purchase_transport_mode_id
-#: model:ir.model.fields,field_description:purchase_transport_mode.field_res_users__purchase_transport_mode_id
-#: model:ir.ui.menu,name:purchase_transport_mode.menu_purchase_transport_mode_action
 msgid "Purchase Transport Mode"
 msgstr "Način transporta nabavke"
 
@@ -138,7 +128,6 @@ msgstr "Izvorna domena nabavke"
 
 #. module: purchase_transport_mode
 #: model:ir.model,name:purchase_transport_mode.model_purchase_transport_mode
-#: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_order__transport_mode_id
 msgid "Transport Mode"
 msgstr "Način transporta"
 
@@ -180,7 +169,9 @@ msgstr "Zahtjevi načina transporta nisu zadovoljeni"
 #. module: purchase_transport_mode
 #: model_terms:ir.ui.view,arch_db:purchase_transport_mode.res_config_settings_view_form_purchase_inherit
 msgid "Validate purchase order details to satisfy transport mode requirements"
-msgstr "Validacija detalja narudžbenice kako bi se zadovoljili zahtjevi načina transporta"
+msgstr ""
+"Validacija detalja narudžbenice kako bi se zadovoljili zahtjevi načina "
+"transporta"
 
 #. module: purchase_transport_mode
 #: model:ir.model.fields,field_description:purchase_transport_mode.field_res_config_settings__purchase_transport_mode_contraint_enabled

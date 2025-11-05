@@ -34,6 +34,7 @@ msgid ""
 "Click here to be able to confirm this Agreement regardless of the "
 "exceptions."
 msgstr ""
+"Kliknite ovdje da biste mogli potvrditi ovaj ugovor bez obzira na izuzetke."
 
 #. module: purchase_exception
 #: model:ir.model.fields,field_description:purchase_exception.field_purchase_exception_confirm__create_uid
@@ -77,9 +78,6 @@ msgstr "ID"
 
 #. module: purchase_exception
 #: model:ir.model.fields,field_description:purchase_exception.field_purchase_exception_confirm__ignore
-#: model:ir.model.fields,field_description:purchase_exception.field_purchase_order__ignore_exception
-#: model:ir.model.fields,field_description:purchase_exception.field_purchase_order_line__ignore_exception
-#: model_terms:ir.ui.view,arch_db:purchase_exception.view_order_form
 msgid "Ignore Exceptions"
 msgstr "Ignoriraj izuzetke"
 
@@ -125,7 +123,6 @@ msgstr "Nabavke"
 
 #. module: purchase_exception
 #: model:ir.actions.act_window,name:purchase_exception.action_purchase_test_tree
-#: model:ir.ui.menu,name:purchase_exception.menu_purchase_test
 msgid "Purchase Exception Rules"
 msgstr "Pravila izuzetaka nabavke"
 
@@ -161,7 +158,6 @@ msgstr "Linija nabavnog naloga"
 
 #. module: purchase_exception
 #: model:ir.actions.server,name:purchase_exception.ir_cron_test_po_order_except_ir_actions_server
-#: model:ir.cron,cron_name:purchase_exception.ir_cron_test_po_order_except
 msgid "Purchase: Test Draft Orders Exception"
 msgstr "Nabavka: Test izuzetka nacrta naloga"
 

@@ -18,9 +18,9 @@ msgstr ""
 msgid "Ask a reason for the purchase order cancellation."
 msgstr "Zatražite razlog za otkazivanje nabavnog naloga."
 
+# taken from hr.po
 #. module: purchase_cancel_reason
 #: model_terms:ir.ui.view,arch_db:purchase_cancel_reason.purchase_order_form
-#: model_terms:ir.ui.view,arch_db:purchase_cancel_reason.view_purchase_order_cancel
 msgid "Cancel"
 msgstr "Odustani"
 
@@ -35,33 +35,34 @@ msgid ""
 "Choose the reason for the cancellation of the\n"
 "                    purchase order."
 msgstr ""
+"Izaberite razlog za otkazivanje\n"
+"nabavnog naloga."
 
 #. module: purchase_cancel_reason
 #: model_terms:ir.ui.view,arch_db:purchase_cancel_reason.view_purchase_order_cancel
 msgid "Confirm"
 msgstr "Potvrdi"
 
+# taken from hr.po
 #. module: purchase_cancel_reason
 #: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel__create_uid
-#: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel_reason__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: purchase_cancel_reason
 #: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel__create_date
-#: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel_reason__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: purchase_cancel_reason
 #: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel__display_name
-#: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel_reason__display_name
 msgid "Display Name"
 msgstr "Prikaži naziv"
 
 #. module: purchase_cancel_reason
 #: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel__id
-#: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel_reason__id
 msgid "ID"
 msgstr "ID"
 
@@ -70,21 +71,21 @@ msgstr "ID"
 msgid "Just for Quotation"
 msgstr "Samo za ponudu"
 
+# taken from hr.po
 #. module: purchase_cancel_reason
 #: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel____last_update
-#: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel_reason____last_update
 msgid "Last Modified on"
 msgstr "Zadnja izmjena na"
 
+# taken from hr.po
 #. module: purchase_cancel_reason
 #: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel__write_uid
-#: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel_reason__write_uid
 msgid "Last Updated by"
 msgstr "Zadnje ažuriranje izvršio"
 
+# taken from hr.po
 #. module: purchase_cancel_reason
 #: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel__write_date
-#: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel_reason__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažuriranje na"
 
@@ -93,6 +94,7 @@ msgstr "Zadnje ažuriranje na"
 msgid "Other Service Provider selected"
 msgstr "Odabran je drugi pružatelj usluge"
 
+# taken from hr.po
 #. module: purchase_cancel_reason
 #: model:ir.model,name:purchase_cancel_reason.model_purchase_order
 msgid "Purchase Order"
@@ -100,19 +102,16 @@ msgstr "Nabavni nalog"
 
 #. module: purchase_cancel_reason
 #: model:ir.actions.act_window,name:purchase_cancel_reason.action_purchase_order_cancel_reason
-#: model:ir.model,name:purchase_cancel_reason.model_purchase_order_cancel_reason
 msgid "Purchase Order Cancel Reason"
 msgstr "Razlog otkazivanja nabavnog naloga"
 
 #. module: purchase_cancel_reason
 #: model:ir.ui.menu,name:purchase_cancel_reason.menu_purchase_order_cancel_reason
-#: model_terms:ir.ui.view,arch_db:purchase_cancel_reason.view_purchase_order_cancel_reason_form
 msgid "Purchase Order Cancel Reasons"
 msgstr "Razlozi otkazivanja nabavnih naloga"
 
 #. module: purchase_cancel_reason
 #: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel__reason_id
-#: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel_reason__name
 msgid "Reason"
 msgstr "Razlog"
 
@@ -123,7 +122,6 @@ msgstr "Razlog otkazivanja"
 
 #. module: purchase_cancel_reason
 #: model:ir.actions.act_window,name:purchase_cancel_reason.action_purchase_order_cancel
-#: model_terms:ir.ui.view,arch_db:purchase_cancel_reason.view_purchase_order_cancel
 msgid "Reason for the cancellation"
 msgstr "Razlog za otkazivanje"
 
@@ -132,6 +130,7 @@ msgstr "Razlog za otkazivanje"
 msgid "Service no longer needed"
 msgstr "Usluga više nije potrebna"
 
+# taken from hr.po
 #. module: purchase_cancel_reason
 #: model_terms:ir.ui.view,arch_db:purchase_cancel_reason.view_purchase_order_cancel
 msgid "or"

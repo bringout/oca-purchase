@@ -20,6 +20,10 @@ msgid ""
 "specific.\" aria-label=\"Values set here are company-specific.\" "
 "groups=\"base.group_multi_company\" role=\"img\"/>"
 msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Vrijednosti postavljene ovdje"
+" su specifične za preduzeće.\" aria-label=\"Vrijednosti postavljene ovdje su"
+" specifične za preduzeće.\" groups=\"base.group_multi_company\" "
+"role=\"img\"/>"
 
 #. module: purchase_default_terms_conditions
 #: model:ir.model,name:purchase_default_terms_conditions.model_res_company
@@ -43,8 +47,6 @@ msgstr "Postavke grupiranja nabavki za prokuraciju"
 
 #. module: purchase_default_terms_conditions
 #: model:ir.model.fields,field_description:purchase_default_terms_conditions.field_res_company__purchase_note
-#: model:ir.model.fields,field_description:purchase_default_terms_conditions.field_res_partner__purchase_note
-#: model:ir.model.fields,field_description:purchase_default_terms_conditions.field_res_users__purchase_note
 msgid "Purchase Default Terms and Conditions"
 msgstr "Standardni uslovi nabavke"
 

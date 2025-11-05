@@ -19,6 +19,8 @@ msgid ""
 "<span attrs=\"{'invisible': [('advance_payment_method', '!=', "
 "'percentage')]}\" class=\"oe_inline\">%</span>"
 msgstr ""
+"<span attrs=\"{'invisible': [('advance_payment_method', '!=', "
+"'percentage')]}\" class=\"oe_inline\">%</span>"
 
 #. module: purchase_order_downpayment
 #: model_terms:ir.ui.view,arch_db:purchase_order_downpayment.view_po_downpayment_wizard
@@ -27,7 +29,6 @@ msgstr "Otkaži"
 
 #. module: purchase_order_downpayment
 #: model:ir.model.fields,field_description:purchase_order_downpayment.field_purchase_order_down_payment_wizard__advance_payment_method
-#: model_terms:ir.ui.view,arch_db:purchase_order_downpayment.purchase_order_form_inherit_downpayment
 msgid "Create Payment"
 msgstr "Kreiraj plaćanje"
 
@@ -103,7 +104,6 @@ msgstr "Nalog"
 
 #. module: purchase_order_downpayment
 #: model:ir.actions.act_window,name:purchase_order_downpayment.action_view_po_downpayment_wizard
-#: model_terms:ir.ui.view,arch_db:purchase_order_downpayment.purchase_order_form_inherit_downpayment
 msgid "Payment"
 msgstr "Plaćanje"
 
@@ -118,6 +118,8 @@ msgid ""
 "Payment will be created in draft so that you can review\n"
 "                    them before validation."
 msgstr ""
+"Plaćanje will be created in draft so that you can review\n"
+"them before validation."
 
 #. module: purchase_order_downpayment
 #: model:ir.model,name:purchase_order_downpayment.model_account_payment
@@ -151,14 +153,14 @@ msgstr "Regular Plaćanje"
 
 #. module: purchase_order_downpayment
 #. odoo-python
-#: code:addons/purchase_order_downpayment/wizard/purchase_order_downpayment_wizard.py:0
+#: code:addons/purchase_order_downpayment/wizard/purchase_order_downpayment_wizard.py
 #, python-format
 msgid "The value of the down payment amount must be positive."
 msgstr "Iznos predujma mora biti pozitivan."
 
 #. module: purchase_order_downpayment
 #. odoo-python
-#: code:addons/purchase_order_downpayment/wizard/purchase_order_downpayment_wizard.py:0
+#: code:addons/purchase_order_downpayment/wizard/purchase_order_downpayment_wizard.py
 #, python-format
 msgid "The value of the down payment percentage cannot be greater than 100%."
 msgstr "The value of the down payment percentage cannot be greater than 100%."

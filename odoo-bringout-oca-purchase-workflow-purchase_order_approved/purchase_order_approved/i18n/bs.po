@@ -19,16 +19,18 @@ msgid ""
 "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Vrijednosti postavljene ovdje"
+" su specifične za kompaniju.\" groups=\"base.group_multi_company\"/>"
 
 #. module: purchase_order_approved
 #: model_terms:ir.ui.view,arch_db:purchase_order_approved.view_purchase_configuration
 msgid ""
 "Adds an extra state in purchase orders previous to 'Purchase Order' state."
 msgstr ""
+"Adds an extra state in purchase orders previous to 'Nabavni Nalog' state."
 
 #. module: purchase_order_approved
 #: model:ir.model.fields,help:purchase_order_approved.field_res_company__purchase_approve_active
-#: model:ir.model.fields,help:purchase_order_approved.field_res_config_settings__purchase_approve_active
 msgid ""
 "Adds an extra state in purchase orders previous to 'Purchase Order'. After "
 "confirming and approving a purchase order it will go to state 'Approved'. In"
@@ -36,6 +38,11 @@ msgid ""
 "back to draft. You can release the creation of the incoming shipments moving"
 " the purchase order to state 'Purchase Order'."
 msgstr ""
+"Adds an extra state in purchase orders previous to 'Nabavni Nalog'. After "
+"confirming and approving a purchase order it will go to state 'Approved'. In"
+" this state the incoming shipments are not created yet and you still can go "
+"back to draft. You can release the creation of the incoming shipments moving"
+" the purchase order to state 'Nabavni Nalog'."
 
 #. module: purchase_order_approved
 #: model:ir.model.fields.selection,name:purchase_order_approved.selection__res_partner__purchase_requires_second_approval__always
@@ -57,13 +64,16 @@ msgstr "Approved Nalogs"
 msgid "Based on company policy"
 msgstr "Based on company policy"
 
+# taken from hr.po
 #. module: purchase_order_approved
 #: model:ir.model,name:purchase_order_approved.model_res_company
 msgid "Companies"
 msgstr "Poduzeća"
 
+# taken from hr.po
 #. module: purchase_order_approved
 #: model:ir.model.fields,field_description:purchase_order_approved.field_purchase_order__company_id
+#, fuzzy
 msgid "Company"
 msgstr "Poduzeća"
 
@@ -93,11 +103,13 @@ msgid ""
 "Depicts the date within which the Quotation should be confirmed and "
 "converted into a purchase order."
 msgstr ""
+"Predstavlja vremenski okvir u kojem je potrebno potvrditi Ponudu i "
+"pretvoriti je u nalog za nabavu."
 
 #. module: purchase_order_approved
 #: model:ir.model.fields,field_description:purchase_order_approved.field_purchase_order__dest_address_id
 msgid "Dropship Address"
-msgstr "Dropship Address"
+msgstr "Dropship Dodajress"
 
 #. module: purchase_order_approved
 #: model:ir.model.fields.selection,name:purchase_order_approved.selection__res_partner__purchase_requires_second_approval__never
@@ -126,7 +138,6 @@ msgstr "Nalog za nabavu"
 
 #. module: purchase_order_approved
 #: model:ir.model.fields,field_description:purchase_order_approved.field_res_partner__purchase_requires_second_approval
-#: model:ir.model.fields,field_description:purchase_order_approved.field_res_users__purchase_requires_second_approval
 msgid "Purchase Requires Second Approval"
 msgstr "Nabavni Requires Second Approval"
 
@@ -136,6 +147,8 @@ msgid ""
 "Put an address if you want to deliver directly from the vendor to the "
 "customer. Otherwise, keep empty to deliver to your own company."
 msgstr ""
+"Navedite adresu ako želite da dobavljač izvrši dostavu direktno kupcu, inače"
+" ostavite prazno polje za isporuku u Vašu tvrtku."
 
 #. module: purchase_order_approved
 #: model:ir.model.fields,help:purchase_order_approved.field_purchase_order__origin
@@ -143,6 +156,8 @@ msgid ""
 "Reference of the document that generated this purchase order request (e.g. a"
 " sales order)"
 msgstr ""
+"Referenca na dokument koji je generirao ovaj upit za nalog za nabavu (npr. "
+"prodajni nalog)"
 
 #. module: purchase_order_approved
 #: model:ir.model.fields,field_description:purchase_order_approved.field_purchase_order__origin
@@ -177,4 +192,5 @@ msgstr "Dobavljač"
 #. module: purchase_order_approved
 #: model:ir.model.fields,help:purchase_order_approved.field_purchase_order__partner_id
 msgid "You can find a vendor by its Name, TIN, Email or Internal Reference."
-msgstr "Dobavljača možete pronaći po imenu, TIN-u, e-pošti ili internoj referenci."
+msgstr ""
+"Dobavljača možete pronaći po imenu, TIN-u, e-pošti ili internoj referenci."

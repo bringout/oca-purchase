@@ -21,6 +21,10 @@ msgid ""
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
 msgstr ""
+"Prognozirana količina (izračunata kao Količina na stanju - Izlazne + Dolazne)\n"
+"U kontekstu sa jednim skladištem, ovo uključuje robu pohranjenu u ovom skladištu ili bilo kom od njegovih podređenih.\n"
+"U kontekstu sa jednim magacinom, ovo uključuje robu pohranjenu u skladištu ovog magacina ili bilo kom od njegovih podređenih.\n"
+"Inače, ovo uključuje robu pohranjenu u bilo kom skladištu tipa 'interno'."
 
 #. module: purchase_order_line_stock_available
 #: model:ir.model.fields,field_description:purchase_order_line_stock_available.field_purchase_order_line__virtual_available

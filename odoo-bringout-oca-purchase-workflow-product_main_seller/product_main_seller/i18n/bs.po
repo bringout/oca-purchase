@@ -15,8 +15,6 @@ msgstr ""
 
 #. module: product_main_seller
 #: model:ir.model.fields,field_description:product_main_seller.field_product_product__main_seller_id
-#: model:ir.model.fields,field_description:product_main_seller.field_product_template__main_seller_id
-#: model_terms:ir.ui.view,arch_db:product_main_seller.view_product_template_search
 msgid "Main Vendor"
 msgstr "Glavni dobavljač"
 
@@ -27,6 +25,7 @@ msgstr "Artikal"
 
 #. module: product_main_seller
 #: model:ir.model.fields,help:product_main_seller.field_product_product__main_seller_id
-#: model:ir.model.fields,help:product_main_seller.field_product_template__main_seller_id
 msgid "Put your supplier info in first position to set as main vendor"
-msgstr "Postavite informacije o dobavljaču na prvo mjesto kako biste ga postavili kao glavnog dobavljača"
+msgstr ""
+"Postavite informacije o dobavljaču na prvo mjesto kako biste ga postavili "
+"kao glavnog dobavljača"

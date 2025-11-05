@@ -20,7 +20,6 @@ msgstr "Prisilno primljeno"
 
 #. module: purchase_reception_status
 #: model:ir.model.fields.selection,name:purchase_reception_status.selection__purchase_order__reception_status__received
-#: model_terms:ir.ui.view,arch_db:purchase_reception_status.view_purchase_order_filter
 msgid "Fully Received"
 msgstr "Potpuno zaprimljeno"
 
@@ -31,6 +30,9 @@ msgid ""
 " lines are not fully received. To be able to modify this field, you must "
 "first lock the order."
 msgstr ""
+"Ako je tačno, status prijema će biti postavljen na 'Potpuno primljeno', čak "
+"i ako neke stavke nisu u potpunosti primljene. Da biste mogli izmijeniti ovo"
+" polje, morate prvo zaključati narudžbu."
 
 #. module: purchase_reception_status
 #: model_terms:ir.ui.view,arch_db:purchase_reception_status.view_purchase_order_filter
@@ -54,6 +56,5 @@ msgstr "Nalog za nabavu"
 
 #. module: purchase_reception_status
 #: model:ir.model.fields,field_description:purchase_reception_status.field_purchase_order__reception_status
-#: model_terms:ir.ui.view,arch_db:purchase_reception_status.view_purchase_order_filter
 msgid "Reception Status"
 msgstr "Status prijema"

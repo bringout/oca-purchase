@@ -21,7 +21,8 @@ msgstr "Dodaj sa liste proizvoda dobavljača"
 #. module: purchase_quick
 #: model_terms:ir.ui.view,arch_db:purchase_quick.product_search_form_view
 msgid "Filter products supplied by the supplier of the current parent object"
-msgstr "Filtriraj proizvode koje isporučuje dobavljač trenutnog nadređenog objekta"
+msgstr ""
+"Filtriraj proizvode koje isporučuje dobavljač trenutnog nadređenog objekta"
 
 #. module: purchase_quick
 #: model_terms:ir.ui.view,arch_db:purchase_quick.product_search_form_view
@@ -30,12 +31,14 @@ msgstr "Za trenutnog dobavljača"
 
 #. module: purchase_quick
 #. odoo-python
-#: code:addons/purchase_quick/models/purchase_order.py:0
+#: code:addons/purchase_quick/models/purchase_order.py
 #, python-format
 msgid ""
 "Must have only 1 line per product for mass addition, but there are "
 "%(nr_lines)s lines for the product %(product_name)s"
 msgstr ""
+"Mora postojati samo 1 red po proizvodu za masovno dodavanje, ali postoji "
+"%(nr_lines)s redova za proizvod %(product_name)s"
 
 #. module: purchase_quick
 #: model_terms:ir.ui.view,arch_db:purchase_quick.product_tree_view4purchase
@@ -54,7 +57,7 @@ msgstr "Varijanta proizvoda"
 
 #. module: purchase_quick
 #. odoo-python
-#: code:addons/purchase_quick/models/purchase_order.py:0
+#: code:addons/purchase_quick/models/purchase_order.py
 #, python-format
 msgid "Product Variants"
 msgstr "Varijante proizvoda"

@@ -20,7 +20,6 @@ msgstr "Account Voucher Wizard Purchase"
 
 #. module: purchase_advance_payment
 #: model:ir.actions.act_window,name:purchase_advance_payment.action_view_account_voucher_wizard
-#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
 msgid "Advance Payment"
 msgstr "Avansno plaćanje"
 
@@ -31,13 +30,11 @@ msgstr "Status avansnog plaćanja"
 
 #. module: purchase_advance_payment
 #: model:ir.actions.act_window,name:purchase_advance_payment.action_account_advance_payments_payable
-#: model:ir.ui.menu,name:purchase_advance_payment.menu_account_advance_payments_payable
 msgid "Advance Payments"
-msgstr "Advance Payments"
+msgstr "Avansna plaćanja"
 
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.purchase_order_kpis_tree
-#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.purchase_order_view_tree
 msgid "Amount Residual"
 msgstr "Amount Residual"
 
@@ -58,14 +55,14 @@ msgstr "Iznos u valuti naloga"
 
 #. module: purchase_advance_payment
 #. odoo-python
-#: code:addons/purchase_advance_payment/wizard/purchase_advance_payment_wizard.py:0
+#: code:addons/purchase_advance_payment/wizard/purchase_advance_payment_wizard.py
 #, python-format
 msgid "Amount of advance is greater than residual amount on purchase"
 msgstr "Amount of advance is greater than residual amount on purchase"
 
 #. module: purchase_advance_payment
 #. odoo-python
-#: code:addons/purchase_advance_payment/wizard/purchase_advance_payment_wizard.py:0
+#: code:addons/purchase_advance_payment/wizard/purchase_advance_payment_wizard.py
 #, python-format
 msgid "Amount of advance must be positive."
 msgstr "Iznos avansa mora biti pozitivan."
@@ -102,7 +99,6 @@ msgstr "Iznos u valuti"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__currency_id
-#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
 msgid "Currency"
 msgstr "Valuta"
 
@@ -126,6 +122,7 @@ msgstr "ID"
 msgid ""
 "If enabled, advance payments created from POs are automatically posted."
 msgstr ""
+"If enabled, advance payments created from POs are automatically posted."
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__journal_id
@@ -225,7 +222,7 @@ msgstr "Plaćanja"
 #. module: purchase_advance_payment
 #: model:ir.model,name:purchase_advance_payment.model_res_config_settings
 msgid "Procurement purchase grouping settings"
-msgstr "Procurement purchase grouping settings"
+msgstr "Podešavanja grupisanja nabavnih prokuremenata"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_payment__purchase_id

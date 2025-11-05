@@ -19,6 +19,8 @@ msgid ""
 "<span attrs=\"{'invisible': [('advance_payment_method', '!=', "
 "'percentage')]}\" class=\"oe_inline\">%</span>"
 msgstr ""
+"<span attrs=\"{'invisible': [('advance_payment_method', '!=', "
+"'percentage')]}\" class=\"oe_inline\">%</span>"
 
 #. module: purchase_deposit
 #: model:ir.model.fields,help:purchase_deposit.field_purchase_advance_payment_inv__deposit_account_id
@@ -27,7 +29,7 @@ msgstr "Konto za depozite"
 
 #. module: purchase_deposit
 #. odoo-python
-#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py:0
+#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py
 #, python-format
 msgid "Advance: %s"
 msgstr "Avans: %s"
@@ -64,13 +66,12 @@ msgstr "Kreirano"
 
 #. module: purchase_deposit
 #: model:ir.model.fields,help:purchase_deposit.field_res_company__purchase_deposit_product_id
-#: model:ir.model.fields,help:purchase_deposit.field_res_config_settings__purchase_deposit_product_id
 msgid "Default product used for payment advances."
 msgstr "Standardni proizvod korišten za avanse plaćanja."
 
 #. module: purchase_deposit
 #. odoo-python
-#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py:0
+#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py
 #, python-format
 msgid "Deposit Payment"
 msgstr "Depozitno plaćanje"
@@ -106,6 +107,8 @@ msgid ""
 "Deposit payments are made when creating bills from a purchase order. They "
 "are not copied when duplicating a purchase order."
 msgstr ""
+"Depozitna plaćanja se vrše kada se kreiraju računi iz nabavnog naloga. Oni "
+"se ne kopiraju kada se duplicira nabavni nalog."
 
 #. module: purchase_deposit
 #: model:ir.model.fields,field_description:purchase_deposit.field_purchase_advance_payment_inv__display_name
@@ -138,6 +141,8 @@ msgid ""
 "Invoices will be created in draft so that you can review them before "
 "validation."
 msgstr ""
+"Fakture će biti kreirane kao nacrt tako da ih možete pregledati prije "
+"validacije."
 
 #. module: purchase_deposit
 #: model:ir.model.fields,field_description:purchase_deposit.field_purchase_order_line__is_deposit
@@ -181,13 +186,12 @@ msgstr "Faktura avansnog plaćanja nabavke"
 
 #. module: purchase_deposit
 #: model:ir.model.fields,field_description:purchase_deposit.field_res_company__purchase_deposit_product_id
-#: model:ir.model.fields,field_description:purchase_deposit.field_res_config_settings__purchase_deposit_product_id
 msgid "Purchase Deposit Product"
 msgstr "Proizvod nabavnog depozita"
 
 #. module: purchase_deposit
 #. odoo-python
-#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py:0
+#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py
 #, python-format
 msgid "Purchase Deposits"
 msgstr "Nabavni depoziti"
@@ -219,45 +223,52 @@ msgstr "Iznos koji treba fakturisati unaprijed, bez poreza."
 
 #. module: purchase_deposit
 #. odoo-python
-#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py:0
+#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py
 #, python-format
 msgid "The percentage of the deposit must be not over 100"
 msgstr "Procenat depozita ne smije biti preko 100"
 
 #. module: purchase_deposit
 #. odoo-python
-#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py:0
+#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py
 #, python-format
 msgid ""
 "The product used to invoice a down payment should be of type \"Service\". "
 "Please use another product or update this product."
 msgstr ""
+"Proizvod korišten za fakturisanje avansa trebao bi biti tipa \"Usluga\". "
+"Molimo koristite drugi proizvod ili ažurirajte ovaj proizvod."
 
 #. module: purchase_deposit
 #. odoo-python
-#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py:0
+#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py
 #, python-format
 msgid ""
 "The product used to invoice a down payment should have an invoice policy set"
 " to \"Ordered quantities\". Please update your deposit product to be able to"
 " create a deposit invoice."
 msgstr ""
+"Proizvod korišten za fakturisanje avansa trebao bi imati politiku "
+"fakturisanja postavljenu na \"Naručene količine\". Molimo ažurirajte vaš "
+"depozitni proizvod da biste mogli kreirati depozitnu fakturu."
 
 #. module: purchase_deposit
 #. odoo-python
-#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py:0
+#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py
 #, python-format
 msgid "The value of the deposit must be positive."
 msgstr "Vrijednost depozita mora biti pozitivna."
 
 #. module: purchase_deposit
 #. odoo-python
-#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py:0
+#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py
 #, python-format
 msgid ""
 "There is no purchase account defined for this product: %s.\n"
 "You may have to install a chart of account from Accounting app, settings menu."
 msgstr ""
+"Ne postoji nabavni konto definisan za ovaj proizvod: %s.\n"
+"Možda morate instalirati kontni plan iz Računovodstvene aplikacije, meni postavki."
 
 #. module: purchase_deposit
 #: model:ir.model.fields,field_description:purchase_deposit.field_purchase_advance_payment_inv__deposit_taxes_id

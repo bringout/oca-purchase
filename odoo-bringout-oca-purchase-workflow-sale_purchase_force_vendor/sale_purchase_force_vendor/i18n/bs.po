@@ -25,8 +25,6 @@ msgstr "Postavke grupiranja nabavnih nabava"
 
 #. module: sale_purchase_force_vendor
 #: model:ir.model.fields,field_description:sale_purchase_force_vendor.field_res_company__sale_purchase_force_vendor_restrict
-#: model:ir.model.fields,field_description:sale_purchase_force_vendor.field_res_config_settings__sale_purchase_force_vendor_restrict
-#: model:ir.model.fields,field_description:sale_purchase_force_vendor.field_sale_order__sale_purchase_force_vendor_restrict
 msgid "Restrict allowed vendors in sale orders"
 msgstr "Ograniči dozvoljene dobavljače u prodajnim nalozima"
 
@@ -47,7 +45,6 @@ msgstr "Skladišno kretanje"
 
 #. module: sale_purchase_force_vendor
 #: model:ir.model.fields,field_description:sale_purchase_force_vendor.field_sale_order_line__vendor_id
-#: model_terms:ir.ui.view,arch_db:sale_purchase_force_vendor.view_order_form
 msgid "Vendor"
 msgstr "Dobavljač"
 

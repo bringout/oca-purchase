@@ -19,7 +19,7 @@ msgid ""
 "\n"
 "            The user will be able to release an RFQ blocked for approval.\n"
 "        "
-msgstr ""
+msgstr "The user will be able to release an RFQ blocked for approval."
 
 #. module: purchase_order_approval_block
 #: model:ir.model.fields,field_description:purchase_order_approval_block.field_purchase_approval_block_reason__active
@@ -33,7 +33,6 @@ msgstr "Blokada odobrenja Reason"
 
 #. module: purchase_order_approval_block
 #: model:exception.rule,name:purchase_order_approval_block.po_excep_approval_block
-#: model:ir.model.fields,field_description:purchase_order_approval_block.field_purchase_order__approval_blocked
 msgid "Approval Blocked"
 msgstr "Blokada odobrenjaed"
 
@@ -89,15 +88,14 @@ msgstr "Naziv:"
 
 #. module: purchase_order_approval_block
 #. odoo-python
-#: code:addons/purchase_order_approval_block/models/purchase_order.py:0
-#: code:addons/purchase_order_approval_block/models/purchase_order.py:0
+#: code:addons/purchase_order_approval_block/models/purchase_order.py
 #, python-format
 msgid "Order \"%(order_name)s\" blocked with reason \"%(block_name)s\""
 msgstr "Nalog \"%(order_name)s\" blocked with reason \"%(block_name)s\""
 
 #. module: purchase_order_approval_block
 #. odoo-python
-#: code:addons/purchase_order_approval_block/models/purchase_order.py:0
+#: code:addons/purchase_order_approval_block/models/purchase_order.py
 #, python-format
 msgid "Order \"%s\" approval block released."
 msgstr "Nalog \"%s\" approval block released."
@@ -109,7 +107,6 @@ msgstr "Nabavni Blokada odobrenja Reason"
 
 #. module: purchase_order_approval_block
 #: model:ir.actions.act_window,name:purchase_order_approval_block.action_purchase_approval_block_reason
-#: model:ir.ui.menu,name:purchase_order_approval_block.menu_purchase_approval_block_reason
 msgid "Purchase Approval Block Reasons"
 msgstr "Nabavni Blokada odobrenja Reasons"
 
@@ -139,3 +136,5 @@ msgid ""
 "The approval has been blocked,\n"
 "                with a Blocking reason."
 msgstr ""
+"The approval has been blocked,\n"
+"with a Blocking reason."

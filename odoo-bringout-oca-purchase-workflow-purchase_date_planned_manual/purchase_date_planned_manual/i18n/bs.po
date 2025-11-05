@@ -30,12 +30,14 @@ msgstr "Stavka naloga za nabavu"
 
 #. module: purchase_date_planned_manual
 #. odoo-python
-#: code:addons/purchase_date_planned_manual/models/purchase_order.py:0
+#: code:addons/purchase_date_planned_manual/models/purchase_order.py
 #, python-format
 msgid ""
 "This line is scheduled for: %s. \n"
 " However it is now planned to arrive late."
 msgstr ""
+"Ova linija je zakazana za: %s.\n"
+"Međutim, sada je planiran kašnji u stizanju."
 
 #. module: purchase_date_planned_manual
 #: model:ir.model.fields,help:purchase_date_planned_manual.field_purchase_order_line__predicted_arrival_late
@@ -43,3 +45,5 @@ msgid ""
 "True if the arrival at scheduled date is planned to be late. Takes into "
 "account the vendor lead time and the company margin for lead times."
 msgstr ""
+"Tačno ako je planirano da stizanje na zakazani datum bude kasno. Uzima u "
+"obzir vrijeme isporuke dobavljača i marginu kompanije za vremena isporuke."

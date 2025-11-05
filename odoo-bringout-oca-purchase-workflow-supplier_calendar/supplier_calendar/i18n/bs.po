@@ -20,14 +20,11 @@ msgstr "Kontakt"
 
 #. module: supplier_calendar
 #: model:ir.model.fields,field_description:supplier_calendar.field_product_supplierinfo__delay_calendar_type
-#: model:ir.model.fields,field_description:supplier_calendar.field_res_partner__delay_calendar_type
-#: model:ir.model.fields,field_description:supplier_calendar.field_res_users__delay_calendar_type
 msgid "Delay Calendar Type"
 msgstr "Tip kalendara kašnjenja"
 
 #. module: supplier_calendar
 #: model:ir.model.fields,field_description:supplier_calendar.field_res_partner__factory_calendar_id
-#: model:ir.model.fields,field_description:supplier_calendar.field_res_users__factory_calendar_id
 msgid "Factory Calendar"
 msgstr "Tvorničký kalendar"
 

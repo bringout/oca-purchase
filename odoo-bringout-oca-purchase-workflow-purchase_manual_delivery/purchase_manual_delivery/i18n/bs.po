@@ -65,13 +65,11 @@ msgstr "Create and View Picking"
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard__create_uid
-#: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard_line__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard__create_date
-#: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard_line__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -96,6 +94,8 @@ msgid ""
 "Delivery date expected from vendor. This date respectively defaults to "
 "vendor pricelist lead time then today's date."
 msgstr ""
+"Datum isporuke koji se očekuje od dobavljača. Ovaj datum prilagođava se "
+"vremenu izvođenja prema dobavljačevom cjeniku te današnjem datumu."
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard_line__name
@@ -109,7 +109,6 @@ msgstr "Odredišna lokacija"
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard__display_name
-#: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard_line__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -120,7 +119,6 @@ msgstr "Existing Qty"
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard_line__existing_qty
-#: model:ir.model.fields,field_description:purchase_manual_delivery.field_purchase_order_line__existing_qty
 msgid "Existing Quantity"
 msgstr "Existing Količina"
 
@@ -141,7 +139,6 @@ msgstr "Here is a list of each purchase order line to be received."
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard__id
-#: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard_line__id
 msgid "ID"
 msgstr "ID"
 
@@ -152,19 +149,16 @@ msgstr "If active, Receipt of purchase orders should be manual created."
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard____last_update
-#: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard_line____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard__write_uid
-#: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard_line__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard__write_date
-#: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard_line__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -210,14 +204,14 @@ msgstr "Picking Scheduled Datum"
 
 #. module: purchase_manual_delivery
 #. odoo-python
-#: code:addons/purchase_manual_delivery/wizard/create_manual_stock_picking.py:0
+#: code:addons/purchase_manual_delivery/wizard/create_manual_stock_picking.py
 #, python-format
 msgid "Please select one partner at a time"
 msgstr "Please select one partner at a time"
 
 #. module: purchase_manual_delivery
 #. odoo-python
-#: code:addons/purchase_manual_delivery/wizard/create_manual_stock_picking.py:0
+#: code:addons/purchase_manual_delivery/wizard/create_manual_stock_picking.py
 #, python-format
 msgid "Please select one purchase order at a time"
 msgstr "Please select one purchase order at a time"
@@ -234,20 +228,16 @@ msgstr "Varijanta proizvoda"
 
 #. module: purchase_manual_delivery
 #: model:ir.actions.act_window,name:purchase_manual_delivery.action_order_line_delivery_tree
-#: model:ir.ui.menu,name:purchase_manual_delivery.menu_delivery_purchase_order_lines
 msgid "Purchase Manual Receipt"
 msgstr "Nabavni Manual Receipt"
 
 #. module: purchase_manual_delivery
 #: model:ir.model,name:purchase_manual_delivery.model_purchase_order
-#: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard__purchase_id
-#: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.view_purchase_order_unreceived_line_filter
 msgid "Purchase Order"
 msgstr "Nalog za nabavu"
 
 #. module: purchase_manual_delivery
 #: model:ir.model,name:purchase_manual_delivery.model_purchase_order_line
-#: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard_line__purchase_order_line_id
 msgid "Purchase Order Line"
 msgstr "Stavka naloga za nabavu"
 
@@ -257,6 +247,8 @@ msgid ""
 "Purchase Order Lines that are confirmed or done and an incoming shipment is "
 "created to satisfy them"
 msgstr ""
+"Nabavni Nalog Linijas that are confirmed or done and an incoming shipment is"
+" created to satisfy them"
 
 #. module: purchase_manual_delivery
 #: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.view_purchase_order_unreceived_line_filter
@@ -264,23 +256,21 @@ msgid ""
 "Purchase Order Lines that are confirmed or done and no incoming shipment is "
 "created to satisfy them"
 msgstr ""
+"Nabavni Nalog Linijas that are confirmed or done and no incoming shipment is"
+" created to satisfy them"
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_purchase_order__manual_delivery
-#: model:ir.model.fields,field_description:purchase_manual_delivery.field_res_company__purchase_manual_delivery
-#: model:ir.model.fields,field_description:purchase_manual_delivery.field_res_config_settings__purchase_manual_delivery
 msgid "Purchase manual delivery?"
 msgstr "Nabavni manual delivery?"
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard_line__product_qty
-#: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.view_create_stock_picking
 msgid "Quantity"
 msgstr "Količina"
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,help:purchase_manual_delivery.field_create_stock_picking_wizard_line__existing_qty
-#: model:ir.model.fields,help:purchase_manual_delivery.field_purchase_order_line__existing_qty
 msgid "Quantity already planned or shipped (stock movements already created)"
 msgstr "Količina already planned or shipped (stock movements already created)"
 
@@ -306,7 +296,7 @@ msgstr "Remaining Količina"
 
 #. module: purchase_manual_delivery
 #. odoo-javascript
-#: code:addons/purchase_manual_delivery/static/src/purchase_manual_delivery_forecasted/forecasted_details.xml:0
+#: code:addons/purchase_manual_delivery/static/src/purchase_manual_delivery_forecasted/forecasted_details.xml
 #, python-format
 msgid "Requests without delivery"
 msgstr "Requests without delivery"
@@ -322,6 +312,9 @@ msgid ""
 "Scheduled time for the first part of the shipment to be processed. Setting "
 "manually a value here would set it as expected date for all the stock moves."
 msgstr ""
+"Odabrano vrijeme za prvi dio isporuke koji se treba obraditi. Ručno "
+"postavljanje vrijednosti ovdje, postavilo bi je kao očekivani datum za sve "
+"skladišne prijenose."
 
 #. module: purchase_manual_delivery
 #: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.view_purchase_order_unreceived_line_filter
@@ -330,8 +323,7 @@ msgstr "Search Undelivered Linijas"
 
 #. module: purchase_manual_delivery
 #. odoo-python
-#: code:addons/purchase_manual_delivery/wizard/create_manual_stock_picking.py:0
-#: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard__picking_id
+#: code:addons/purchase_manual_delivery/wizard/create_manual_stock_picking.py
 #, python-format
 msgid "Stock Picking"
 msgstr "Preuzimanje u skladištu"
@@ -368,7 +360,6 @@ msgstr "Jedinica mjere"
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard__partner_id
-#: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard_line__partner_id
 msgid "Vendor"
 msgstr "Dobavljač"
 
@@ -380,13 +371,16 @@ msgstr "ID čarobnjaka"
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,help:purchase_manual_delivery.field_create_stock_picking_wizard_line__partner_id
 msgid "You can find a vendor by its Name, TIN, Email or Internal Reference."
-msgstr "Dobavljača možete pronaći po imenu, TIN-u, e-pošti ili internoj referenci."
+msgstr ""
+"Dobavljača možete pronaći po imenu, TIN-u, e-pošti ili internoj referenci."
 
 #. module: purchase_manual_delivery
 #. odoo-python
-#: code:addons/purchase_manual_delivery/wizard/create_manual_stock_picking.py:0
+#: code:addons/purchase_manual_delivery/wizard/create_manual_stock_picking.py
 #, python-format
 msgid ""
 "You can not receive more than the remaining quantity. If you need to do so, "
 "please edit the purchase order first."
 msgstr ""
+"You can not receive more than the remaining quantity. If you need to do so, "
+"please edit the purchase order first."

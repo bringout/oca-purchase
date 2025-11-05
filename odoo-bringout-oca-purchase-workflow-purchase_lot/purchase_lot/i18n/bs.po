@@ -25,7 +25,6 @@ msgstr "Stavka naloga za nabavu"
 
 #. module: purchase_lot
 #: model:ir.model.fields,field_description:purchase_lot.field_purchase_order_line__lot_id
-#: model_terms:ir.ui.view,arch_db:purchase_lot.view_purchase_order_filter
 msgid "Serial Number"
 msgstr "Serijski broj"
 

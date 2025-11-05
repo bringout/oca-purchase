@@ -19,6 +19,8 @@ msgid ""
 "<span class=\"o_form_label\" attrs=\"{'invisible': [('state','not "
 "in',('draft','sent'))]}\">Purchase Order </span>"
 msgstr ""
+"<span class=\"o_form_label\" attrs=\"{'invisible': [('state','not "
+"in',('draft','sent'))]}\">Nabavni Nalog </span>"
 
 #. module: purchase_no_rfq
 #: model:ir.model.fields.selection,name:purchase_no_rfq.selection__purchase_order__state__draft

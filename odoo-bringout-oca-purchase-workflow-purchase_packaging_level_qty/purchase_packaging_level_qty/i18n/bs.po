@@ -29,6 +29,8 @@ msgid ""
 "Count purchase order packaging needed for this packing level.\n"
 "                            This information will be shown on each purchase order."
 msgstr ""
+"Prebrojite ambalažu narudžbenice potrebnu za ovaj nivo pakiranja.\n"
+"Ova informacija će biti prikazana na svakoj narudžbenici."
 
 #. module: purchase_packaging_level_qty
 #: model:ir.model,name:purchase_packaging_level_qty.model_res_config_settings
@@ -47,8 +49,6 @@ msgstr "Stavka naloga za nabavu"
 
 #. module: purchase_packaging_level_qty
 #: model:ir.model.fields,field_description:purchase_packaging_level_qty.field_res_company__purchase_packaging_level_id
-#: model:ir.model.fields,field_description:purchase_packaging_level_qty.field_res_config_settings__purchase_packaging_level_id
-#: model_terms:ir.ui.view,arch_db:purchase_packaging_level_qty.res_config_settings_view_form_purchase_inherit
 msgid "Purchase Packaging Level"
 msgstr "Nivo nabavnog pakiranja"
 

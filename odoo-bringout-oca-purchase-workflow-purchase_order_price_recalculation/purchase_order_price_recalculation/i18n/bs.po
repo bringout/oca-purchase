@@ -24,6 +24,8 @@ msgid ""
 "This will update all the line prices based on the vendor currently set. Do "
 "you want to continue?"
 msgstr ""
+"This will update all the line prices based on the vendor currently set. Do "
+"you want to continue?"
 
 #. module: purchase_order_price_recalculation
 #: model_terms:ir.ui.view,arch_db:purchase_order_price_recalculation.purchase_order_form

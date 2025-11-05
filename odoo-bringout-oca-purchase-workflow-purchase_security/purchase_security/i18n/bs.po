@@ -85,13 +85,11 @@ msgstr "Nalog za nabavu"
 
 #. module: purchase_security
 #: model:ir.model,name:purchase_security.model_purchase_team
-#: model_terms:ir.ui.view,arch_db:purchase_security.purchase_team_form
 msgid "Purchase Team"
 msgstr "Nabavni tim"
 
 #. module: purchase_security
 #: model:ir.actions.act_window,name:purchase_security.action_purchase_team_display
-#: model:ir.ui.menu,name:purchase_security.menu_purchase_team_tree
 msgid "Purchase Teams"
 msgstr "Nabavni timovi"
 
@@ -102,14 +100,11 @@ msgstr "Korisnici nabavke"
 
 #. module: purchase_security
 #: model:ir.model.fields,field_description:purchase_security.field_res_partner__purchase_user_id
-#: model:ir.model.fields,field_description:purchase_security.field_res_users__purchase_user_id
-#: model_terms:ir.ui.view,arch_db:purchase_security.view_res_partner_filter
 msgid "Purchase representative"
 msgstr "Predstavnik nabavke"
 
 #. module: purchase_security
 #: model:ir.model.fields,field_description:purchase_security.field_res_partner__purchase_team_id
-#: model:ir.model.fields,field_description:purchase_security.field_res_users__purchase_team_id
 msgid "Purchase team"
 msgstr "Nabavni tim"
 

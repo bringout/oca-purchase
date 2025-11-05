@@ -30,8 +30,6 @@ msgstr "FOP dostignut"
 
 #. module: purchase_fop_shipping
 #: model:ir.model.fields,field_description:purchase_fop_shipping.field_purchase_order__fop_shipping
-#: model:ir.model.fields,field_description:purchase_fop_shipping.field_res_partner__fop_shipping
-#: model:ir.model.fields,field_description:purchase_fop_shipping.field_res_users__fop_shipping
 msgid "FOP shipping"
 msgstr "FOP dostava"
 
@@ -52,7 +50,6 @@ msgstr "Besplatna dostava dostignuta"
 
 #. module: purchase_fop_shipping
 #: model:ir.model.fields,help:purchase_fop_shipping.field_res_partner__fop_shipping
-#: model:ir.model.fields,help:purchase_fop_shipping.field_res_users__fop_shipping
 msgid "Min purchase order amount for FOP shipping"
 msgstr "Minimalni iznos nabavnog naloga za FOP dostavu"
 
@@ -61,6 +58,7 @@ msgstr "Minimalni iznos nabavnog naloga za FOP dostavu"
 msgid "Min purchase order amount for Free-Of-Payment shipping"
 msgstr "Minimalni iznos nabavnog naloga za besplatnu dostavu"
 
+# taken from hr.po
 #. module: purchase_fop_shipping
 #: model:ir.model,name:purchase_fop_shipping.model_purchase_order
 msgid "Purchase Order"
@@ -68,9 +66,11 @@ msgstr "Nabavni nalog"
 
 #. module: purchase_fop_shipping
 #. odoo-python
-#: code:addons/purchase_fop_shipping/models/purchase.py:0
+#: code:addons/purchase_fop_shipping/models/purchase.py
 #, python-format
 msgid ""
 "You cannot confirm a purchase order with amount under FOP shipping. To force"
 " confirm you must belongs to \"FOP shipping Manager\"."
 msgstr ""
+"Ne možete potvrditi nabavni nalog sa iznosom ispod FOP dostave. Da biste "
+"prisilno potvrdili, morate pripadati \"FOP menadžeru dostave\"."

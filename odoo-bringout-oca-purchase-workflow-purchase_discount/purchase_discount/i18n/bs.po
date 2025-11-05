@@ -18,6 +18,7 @@ msgstr ""
 msgid "<strong>Disc. (%)</strong>"
 msgstr "<strong>Pop. (%)</strong>"
 
+# taken from hr.po
 #. module: purchase_discount
 #: model:ir.model,name:purchase_discount.model_res_partner
 msgid "Contact"
@@ -25,13 +26,12 @@ msgstr "Kontakt"
 
 #. module: purchase_discount
 #: model:ir.model.fields,field_description:purchase_discount.field_res_partner__default_supplierinfo_discount
-#: model:ir.model.fields,field_description:purchase_discount.field_res_users__default_supplierinfo_discount
 msgid "Default Supplier Discount (%)"
 msgstr "Standardni popust dobavljača (%)"
 
+# taken from hr.po
 #. module: purchase_discount
 #: model:ir.model.fields,field_description:purchase_discount.field_product_supplierinfo__discount
-#: model:ir.model.fields,field_description:purchase_discount.field_purchase_order_line__discount
 msgid "Discount (%)"
 msgstr "Popust (%)"
 
@@ -72,11 +72,12 @@ msgstr "Popust dobavljača mora biti manji od 100%."
 
 #. module: purchase_discount
 #: model:ir.model.fields,help:purchase_discount.field_res_partner__default_supplierinfo_discount
-#: model:ir.model.fields,help:purchase_discount.field_res_users__default_supplierinfo_discount
 msgid ""
 "This value will be used as the default one, for each new supplierinfo line "
 "depending on that supplier."
 msgstr ""
+"Ova vrijednost će biti korišćena kao standardna, za svaku novu liniju "
+"informacija o dobavljaču ovisno o tom dobavljaču."
 
 #. module: purchase_discount
 #: model:ir.model.fields,field_description:purchase_discount.field_purchase_report__discount

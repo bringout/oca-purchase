@@ -25,14 +25,11 @@ msgstr "Sve"
 
 #. module: purchase_order_type_dashboard
 #: model:ir.actions.act_window,name:purchase_order_type_dashboard.purchase_order_type_dashboard_action
-#: model:ir.ui.menu,name:purchase_order_type_dashboard.purchase_order_dashboard_menu
 msgid "Dashboard"
 msgstr "Pregled"
 
 #. module: purchase_order_type_dashboard
 #: model:ir.model.fields,field_description:purchase_order_type_dashboard.field_purchase_order_type__invoice_status_no_po_count
-#: model_terms:ir.ui.view,arch_db:purchase_order_type_dashboard.purchase_order_view_search
-#: model_terms:ir.ui.view,arch_db:purchase_order_type_dashboard.view_purchase_order_type_kanban
 msgid "Nothing to Bill"
 msgstr "Ulaz.RN NE"
 
@@ -63,7 +60,6 @@ msgstr "Nalozi u nabavi"
 
 #. module: purchase_order_type_dashboard
 #: model:ir.model.fields,field_description:purchase_order_type_dashboard.field_purchase_order_type__state_rfq_po_count
-#: model_terms:ir.ui.view,arch_db:purchase_order_type_dashboard.view_purchase_order_type_kanban
 msgid "RFQs"
 msgstr "ZZP-ovi"
 
@@ -99,6 +95,5 @@ msgstr "Type of purchase order"
 
 #. module: purchase_order_type_dashboard
 #: model:ir.model.fields,field_description:purchase_order_type_dashboard.field_purchase_order_type__invoice_status_ti_po_count
-#: model_terms:ir.ui.view,arch_db:purchase_order_type_dashboard.view_purchase_order_type_kanban
 msgid "Waiting Bills"
 msgstr "Čeka se ul.račun"

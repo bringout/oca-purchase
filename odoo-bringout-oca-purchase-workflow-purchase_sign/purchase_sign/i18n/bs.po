@@ -18,7 +18,7 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-check\"/>\n"
 "                        Accept &amp; Sign"
-msgstr ""
+msgstr "<i class="
 
 #. module: purchase_sign
 #: model_terms:ir.ui.view,arch_db:purchase_sign.portal_my_purchase_order
@@ -26,13 +26,15 @@ msgid ""
 "<i class=\"fa fa-check\"/>\n"
 "                Accept &amp; Sign"
 msgstr ""
+"<i class=\"fa fa-check\"/>\n"
+"                Prihvati i potpiši"
 
 #. module: purchase_sign
 #: model_terms:ir.ui.view,arch_db:purchase_sign.portal_my_purchase_order
 msgid ""
 "<i class=\"fa fa-comment\"/>\n"
 "                        Feedback"
-msgstr ""
+msgstr "<i class="
 
 #. module: purchase_sign
 #: model_terms:ir.ui.view,arch_db:purchase_sign.portal_my_purchase_order
@@ -65,6 +67,8 @@ msgid ""
 "<strong>Thank You!</strong><br/>\n"
 "                        Order has been confirmed."
 msgstr ""
+"<strong>Hvala vam!</strong><br/>\n"
+"                        Order has been confirmed."
 
 #. module: purchase_sign
 #: model_terms:ir.ui.view,arch_db:purchase_sign.portal_my_purchase_order
@@ -78,35 +82,33 @@ msgstr "Kompanije"
 
 #. module: purchase_sign
 #. odoo-python
-#: code:addons/purchase_sign/controllers/main.py:0
-#: code:addons/purchase_sign/tests/test_purchase_sign.py:0
+#: code:addons/purchase_sign/controllers/main.py
 #, python-format
 msgid "Invalid order."
 msgstr "Neispravna narudžba."
 
 #. module: purchase_sign
 #. odoo-python
-#: code:addons/purchase_sign/tests/test_purchase_sign.py:0
+#: code:addons/purchase_sign/tests/test_purchase_sign.py
 #, python-format
 msgid "Invalid signature data"
 msgstr "Nevažeći podaci o potpisu"
 
 #. module: purchase_sign
 #. odoo-python
-#: code:addons/purchase_sign/controllers/main.py:0
+#: code:addons/purchase_sign/controllers/main.py
 #, python-format
 msgid "Invalid signature data."
 msgstr "Podaci o potpisu nisu važeći."
 
 #. module: purchase_sign
 #: model:ir.model.fields,field_description:purchase_sign.field_purchase_order__require_signature
-#: model_terms:ir.ui.view,arch_db:purchase_sign.res_config_settings_view_form_purchase
 msgid "Online Signature"
 msgstr "Mrežni potpis"
 
 #. module: purchase_sign
 #. odoo-python
-#: code:addons/purchase_sign/controllers/main.py:0
+#: code:addons/purchase_sign/controllers/main.py
 #, python-format
 msgid "Order signed by %s"
 msgstr "Prod.narudžbe potpisane od %s"
@@ -118,7 +120,6 @@ msgstr "Postavke grupisanja nabavke"
 
 #. module: purchase_sign
 #: model:ir.model.fields,field_description:purchase_sign.field_res_company__purchase_portal_confirmation_sign
-#: model:ir.model.fields,field_description:purchase_sign.field_res_config_settings__purchase_portal_confirmation_sign
 msgid "Purchase Online Signature"
 msgstr "Online potpis za nabavku"
 
@@ -133,6 +134,8 @@ msgid ""
 "Request a online signature and/or payment to the customer in order to "
 "confirm orders automatically."
 msgstr ""
+"Zatražite online potpis i/ili plaćanje od kupca kako bi se narudžbe "
+"automatski potvrdile."
 
 #. module: purchase_sign
 #: model_terms:ir.ui.view,arch_db:purchase_sign.res_config_settings_view_form_purchase
@@ -141,20 +144,19 @@ msgstr "Zatraži online potpis za potvrdu narudžbe."
 
 #. module: purchase_sign
 #: model:ir.model.fields,field_description:purchase_sign.field_purchase_order__signature
-#: model_terms:ir.ui.view,arch_db:purchase_sign.purchase_order_portal_content
 msgid "Signature"
 msgstr "Potpis"
 
 #. module: purchase_sign
 #. odoo-python
-#: code:addons/purchase_sign/tests/test_purchase_sign.py:0
+#: code:addons/purchase_sign/tests/test_purchase_sign.py
 #, python-format
 msgid "Signature is missing"
 msgstr "Potpis nedostaje"
 
 #. module: purchase_sign
 #. odoo-python
-#: code:addons/purchase_sign/controllers/main.py:0
+#: code:addons/purchase_sign/controllers/main.py
 #, python-format
 msgid "Signature is missing."
 msgstr "Nedostaje potpis."
@@ -171,8 +173,7 @@ msgstr "Potpisano"
 
 #. module: purchase_sign
 #. odoo-python
-#: code:addons/purchase_sign/controllers/main.py:0
-#: code:addons/purchase_sign/tests/test_purchase_sign.py:0
+#: code:addons/purchase_sign/controllers/main.py
 #, python-format
 msgid "The order is not in a state requiring vendor signature."
 msgstr "Narudžba nije u stanju koje zahtijeva potpis dobavljača."

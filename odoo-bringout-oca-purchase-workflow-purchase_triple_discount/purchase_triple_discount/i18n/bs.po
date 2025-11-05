@@ -35,56 +35,53 @@ msgstr "Kontakt"
 
 #. module: purchase_triple_discount
 #: model:ir.model.fields,field_description:purchase_triple_discount.field_res_partner__default_supplierinfo_discount1
-#: model:ir.model.fields,field_description:purchase_triple_discount.field_res_users__default_supplierinfo_discount1
 msgid "Default Supplier Discount 1 (%)"
 msgstr "Zadani popust dobavljača 1 (%)"
 
 #. module: purchase_triple_discount
 #: model:ir.model.fields,field_description:purchase_triple_discount.field_res_partner__default_supplierinfo_discount2
-#: model:ir.model.fields,field_description:purchase_triple_discount.field_res_users__default_supplierinfo_discount2
 msgid "Default Supplier Discount 2 (%)"
 msgstr "Zadani popust dobavljača 2 (%)"
 
 #. module: purchase_triple_discount
 #: model:ir.model.fields,field_description:purchase_triple_discount.field_res_partner__default_supplierinfo_discount3
-#: model:ir.model.fields,field_description:purchase_triple_discount.field_res_users__default_supplierinfo_discount3
 msgid "Default Supplier Discount 3 (%)"
 msgstr "Zadani popust dobavljača 3 (%)"
 
 #. module: purchase_triple_discount
 #: model:ir.model.fields,field_description:purchase_triple_discount.field_product_supplierinfo__discount
-#: model:ir.model.fields,field_description:purchase_triple_discount.field_purchase_order_line__discount
 msgid "Discount (%)"
 msgstr "Popust (%)"
 
 #. module: purchase_triple_discount
 #: model:ir.model.fields,field_description:purchase_triple_discount.field_product_supplierinfo__discount1
-#: model:ir.model.fields,field_description:purchase_triple_discount.field_purchase_order_line__discount1
-#: model:ir.model.fields,field_description:purchase_triple_discount.field_purchase_report__discount1
 msgid "Discount 1 (%)"
 msgstr "Popust 1 (%)"
 
+# taken from hr.po
 #. module: purchase_triple_discount
 #: model:ir.model.fields,field_description:purchase_triple_discount.field_product_supplierinfo__discount2
-#: model:ir.model.fields,field_description:purchase_triple_discount.field_purchase_order_line__discount2
-#: model:ir.model.fields,field_description:purchase_triple_discount.field_purchase_report__discount2
+#, fuzzy
 msgid "Discount 2 (%)"
 msgstr "Pop. 2 (%)"
 
+# taken from hr.po
 #. module: purchase_triple_discount
 #: model:ir.model.fields,field_description:purchase_triple_discount.field_product_supplierinfo__discount3
-#: model:ir.model.fields,field_description:purchase_triple_discount.field_purchase_order_line__discount3
-#: model:ir.model.fields,field_description:purchase_triple_discount.field_purchase_report__discount3
+#, fuzzy
 msgid "Discount 3 (%)"
 msgstr "Pop. 3(%)"
 
+# taken from hr.po
 #. module: purchase_triple_discount
 #: model:ir.model,name:purchase_triple_discount.model_purchase_order_line
 msgid "Purchase Order Line"
 msgstr "Stavka naloga za nabavu"
 
+# taken from hr.po
 #. module: purchase_triple_discount
 #: model:ir.model,name:purchase_triple_discount.model_purchase_report
+#, fuzzy
 msgid "Purchase Report"
 msgstr "Stavka naloga za nabavu"
 
@@ -95,21 +92,14 @@ msgstr "Cjenik dobavljača"
 
 #. module: purchase_triple_discount
 #: model:ir.model.fields,help:purchase_triple_discount.field_res_partner__default_supplierinfo_discount1
-#: model:ir.model.fields,help:purchase_triple_discount.field_res_partner__default_supplierinfo_discount2
-#: model:ir.model.fields,help:purchase_triple_discount.field_res_partner__default_supplierinfo_discount3
-#: model:ir.model.fields,help:purchase_triple_discount.field_res_users__default_supplierinfo_discount1
-#: model:ir.model.fields,help:purchase_triple_discount.field_res_users__default_supplierinfo_discount2
-#: model:ir.model.fields,help:purchase_triple_discount.field_res_users__default_supplierinfo_discount3
 msgid ""
 "This value will be used as the default one, for each new supplierinfo line "
 "depending on that supplier."
 msgstr ""
+"Ova vrijednost će biti korišćena kao standardna, za svaku novu liniju "
+"informacija o dobavljaču ovisno o tom dobavljaču."
 
 #. module: purchase_triple_discount
 #: model:ir.model.fields,field_description:purchase_triple_discount.field_purchase_report__discount
-#: model_terms:ir.ui.view,arch_db:purchase_triple_discount.product_supplierinfo_form_view
-#: model_terms:ir.ui.view,arch_db:purchase_triple_discount.product_supplierinfo_tree_view
-#: model_terms:ir.ui.view,arch_db:purchase_triple_discount.purchase_order_triple_discount_form_view
-#: model_terms:ir.ui.view,arch_db:purchase_triple_discount.res_partner_form_view
 msgid "Total discount"
 msgstr "Ukupni popust"

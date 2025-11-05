@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: purchase_reorder_control
 #: model:ir.model.fields,field_description:purchase_reorder_control.field_product_product__purchase_ok
-#: model:ir.model.fields,field_description:purchase_reorder_control.field_product_template__purchase_ok
 msgid "Can be Purchased"
 msgstr "Može se kupovati"
 
@@ -31,7 +30,7 @@ msgstr "Artikal"
 
 #. module: purchase_reorder_control
 #. odoo-python
-#: code:addons/purchase_reorder_control/models/stock_warehouse_orderpoint.py:0
+#: code:addons/purchase_reorder_control/models/stock_warehouse_orderpoint.py
 #, python-format
 msgid "Unpurchaseable Products cannot be reordered"
 msgstr "Proizvodi koji se ne mogu kupiti ne mogu se ponovo naručiti"

@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: purchase_order_line_menu
 #: model:ir.model.fields,field_description:purchase_order_line_menu.field_purchase_order_line__invoice_status
-#: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
 msgid "Billing Status"
 msgstr "Status fakturisanja"
 
@@ -30,6 +29,8 @@ msgid ""
 "Depicts the date within which the Quotation should be confirmed and "
 "converted into a purchase order."
 msgstr ""
+"Predstavlja vremenski okvir u kojem je potrebno potvrditi Ponudu i "
+"pretvoriti je u nalog za nabavu."
 
 #. module: purchase_order_line_menu
 #: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
@@ -48,10 +49,10 @@ msgstr "Ulaz.RN NE"
 
 #. module: purchase_order_line_menu
 #: model:ir.model.fields,field_description:purchase_order_line_menu.field_purchase_order_line__date_order
-#: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
 msgid "Order Date"
 msgstr "Datum naloga"
 
+# taken from hr.po
 #. module: purchase_order_line_menu
 #: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.view_purchase_order_line_pivot
 msgid "Order Lines"
@@ -92,16 +93,16 @@ msgstr "Nalog za nabavu"
 msgid "Purchase Order Line"
 msgstr "Stavka naloga za nabavu"
 
+# taken from hr.po
 #. module: purchase_order_line_menu
 #: model:ir.actions.act_window,name:purchase_order_line_menu.action_purchase_orders_lines
-#: model:ir.ui.menu,name:purchase_order_line_menu.purchase_order_line_menu
 msgid "Purchase Order Lines"
 msgstr "Stavke narudžbi"
 
 #. module: purchase_order_line_menu
 #: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
 msgid "RFQ"
-msgstr "RFQ"
+msgstr "ZZP (RFQ)"
 
 #. module: purchase_order_line_menu
 #: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search

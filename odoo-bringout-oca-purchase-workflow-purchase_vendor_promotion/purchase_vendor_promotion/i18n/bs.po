@@ -25,8 +25,6 @@ msgstr "Cijena je izračunata na osnovu promocije dobavljača."
 
 #. module: purchase_vendor_promotion
 #: model:ir.model.fields,field_description:purchase_vendor_promotion.field_product_supplierinfo__is_promotion
-#: model:ir.model.fields,field_description:purchase_vendor_promotion.field_purchase_order_line__is_promotion
-#: model:ir.model.fields,field_description:purchase_vendor_promotion.field_stock_warehouse_orderpoint__promotion_period
 msgid "Promotion"
 msgstr "Promocija"
 
@@ -42,7 +40,7 @@ msgstr "Datum početka promocije"
 
 #. module: purchase_vendor_promotion
 #. odoo-python
-#: code:addons/purchase_vendor_promotion/models/product_supplierinfo.py:0
+#: code:addons/purchase_vendor_promotion/models/product_supplierinfo.py
 #, python-format
 msgid "Promotion start date must be before end date."
 msgstr "Datum početka promocije mora biti prije datuma završetka."
@@ -59,7 +57,7 @@ msgstr "Cjenik dobavljača"
 
 #. module: purchase_vendor_promotion
 #. odoo-python
-#: code:addons/purchase_vendor_promotion/models/product_supplierinfo.py:0
+#: code:addons/purchase_vendor_promotion/models/product_supplierinfo.py
 #, python-format
 msgid "Vendor promotion requires start and end dates."
 msgstr "Promocija dobavljača zahtijeva datum početka i završetka."

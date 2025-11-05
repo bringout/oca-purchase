@@ -43,6 +43,7 @@ msgstr "Nalog za nabavu"
 msgid ""
 "Purchase orders that are Fully Invoiced and with all invoices validated"
 msgstr ""
+"Nabavni orders that are Fully Fakturad and with all invoices validated"
 
 #. module: purchase_fully_invoiced
 #: model:ir.model.fields.selection,name:purchase_fully_invoiced.selection__purchase_order__invoice_status_validated__to_invoice

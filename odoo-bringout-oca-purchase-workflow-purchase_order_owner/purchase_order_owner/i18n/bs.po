@@ -20,7 +20,6 @@ msgstr "Dodijeli vlasnika"
 
 #. module: purchase_order_owner
 #: model_terms:ir.ui.view,arch_db:purchase_order_owner.purchase_order_view_search
-#: model_terms:ir.ui.view,arch_db:purchase_order_owner.view_purchase_order_filter
 msgid "Owner"
 msgstr "Vlasnik"
 
@@ -35,3 +34,5 @@ msgid ""
 "The assigned value will be set on the corresponding field of the incoming "
 "stock picking."
 msgstr ""
+"The assigned value will be set on the corresponding field of the incoming "
+"stock picking."

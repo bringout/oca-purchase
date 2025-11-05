@@ -35,16 +35,18 @@ msgstr "Cjenik dobavljača"
 
 #. module: product_supplierinfo_qty_multiplier
 #. odoo-python
-#: code:addons/product_supplierinfo_qty_multiplier/models/purchase_order_line.py:0
+#: code:addons/product_supplierinfo_qty_multiplier/models/purchase_order_line.py
 #, python-format
 msgid ""
 "The selected supplier only sells this product by %(multiplier_qty)s %(uom_name)s.\n"
 "The quantity has been automatically changed to %(new_product_qty)s %(uom_name)s."
 msgstr ""
+"The selected supplier only sells this product by %(multiplier_qty)s %(uom_name)s.\n"
+"The quantity has been automatically changed to %(new_product_qty)s %(uom_name)s."
 
 #. module: product_supplierinfo_qty_multiplier
 #. odoo-python
-#: code:addons/product_supplierinfo_qty_multiplier/models/purchase_order_line.py:0
+#: code:addons/product_supplierinfo_qty_multiplier/models/purchase_order_line.py
 #, python-format
 msgid "Warning"
 msgstr "Upozorenje"

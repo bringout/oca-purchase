@@ -30,6 +30,5 @@ msgstr "Moguće odabrati u narudžbama"
 
 #. module: purchase_partner_selectable_option
 #: model:ir.model.fields,field_description:purchase_partner_selectable_option.field_res_partner__purchase_selectable
-#: model:ir.model.fields,field_description:purchase_partner_selectable_option.field_res_users__purchase_selectable
 msgid "Selectable in purchase orders"
 msgstr "Moguće odabrati u narudžbenicama"

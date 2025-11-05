@@ -13,11 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: purchase_delivery_split_date
 #: model:ir.model,name:purchase_delivery_split_date.model_purchase_order
+#, fuzzy
 msgid "Purchase Order"
 msgstr "Stavka naloga za nabavu"
 
+# taken from hr.po
 #. module: purchase_delivery_split_date
 #: model:ir.model,name:purchase_delivery_split_date.model_purchase_order_line
 msgid "Purchase Order Line"
@@ -26,4 +29,4 @@ msgstr "Stavka naloga za nabavu"
 #. module: purchase_delivery_split_date
 #: model:ir.model,name:purchase_delivery_split_date.model_stock_picking
 msgid "Transfer"
-msgstr "Transfer"
+msgstr "Prijenos"

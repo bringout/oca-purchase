@@ -30,13 +30,11 @@ msgstr "Constrain search to an specific warehouse"
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__create_uid
-#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__create_date
-#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -57,7 +55,6 @@ msgstr "Datum završetka"
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__display_name
-#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
@@ -78,7 +75,6 @@ msgstr "Forecasted Qty"
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__id
-#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__id
 msgid "ID"
 msgstr "ID"
 
@@ -94,19 +90,16 @@ msgstr "Is Modified"
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation____last_update
-#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__write_uid
-#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__write_date
-#: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -226,10 +219,12 @@ msgid ""
 "Stablish a limit on how many recommendations you want to get.Leave it as 0 "
 "to set no limit"
 msgstr ""
+"Stablish a limit on how many recommendations you want to get.Leave it as 0 "
+"to set no limit"
 
 #. module: purchase_order_product_recommendation
 #. odoo-python
-#: code:addons/purchase_order_product_recommendation/wizards/purchase_order_recommendation.py:0
+#: code:addons/purchase_order_product_recommendation/wizards/purchase_order_recommendation.py
 #, python-format
 msgid "This wizard is only valid for purchases"
 msgstr "This wizard is only valid for purchases"
@@ -302,4 +297,5 @@ msgstr "ID čarobnjaka"
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,help:purchase_order_product_recommendation.field_purchase_order_recommendation_line__partner_id
 msgid "You can find a vendor by its Name, TIN, Email or Internal Reference."
-msgstr "Dobavljača možete pronaći po imenu, TIN-u, e-pošti ili internoj referenci."
+msgstr ""
+"Dobavljača možete pronaći po imenu, TIN-u, e-pošti ili internoj referenci."

@@ -15,25 +15,21 @@ msgstr ""
 
 #. module: purchase_order_weight_volume
 #: model_terms:ir.ui.view,arch_db:purchase_order_weight_volume.report_purchaseorder_document
-#: model_terms:ir.ui.view,arch_db:purchase_order_weight_volume.report_purchasequotation_document
 msgid "<strong>Total Volume</strong>"
 msgstr "<strong>Ukupno Volume</strong>"
 
 #. module: purchase_order_weight_volume
 #: model_terms:ir.ui.view,arch_db:purchase_order_weight_volume.report_purchaseorder_document
-#: model_terms:ir.ui.view,arch_db:purchase_order_weight_volume.report_purchasequotation_document
 msgid "<strong>Total Weight</strong>"
 msgstr "<strong>Ukupno Weight</strong>"
 
 #. module: purchase_order_weight_volume
 #: model_terms:ir.ui.view,arch_db:purchase_order_weight_volume.report_purchaseorder_document
-#: model_terms:ir.ui.view,arch_db:purchase_order_weight_volume.report_purchasequotation_document
 msgid "<strong>Volume</strong>"
 msgstr "<strong>Volume</strong>"
 
 #. module: purchase_order_weight_volume
 #: model_terms:ir.ui.view,arch_db:purchase_order_weight_volume.report_purchaseorder_document
-#: model_terms:ir.ui.view,arch_db:purchase_order_weight_volume.report_purchasequotation_document
 msgid "<strong>Weight</strong>"
 msgstr "<strong>Težina</strong>"
 
@@ -44,15 +40,11 @@ msgstr "Kompanije"
 
 #. module: purchase_order_weight_volume
 #: model:ir.model.fields,field_description:purchase_order_weight_volume.field_purchase_order__display_order_volume_in_po
-#: model:ir.model.fields,field_description:purchase_order_weight_volume.field_res_company__display_order_volume_in_po
-#: model:ir.model.fields,field_description:purchase_order_weight_volume.field_res_config_settings__display_order_volume_in_po
 msgid "Display Order Volume in PO"
 msgstr "Display Nalog Volume in PO"
 
 #. module: purchase_order_weight_volume
 #: model:ir.model.fields,field_description:purchase_order_weight_volume.field_purchase_order__display_order_weight_in_po
-#: model:ir.model.fields,field_description:purchase_order_weight_volume.field_res_company__display_order_weight_in_po
-#: model:ir.model.fields,field_description:purchase_order_weight_volume.field_res_config_settings__display_order_weight_in_po
 msgid "Display Order Weight in PO"
 msgstr "Display Nalog Weight in PO"
 

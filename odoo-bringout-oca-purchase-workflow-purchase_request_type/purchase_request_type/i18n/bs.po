@@ -20,7 +20,6 @@ msgstr "Aktivan"
 
 #. module: purchase_request_type
 #: model_terms:ir.ui.view,arch_db:purchase_request_type.view_purchase_request_type_form
-#: model_terms:ir.ui.view,arch_db:purchase_request_type.view_purchase_request_type_search
 msgid "Archived"
 msgstr "Arhivirano"
 
@@ -31,7 +30,6 @@ msgstr "Kliknite da postavite novu vrstu za zahtjev za nabavku."
 
 #. module: purchase_request_type
 #: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type__company_id
-#: model_terms:ir.ui.view,arch_db:purchase_request_type.view_purchase_request_type_search
 msgid "Company"
 msgstr "Preduzeće"
 
@@ -57,14 +55,13 @@ msgstr "Prikazani naziv"
 
 #. module: purchase_request_type
 #. odoo-python
-#: code:addons/purchase_request_type/models/purchase_request.py:0
+#: code:addons/purchase_request_type/models/purchase_request.py
 #, python-format
 msgid "Document's company and type's company mismatch"
 msgstr "Neusklađenost kompanije dokumenta i kompanije vrste"
 
 #. module: purchase_request_type
 #: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type__sequence_id
-#: model_terms:ir.ui.view,arch_db:purchase_request_type.view_purchase_request_type_search
 msgid "Entry Sequence"
 msgstr "Ulazna sekvenca"
 
@@ -100,7 +97,6 @@ msgstr "Naziv:"
 
 #. module: purchase_request_type
 #: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type__picking_type_id
-#: model_terms:ir.ui.view,arch_db:purchase_request_type.view_purchase_request_type_search
 msgid "Picking Type"
 msgstr "Vrsta dokumenta"
 
@@ -111,14 +107,11 @@ msgstr "Zahtjev za nabavu"
 
 #. module: purchase_request_type
 #: model:ir.actions.act_window,name:purchase_request_type.action_purchase_request_type_view
-#: model:ir.ui.menu,name:purchase_request_type.menu_purchase_request_type
-#: model_terms:ir.ui.view,arch_db:purchase_request_type.view_purchase_request_type_search
 msgid "Purchase Request Types"
 msgstr "Vrste zahtjeva za nabavku"
 
 #. module: purchase_request_type
 #: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request__reduce_step
-#: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type__reduce_step
 msgid "Reduce Step"
 msgstr "Smanji korak"
 

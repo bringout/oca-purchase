@@ -34,6 +34,7 @@ msgid ""
 "Click here to be able to confirm this Agreement regardless of the "
 "exceptions."
 msgstr ""
+"Kliknite ovdje da biste mogli potvrditi ovaj ugovor bez obzira na izuzetke."
 
 #. module: purchase_request_exception
 #: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request_exception_confirm__create_uid
@@ -77,9 +78,6 @@ msgstr "ID"
 
 #. module: purchase_request_exception
 #: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request__ignore_exception
-#: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request_exception_confirm__ignore
-#: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request_line__ignore_exception
-#: model_terms:ir.ui.view,arch_db:purchase_request_exception.view_purchase_request_form
 msgid "Ignore Exceptions"
 msgstr "Ignoriraj izuzetke"
 
@@ -125,7 +123,6 @@ msgstr "Zahtjev za nabavu"
 
 #. module: purchase_request_exception
 #: model:ir.actions.act_window,name:purchase_request_exception.action_purchase_request_test_tree
-#: model:ir.ui.menu,name:purchase_request_exception.menu_purchase_request_test
 msgid "Purchase Request Exception Rules"
 msgstr "Pravila izuzetaka za zahtjeve za nabavku"
 
@@ -136,9 +133,9 @@ msgstr "Stavka zahtjeva za nabavu"
 
 #. module: purchase_request_exception
 #: model:ir.actions.server,name:purchase_request_exception.ir_cron_test_pr_request_except_ir_actions_server
-#: model:ir.cron,cron_name:purchase_request_exception.ir_cron_test_pr_request_except
 msgid "Purchase Request: Test Draft Purchase Requests Exception"
-msgstr "Zahtjev za nabavku: Testiranje izuzetaka za nacrte zahtjeva za nabavku"
+msgstr ""
+"Zahtjev za nabavku: Testiranje izuzetaka za nacrte zahtjeva za nabavku"
 
 #. module: purchase_request_exception
 #: model:ir.model.fields,field_description:purchase_request_exception.field_exception_rule__purchase_request_ids
@@ -147,7 +144,6 @@ msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_request_exception
 #: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request_exception_confirm__related_model_id
-#: model:ir.model.fields.selection,name:purchase_request_exception.selection__exception_rule__model__purchase_request
 msgid "Purchase request"
 msgstr "Zahtjev za nabavku"
 

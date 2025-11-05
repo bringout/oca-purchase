@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: purchase_fully_received
 #: model:ir.model.fields,field_description:purchase_fully_received.field_purchase_order__is_fully_shipped
-#: model_terms:ir.ui.view,arch_db:purchase_fully_received.fully_invoice_fully_invoiced_filters_view_search
 msgid "Is Fully Shipped"
 msgstr "Potpuno isporučeno"
 

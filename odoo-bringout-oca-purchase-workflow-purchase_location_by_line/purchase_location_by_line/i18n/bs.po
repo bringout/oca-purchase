@@ -13,11 +13,13 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: purchase_location_by_line
 #: model:ir.model.fields,field_description:purchase_location_by_line.field_purchase_order_line__location_dest_id
 msgid "Destination"
 msgstr "Odredište"
 
+# taken from hr.po
 #. module: purchase_location_by_line
 #: model:ir.model,name:purchase_location_by_line.model_purchase_order_line
 msgid "Purchase Order Line"
@@ -26,4 +28,4 @@ msgstr "Stavka naloga za nabavu"
 #. module: purchase_location_by_line
 #: model:ir.model,name:purchase_location_by_line.model_stock_picking
 msgid "Transfer"
-msgstr "Transfer"
+msgstr "Prijenos"

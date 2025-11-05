@@ -13,114 +13,149 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/purchase_order.py:0
+#: code:addons/purchase_request/models/purchase_order.py
 #, python-format
 msgid ""
 "<li><b>%(prl_name)s</b>: Ordered quantity %(prl_qty)s %(prl_uom)s, Planned "
 "date %(prl_date_planned)s</li>"
 msgstr ""
+"<li><b>%(prl_name)s</b>: Naručena količina %(prl_qty)s %(prl_uom)s, Plairani"
+" datum %(prl_date_planned)s</li>"
 
+# taken from hr.po
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/purchase_order.py:0
-#: code:addons/purchase_request/models/purchase_request_allocation.py:0
+#: code:addons/purchase_request/models/purchase_order.py
 #, python-format
 msgid ""
 "<li><b>%(product_name)s</b>: Received quantity %(product_qty)s "
 "%(product_uom)s</li>"
 msgstr ""
+"<li><b>%(product_name)s</b>: Zaprimljena količina %(product_qty)s "
+"%(product_uom)s</li>"
 
+# taken from hr.po
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/stock_move_line.py:0
-#: code:addons/purchase_request/models/stock_move_line.py:0
+#: code:addons/purchase_request/models/stock_move_line.py
 #, python-format
 msgid ""
 "<li><b>%(product_name)s</b>: Transferred quantity %(product_qty)s "
 "%(product_uom)s</li>"
 msgstr ""
+"<li><b>%(product_name)s</b>: Prenesena količina %(product_qty)s "
+"%(product_uom)s</li>"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
 msgid "<strong>Analytic Distribution</strong>"
 msgstr "<strong>Analitička distribucija</strong>"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
 msgid ""
 "<strong>Assigned to:</strong>\n"
 "                                <br/>"
 msgstr ""
+"<strong>Dodijeljeno:</strong> \n"
+"                                                <br/>"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
 msgid ""
 "<strong>Creation Date:</strong>\n"
 "                                <br/>"
 msgstr ""
+"<strong>Datum kreiranja:</strong> \n"
+"                                                <br/>"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
 msgid ""
 "<strong>Description:</strong>\n"
 "                                <br/>"
 msgstr ""
+"<strong>Opis:</strong> \n"
+"                                                <br/>"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
 msgid "<strong>Description</strong>"
 msgstr "<strong>Opis</strong><br/>"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
 msgid "<strong>Estimated Cost</strong>"
 msgstr "<strong>Procjena troška</strong><br/>"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
 msgid ""
 "<strong>Picking Type:</strong>\n"
 "                                <br/>"
 msgstr ""
+"<strong>Vrsta kretanja:</strong>\n"
+"                                <br/>"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
 msgid "<strong>Product UoM</strong>"
 msgstr "<strong>Jedinica mjere</strong>"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
 msgid "<strong>Qty</strong>"
 msgstr "<strong>Količina</strong>"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
 msgid ""
 "<strong>Request Reference:</strong>\n"
 "                                <br/>"
 msgstr ""
+"<strong>Referenca zahtjeva:</strong> \n"
+"                                                 <br/>"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
 msgid "<strong>Requested Date</strong>"
 msgstr "<strong>Datum zahtjeva</strong>"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
 msgid ""
 "<strong>Requested by:</strong>\n"
 "                                <br/>"
 msgstr ""
+"<strong>Zahtjev podnio:</strong>\n"
+"                                <br/>"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
 msgid ""
 "<strong>Source:</strong>\n"
 "                                <br/>"
 msgstr ""
+"<strong>Izvor:</strong> \n"
+"                                                <br/>"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
 msgid "<strong>Specifications</strong>"
@@ -133,66 +168,76 @@ msgid ""
 "            a certain quantity of materials services, so that they are\n"
 "            available at a certain point in time."
 msgstr ""
+"Zahtjev za nabavku je instrukcija odjelu nabavke da nabavi određenu količinu"
+" materijala ili usluga, tako da budu dostupni u određenom trenutku."
 
+# taken from hr.po
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/stock_move.py:0
+#: code:addons/purchase_request/models/stock_move.py
 #, python-format
 msgid ""
 "A sale/manufacturing order that generated this purchase request has been "
 "cancelled/deleted. Check if an action is needed."
 msgstr ""
+"Prodajni/Proizvodni nalog koji je generirao ovaj zahtjev za nabavom je "
+"otkazan ili obrisan. Provjerite da li je potrebno još nešto napraviti."
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__message_needaction
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__message_needaction
 msgid "Action Needed"
 msgstr "Potrebna radnja"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__activity_ids
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__activity_ids
 msgid "Activities"
 msgstr "Aktivnosti"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__activity_exception_decoration
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__activity_exception_decoration
 msgid "Activity Exception Decoration"
 msgstr "Dekoracija izuzetka aktivnosti"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__activity_state
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__activity_state
 msgid "Activity State"
 msgstr "Status aktivnosti"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__activity_type_icon
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__activity_type_icon
 msgid "Activity Type Icon"
 msgstr "Ikona tipa aktivnosti"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
 msgid "All Bought"
 msgstr "Sve kupljeno"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__allocated_product_qty
 msgid "Allocated Quantity"
 msgstr "Alocirana Količina"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_form
 msgid "Allocations"
 msgstr "Alokacije"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__analytic_distribution
 msgid "Analytic"
 msgstr "Analitika"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
 msgid "Analytic Distribution"
@@ -203,109 +248,124 @@ msgstr "Analitička distribucija"
 msgid "Analytic Distribution Search"
 msgstr "Pretraga analitičkih distribucija"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__analytic_precision
 msgid "Analytic Precision"
 msgstr "Analitička preciznost"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
 msgid "Approve"
 msgstr "Odobri"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields.selection,name:purchase_request.selection__purchase_request__state__approved
-#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Approved"
 msgstr "Odobreno"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__assigned_to
 msgid "Approver"
 msgstr "Odobrio"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__assigned_to
-#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Assigned to"
 msgstr "Dodijeljeno"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Assigned to me"
 msgstr "Dodijeljeno meni"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
 msgid "At least a Draft PO has been created"
 msgstr "Barem je nacrt naloga za nabavu napravljen"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
 msgid "At least a PO has been completed"
 msgstr "Nalog za nabavu je dovršen"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
 msgid "At least a PO has been confirmed"
 msgstr "Nalog za nabavu je potvrđen"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__message_attachment_count
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__message_attachment_count
 msgid "Attachment Count"
 msgstr "Broj priloga"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_line_make_purchase_order
 msgid "Cancel"
 msgstr "Otkaži"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__cancelled
 msgid "Cancelled"
 msgstr "Otkazano"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
 msgid "Cancelled Quantity"
 msgstr "Otkazana Količina"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__product_uom_category_id
 msgid "Category"
 msgstr "Kategorija"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_product_product__purchase_request
-#: model:ir.model.fields,help:purchase_request.field_product_template__purchase_request
 msgid ""
 "Check this box to generate Purchase Request instead of generating Requests "
 "For Quotation from procurement."
 msgstr ""
+"Označite ovdje za kreiranje Zahtjeva za nabavu umjesto Zahtjeva za ponudom "
+"iz nabave."
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.actions.act_window,help:purchase_request.purchase_request_form_action
 msgid "Click to start a new purchase request process."
 msgstr "Kliknite za pokretanje novog zahtjeva za nabavom"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__company_id
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__company_id
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__company_id
 msgid "Company"
 msgstr "Kompanija"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request_line__product_uom_category_id
 msgid ""
 "Conversion between Units of Measure can only occur if they belong to the "
 "same category. The conversion will be made based on the ratios."
 msgstr ""
+"Konverzija jedinica mjere može se vršiti samo za jedinice mjere koje "
+"pripadaju istoj kategoriji. Konverzija će se izvršiti temeljem omjera "
+"jedinica mjere."
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__keep_description
 msgid "Copy descriptions to new PO"
@@ -316,168 +376,163 @@ msgstr "Kopiraj opise u novi nalog"
 msgid "Copy estimative cost to new PO"
 msgstr "Kopiraj procijenjeni trošak u novu narudžbenicu"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.actions.act_window,name:purchase_request.action_purchase_request_line_make_purchase_order
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_line_make_purchase_order
 msgid "Create RFQ"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_stock_move__created_purchase_request_line_id
 msgid "Created Purchase Request Line"
 msgstr "Kreiran Stavka zahtjeva za nabavu"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__create_uid
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__create_uid
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__create_uid
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order__create_uid
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__create_date
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__create_date
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__create_date
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order__create_date
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__date_start
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__date_start
 msgid "Creation date"
 msgstr "Datum kreiranja"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__currency_id
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__currency_id
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__currency_id
 msgid "Currency"
 msgstr "Valuta"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request__date_start
-#: model:ir.model.fields,help:purchase_request.field_purchase_request_line__date_start
 msgid "Date when the user initiated the request."
 msgstr "Datum kad je korisnik pokrenuo zahtjev."
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__description
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__name
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__name
 msgid "Description"
 msgstr "Opis"
 
+# taken from hr.po
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/purchase_request_line.py:0
+#: code:addons/purchase_request/models/purchase_request_line.py
 #, python-format
 msgid "Detailed Line"
 msgstr "Stavka sa pojedinostima"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__display_name
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__display_name
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__display_name
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order__display_name
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields.selection,name:purchase_request.selection__purchase_request__state__done
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Done"
 msgstr "Dovršeno"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__move_dest_ids
 msgid "Downstream Moves"
 msgstr "Sljedeća kretanja"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields.selection,name:purchase_request.selection__purchase_request__state__draft
-#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Draft"
 msgstr "U pripremi"
 
+# taken from hr.po
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py:0
+#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py
 #, python-format
 msgid "Enter a positive quantity."
 msgstr "Unesite pozitivnu količinu."
 
+# taken from hr.po
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py:0
+#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py
 #, python-format
 msgid "Enter a supplier."
 msgstr "Unesite dobavljača."
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__estimated_cost
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__estimated_cost
 msgid "Estimated Cost"
 msgstr "Procjena troška"
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request_line__estimated_cost
 msgid "Estimated cost of Purchase Request Line, not propagated to PO."
-msgstr "Procijenjeni trošak stavke zahtjeva za nabavku, ne prenosi se na narudžbenicu."
+msgstr ""
+"Procijenjeni trošak stavke zahtjeva za nabavku, ne prenosi se na "
+"narudžbenicu."
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_line_make_purchase_order
 msgid "Existing RFQ to update:"
 msgstr "Postojeći zahtjev za ponudom za ažuriranje:"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__message_follower_ids
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__message_follower_ids
 msgid "Followers"
 msgstr "Pratitelji"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__message_partner_ids
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__message_partner_ids
 msgid "Followers (Partners)"
 msgstr "Pratitelji (partneri)"
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request__activity_type_icon
-#: model:ir.model.fields,help:purchase_request.field_purchase_request_line__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
 msgstr "Font awesome ikona npr. fa-tasks"
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/purchase_request_allocation.py:0
+#: code:addons/purchase_request/models/purchase_request_allocation.py
 #, python-format
 msgid ""
 "From last reception this quantity has been allocated to this purchase "
 "request"
 msgstr ""
+"Od posljednjeg prijema, ova količina je dodijeljena ovom zahtjevu za nabavku"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_line_search_sub
+#, fuzzy
 msgid "Group By"
 msgstr "Grupiši po..."
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Group By..."
 msgstr "Grupiši po..."
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__has_message
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__has_message
 msgid "Has Message"
 msgstr "Ima poruku"
 
@@ -488,41 +543,31 @@ msgstr "Sakri otkazane stavke"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__id
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__id
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__id
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order__id
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__id
 msgid "ID"
 msgstr "ID"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__activity_exception_icon
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__activity_exception_icon
 msgid "Icon"
 msgstr "Ikona"
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request__activity_exception_icon
-#: model:ir.model.fields,help:purchase_request.field_purchase_request_line__activity_exception_icon
 msgid "Icon to indicate an exception activity."
 msgstr "Ikona za prikaz iznimki."
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request__message_needaction
-#: model:ir.model.fields,help:purchase_request.field_purchase_request_line__message_needaction
 msgid "If checked, new messages require your attention."
 msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request__message_has_error
-#: model:ir.model.fields,help:purchase_request.field_purchase_request_line__message_has_error
 msgid "If checked, some messages have a delivery error."
 msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
 
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "In Progress"
 msgstr "U Toku"
 
@@ -533,13 +578,11 @@ msgstr "U tijeku"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__is_editable
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__is_editable
 msgid "Is Editable"
 msgstr "Može se uređivati"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__message_is_follower
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__message_is_follower
 msgid "Is Follower"
 msgstr "Pratilac"
 
@@ -553,30 +596,21 @@ msgstr "Naziv se može uređivati"
 msgid "Items"
 msgstr "Stavke"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request____last_update
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation____last_update
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line____last_update
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order____last_update
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item____last_update
 msgid "Last Modified on"
 msgstr "Zadnja izmjena na"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__write_uid
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__write_uid
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__write_uid
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order__write_uid
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__write_uid
 msgid "Last Updated by"
 msgstr "Zadnje ažuriranje izvršio"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__write_date
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__write_date
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__write_date
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order__write_date
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažuriranje na"
 
@@ -587,7 +621,6 @@ msgstr "Stavke"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__message_main_attachment_id
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__message_main_attachment_id
 msgid "Main Attachment"
 msgstr "Glavna zakačka"
 
@@ -603,13 +636,13 @@ msgstr "Uporedi postojeće stavke narudžbenice po planiranom datumu"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__message_has_error
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__message_has_error
 msgid "Message Delivery error"
 msgstr "Greška pri isporuci poruke"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__message_ids
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__message_ids
+#, fuzzy
 msgid "Messages"
 msgstr "Nepročitane poruke"
 
@@ -620,21 +653,18 @@ msgstr "Pravilo minimalne zalihe"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__my_activity_date_deadline
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__my_activity_date_deadline
 msgid "My Activity Deadline"
 msgstr "Rok za moju aktivnost"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "My requests"
 msgstr "Moji zahtjevi"
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/purchase_request.py:0
-#: code:addons/purchase_request/models/purchase_request.py:0
-#: code:addons/purchase_request/models/purchase_request.py:0
+#: code:addons/purchase_request/models/purchase_request.py
 #, python-format
 msgid "New"
 msgstr "Novi"
@@ -646,19 +676,16 @@ msgstr "Detalji nove narudžbenice:"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__activity_date_deadline
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__activity_date_deadline
 msgid "Next Activity Deadline"
 msgstr "Krajnji rok za sljedeću aktivnost"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__activity_summary
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__activity_summary
 msgid "Next Activity Summary"
 msgstr "Pregled sljedeće aktivnosti"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__activity_type_id
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__activity_type_id
 msgid "Next Activity Type"
 msgstr "Tip sljedeće aktivnosti"
 
@@ -669,42 +696,41 @@ msgstr "Nije kreiran zahtjev za ponudu (RFQ) niti narudžbenica"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__message_needaction_counter
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__message_needaction_counter
 msgid "Number of Actions"
 msgstr "Broj akcija"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__message_has_error_counter
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__message_has_error_counter
 msgid "Number of errors"
 msgstr "Broj grešaka"
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request__message_needaction_counter
-#: model:ir.model.fields,help:purchase_request.field_purchase_request_line__message_needaction_counter
 msgid "Number of messages requiring action"
 msgstr "Broj poruka koje zahtijevaju aktivnost"
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request__message_has_error_counter
-#: model:ir.model.fields,help:purchase_request.field_purchase_request_line__message_has_error_counter
 msgid "Number of messages with delivery error"
 msgstr "Broj poruka sa greškama pri isporuci"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__open_product_qty
-#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
+#, fuzzy
 msgid "Open Quantity"
 msgstr "Količina"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_line_search_sub
+#, fuzzy
 msgid "Order Reference"
 msgstr "Referenca zahtjeva"
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/purchase_order.py:0
+#: code:addons/purchase_request/models/purchase_order.py
 #, python-format
 msgid "Order confirmation %(po_name)s for your Request %(pr_name)s"
 msgstr "Potvrda narudžbe %(po_name)s za vaš zahtjev %(pr_name)s"
@@ -714,14 +740,15 @@ msgstr "Potvrda narudžbe %(po_name)s za vaš zahtjev %(pr_name)s"
 msgid "Orderpoint"
 msgstr "Točka narudžbe"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__description
+#, fuzzy
 msgid "PR Description"
 msgstr "Opis"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__pending_qty_to_receive
-#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
 msgid "Pending Qty to Receive"
 msgstr "Zaprimanje u tijeku"
 
@@ -742,28 +769,27 @@ msgstr "Skladišnice"
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py:0
+#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py
 #, python-format
 msgid "Please select a product for all lines"
 msgstr "Molimo odaberite proizvod za sve stavke"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__supplier_id
 msgid "Preferred supplier"
 msgstr "Preferirani dobavljač"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__group_id
+#, fuzzy
 msgid "Procurement Group"
 msgstr "Nalog za nabavu"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model,name:purchase_request.model_product_template
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request__product_id
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__product_id
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__product_id
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__product_id
-#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
 msgid "Product"
 msgstr "Proizvod"
 
@@ -772,49 +798,57 @@ msgstr "Proizvod"
 msgid "Product Moves (Stock Move Line)"
 msgstr "Skladišna kretanja proizvoda(stavke)"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
 msgid "Products"
 msgstr "Proizvodi"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__line_ids
 msgid "Products to Purchase"
 msgstr "Proizvodi za nabavu"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
+#, fuzzy
 msgid "Purchase Confirmed"
 msgstr "Zahtjevi za nabavom"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
+#, fuzzy
 msgid "Purchase Done"
 msgstr "Zahtjev za nabavu"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__purchase_line_id
+#, fuzzy
 msgid "Purchase Line"
 msgstr "Zahtjev za nabavu"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model,name:purchase_request.model_purchase_order
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order__purchase_order_id
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
+#, fuzzy
 msgid "Purchase Order"
 msgstr "Zahtjevi za nabavom"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model,name:purchase_request.model_purchase_order_line
+#, fuzzy
 msgid "Purchase Order Line"
 msgstr "Stavka zahtjeva za nabavu"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__purchase_lines
-#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_line_form2_sub
-#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_form
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_line_details
+#, fuzzy
 msgid "Purchase Order Lines"
 msgstr "Stavke zahtjeva za nabavu"
 
@@ -828,102 +862,98 @@ msgstr "Potvrda narudžbenice"
 msgid "Purchase Order is confirmed"
 msgstr "Narudžbenica je potvrđena"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
+#, fuzzy
 msgid "Purchase Orders"
 msgstr "Zahtjevi za nabavom"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.actions.report,name:purchase_request.action_report_purchase_requests
-#: model:ir.model,name:purchase_request.model_purchase_request
-#: model:ir.model.fields,field_description:purchase_request.field_product_product__purchase_request
-#: model:ir.model.fields,field_description:purchase_request.field_product_template__purchase_request
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__request_id
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__request_id
-#: model:ir.module.category,name:purchase_request.module_category_purchase_request
-#: model_terms:ir.ui.view,arch_db:purchase_request.report_purchase_request
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Purchase Request"
 msgstr "Zahtjev za nabavu"
 
+# taken from hr.po
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/purchase_order.py:0
-#, python-format
+#: code:addons/purchase_request/models/purchase_order.py
+#, fuzzy, python-format
 msgid "Purchase Request %s has already been completed"
 msgstr "Zahtjev za nabau %s odbijen"
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py:0
+#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py
 #, python-format
 msgid "Purchase Request %s is not approved or in progress"
 msgstr "Zahtjev za nabavku %s nije odobren ili je u toku"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model,name:purchase_request.model_purchase_request_allocation
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_order_line__purchase_request_allocation_ids
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__purchase_request_allocation_ids
-#: model:ir.model.fields,field_description:purchase_request.field_stock_move__purchase_request_allocation_ids
+#, fuzzy
 msgid "Purchase Request Allocation"
 msgstr "Stavke zahtjeva za nabavu"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_move_form
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_picking_form
+#, fuzzy
 msgid "Purchase Request Allocations"
 msgstr "Stavke zahtjeva za nabavu"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model,name:purchase_request.model_purchase_request_line
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__purchase_request_line_id
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__line_id
-#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_form
 msgid "Purchase Request Line"
 msgstr "Stavka zahtjeva za nabavu"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model,name:purchase_request.model_purchase_request_line_make_purchase_order
+#, fuzzy
 msgid "Purchase Request Line Make Purchase Order"
 msgstr "Stavke zahtjeva za nabavu"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model,name:purchase_request.model_purchase_request_line_make_purchase_order_item
+#, fuzzy
 msgid "Purchase Request Line Make Purchase Order Item"
 msgstr "Stavke zahtjeva za nabavu"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__line_count
+#, fuzzy
 msgid "Purchase Request Line count"
 msgstr "Stavka zahtjeva za nabavu"
 
+# taken from hr.po
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/purchase_order.py:0
-#: model:ir.actions.act_window,name:purchase_request.purchase_request_line_form_action
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_order_line__purchase_request_lines
-#: model:ir.ui.menu,name:purchase_request.menu_purchase_request_line
-#: model:ir.ui.menu,name:purchase_request.menu_purchase_request_line_act
-#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_line_form2
-#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_line_form2_sub
+#: code:addons/purchase_request/models/purchase_order.py
 #, python-format
 msgid "Purchase Request Lines"
 msgstr "Stavke zahtjeva za nabavu"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:res.groups,name:purchase_request.group_purchase_request_manager
 msgid "Purchase Request Manager"
 msgstr "Voditelj nabave"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:res.groups,name:purchase_request.group_purchase_request_user
 msgid "Purchase Request User"
 msgstr "Korisnik nabave"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:mail.message.subtype,description:purchase_request.mt_request_approved
-#: model:mail.message.subtype,name:purchase_request.mt_request_approved
 msgid "Purchase Request approved"
 msgstr "Zahtjev za nabavu odobren"
 
@@ -937,32 +967,28 @@ msgstr "Zahtjev za nabavku završen"
 msgid "Purchase Request is done"
 msgstr "Zahtjev za nabavku je završen"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:mail.message.subtype,description:purchase_request.mt_request_rejected
-#: model:mail.message.subtype,name:purchase_request.mt_request_rejected
 msgid "Purchase Request rejected"
 msgstr "Zahtjev za nabau odbijen"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:mail.message.subtype,description:purchase_request.mt_request_to_approve
-#: model:mail.message.subtype,name:purchase_request.mt_request_to_approve
 msgid "Purchase Request to be approved"
 msgstr "Zahtjevi nabave za odobriti"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.actions.act_window,name:purchase_request.action_purchase_request_line_product_tree
-#: model:ir.actions.act_window,name:purchase_request.purchase_request_form_action
-#: model:ir.model.fields,field_description:purchase_request.field_stock_move__purchase_request_ids
-#: model:ir.ui.menu,name:purchase_request.menu_purchase_request
-#: model:ir.ui.menu,name:purchase_request.menu_purchase_request_act
-#: model:ir.ui.menu,name:purchase_request.menu_purchase_request_pro_mgt
-#: model:ir.ui.menu,name:purchase_request.parent_menu_purchase_request
 msgid "Purchase Requests"
 msgstr "Zahtjevi za nabavom"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__purchase_state
-#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
+#, fuzzy
 msgid "Purchase Status"
 msgstr "Zahtjev za nabavu"
 
@@ -971,8 +997,10 @@ msgstr "Zahtjev za nabavu"
 msgid "Purchase receipt confirmation"
 msgstr "Potvrda prijema nabavke"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__purchase_count
+#, fuzzy
 msgid "Purchases count"
 msgstr "Zahtjev za nabavu"
 
@@ -996,23 +1024,30 @@ msgstr "Dovršena količina"
 msgid "Qty In Progress"
 msgstr "Količina u toku"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__product_qty
 msgid "Quantity"
 msgstr "Količina"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request_line__qty_cancelled
+#, fuzzy
 msgid "Quantity cancelled"
 msgstr "Proizvodi za nabavu"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request_line__qty_done
+#, fuzzy
 msgid "Quantity completed"
 msgstr "Proizvodi za nabavu"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request_line__qty_in_progress
+#, fuzzy
 msgid "Quantity in progress."
 msgstr "Proizvodi za nabavu"
 
@@ -1022,6 +1057,8 @@ msgid ""
 "Quantity of the purchase request line allocated to the stockmove, in the "
 "default UoM of the product"
 msgstr ""
+"Količina stavke zahtjeva za nabavku dodijeljena kretanju zaliha, u zadanoj "
+"jedinici mjere proizvoda"
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request_allocation__requested_product_uom_qty
@@ -1029,18 +1066,22 @@ msgid ""
 "Quantity of the purchase request line allocated to thestock move, in the UoM"
 " of the Purchase Request Line"
 msgstr ""
+"Količina stavke zahtjeva za nabavku dodijeljena kretanju zaliha, u jedinici "
+"mjere stavke zahtjeva za nabavku"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__product_qty
+#, fuzzy
 msgid "Quantity to purchase"
 msgstr "Proizvodi za nabavu"
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py:0
+#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py
 #, python-format
 msgid "RFQ"
-msgstr "RFQ"
+msgstr "ZZP (RFQ)"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__purchased_qty
@@ -1049,15 +1090,15 @@ msgstr "Količina RFQ/Narudžbenice"
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/stock_move_line.py:0
+#: code:addons/purchase_request/models/stock_move_line.py
 #, python-format
 msgid ""
 "Receipt confirmation %(picking_name)s for your Request %(request_name)s"
-msgstr ""
+msgstr "Potvrda prijema %(picking_name)s za vaš zahtjev %(request_name)s"
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/stock_move_line.py:0
+#: code:addons/purchase_request/models/stock_move_line.py
 #, python-format
 msgid "Receipt confirmation for Request %s"
 msgstr "Potvrda prijema za zahtjev %s"
@@ -1067,23 +1108,26 @@ msgstr "Potvrda prijema za zahtjev %s"
 msgid "Receipt is done"
 msgstr "Prijem je završen"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
 msgid "Reject"
 msgstr "Odbij"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields.selection,name:purchase_request.selection__purchase_request__state__rejected
-#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Rejected"
 msgstr "Odbijeno"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
+#, fuzzy
 msgid "Request"
 msgstr "Datum zahtjeva"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__date_required
 msgid "Request Date"
@@ -1091,23 +1135,24 @@ msgstr "Datum zahtjeva"
 
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_form
-#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_line_tree
 msgid "Request Lines"
 msgstr "Stavke zahtjeva"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__name
 msgid "Request Reference"
 msgstr "Referenca zahtjeva"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
 msgid "Request approval"
 msgstr "Zatraži odobrenje"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Request is approved"
 msgstr "Zahtjev je odobren"
 
@@ -1118,22 +1163,22 @@ msgstr "Zahtjev je završen"
 
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Request is in progress"
 msgstr "Zahtjev je u toku"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Request is rejected"
 msgstr "Zahtjev je odbijen"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Request is to be approved"
 msgstr "Zahtejv čeka odobrenje"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__request_state
 msgid "Request state"
@@ -1149,20 +1194,22 @@ msgstr "Status zahtjeva"
 msgid "Requested By"
 msgstr "Zahtjevao"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__requested_product_uom_qty
+#, fuzzy
 msgid "Requested Quantity"
 msgstr "Status zahtjeva"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__requested_by
-#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Requested by"
 msgstr "Zatražio/la"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
+#, fuzzy
 msgid "Requested for Quotation"
 msgstr "Status zahtjeva"
 
@@ -1173,29 +1220,31 @@ msgstr "Poništi"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__activity_user_id
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__activity_user_id
 msgid "Responsible User"
 msgstr "Odgovorni korisnik"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_line_search_sub
+#, fuzzy
 msgid "Search Purchase Order Line"
 msgstr "Stavka zahtjeva za nabavu"
 
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Search Purchase Request"
 msgstr "Pretraga zahtjeva za nabavku"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request_allocation__purchase_line_id
+#, fuzzy
 msgid "Service Purchase Order Line"
 msgstr "Stavka zahtjeva za nabavu"
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/purchase_order.py:0
+#: code:addons/purchase_request/models/purchase_order.py
 #, python-format
 msgid "Service confirmation for Request %s"
 msgstr "Potvrda usluge za zahtjev %s"
@@ -1206,6 +1255,8 @@ msgid ""
 "Set true if you want to keep the descriptions provided in the wizard in the "
 "new PO."
 msgstr ""
+"Postavite na 'tačno' ako želite zadržati opise date u čarobnjaku u novoj "
+"narudžbenici."
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request_line_make_purchase_order_item__keep_estimated_cost
@@ -1213,30 +1264,33 @@ msgid ""
 "Set true if you want to keep the estimated cost provided in the wizard in "
 "the new PO."
 msgstr ""
+"Postavite na 'tačno' ako želite zadržati procijenjeni trošak dat u "
+"čarobnjaku u novoj narudžbenici."
 
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
 msgid "Show Details"
 msgstr "Prikaži detalje"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Source"
 msgstr "Izvor"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__origin
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__origin
 msgid "Source Document"
 msgstr "Izvorni dokument"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__specifications
-#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_form
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_line_details
 msgid "Specifications"
 msgstr "Specifikacije"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Start Date"
@@ -1244,23 +1298,24 @@ msgstr "Datum početka"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__state
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__purchase_state
 msgid "Status"
 msgstr "Status"
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request__activity_state
-#: model:ir.model.fields,help:purchase_request.field_purchase_request_line__activity_state
 msgid ""
 "Status based on activities\n"
 "Overdue: Due date is already passed\n"
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Status baziran na aktivnostima\n"
+"Zakašnjelo: Rok je već prošao\n"
+"Danas: Datum aktivnosti je danas\n"
+"Planirano: Buduće aktivnosti."
 
 #. module: purchase_request
 #: model:ir.model,name:purchase_request.model_stock_move
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__stock_move_id
 msgid "Stock Move"
 msgstr "Skladišno kretanje"
 
@@ -1286,52 +1341,61 @@ msgstr "Dobavljač"
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/stock_move.py:0
+#: code:addons/purchase_request/models/stock_move.py
 #, python-format
 msgid ""
 "The company of the purchase request must match with that of the location."
 msgstr ""
+"Kompanija zahtjeva za nabavku mora se podudarati s kompanijom lokacije."
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/purchase_order.py:0
+#: code:addons/purchase_request/models/purchase_order.py
 #, python-format
 msgid ""
 "The following requested items from Purchase Request %(pr_name)s have now "
 "been confirmed in Purchase Order %(po_name)s:"
 msgstr ""
+"Sljedeće tražene stavke iz zahtjeva za nabavku %(pr_name)s su sada potvrđene"
+" u narudžbenici %(po_name)s:"
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/stock_move_line.py:0
+#: code:addons/purchase_request/models/stock_move_line.py
 #, python-format
 msgid ""
 "The following requested items from Purchase Request %(request_name)s have "
 "now been received in %(location_name)s using Picking %(picking_name)s:"
 msgstr ""
+"Sljedeće tražene stavke iz zahtjeva za nabavku %(request_name)s su sada "
+"primljene na lokaciju %(location_name)s koristeći prijemnicu "
+"%(picking_name)s:"
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/stock_move_line.py:0
+#: code:addons/purchase_request/models/stock_move_line.py
 #, python-format
 msgid ""
 "The following requested items from Purchase Request %(request_name)s "
 "requested by %(requestor)s have now been received in %(location_name)s:"
 msgstr ""
+"Sljedeće tražene stavke iz zahtjeva za nabavku %(request_name)s koje je "
+"zatražio/la %(requestor)s su sada primljene na lokaciju %(location_name)s:"
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/purchase_order.py:0
+#: code:addons/purchase_request/models/purchase_order.py
 #, python-format
 msgid ""
 "The following requested services from Purchase Request %(request_name)s "
 "requested by %(requestor)s have now been received:"
 msgstr ""
+"Sljedeće tražene usluge iz zahtjeva za nabavku %(request_name)s koje je "
+"zatražio/la %(requestor)s su sada primljene:"
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py:0
-#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py:0
+#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py
 #, python-format
 msgid "The purchase has already been completed."
 msgstr "Nabavka je već završena."
@@ -1341,17 +1405,20 @@ msgstr "Nabavka je već završena."
 msgid "There is some pending qty to buy"
 msgstr "Postoji određena količina na čekanju za kupovinu"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "To Approve"
 msgstr "Odobriti"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__to_approve_allowed
+#, fuzzy
 msgid "To Approve Allowed"
 msgstr "Odobriti"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields.selection,name:purchase_request.selection__purchase_request__state__to_approve
 msgid "To be approved"
@@ -1364,13 +1431,11 @@ msgstr "Ukupni procijenjeni trošak"
 
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_form
-#: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_line_details
 msgid "Tracking"
 msgstr "Praćenje"
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request__activity_exception_decoration
-#: model:ir.model.fields,help:purchase_request.field_purchase_request_line__activity_exception_decoration
 msgid "Type of the exception activity on record."
 msgstr "Vrsta aktivnosti iznimke na zapisu."
 
@@ -1389,6 +1454,7 @@ msgstr "Nedodijeljen zahtjev"
 msgid "Uncancelled"
 msgstr "Neotkazano"
 
+# taken from hr.po
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_search
 msgid "Unread Messages"
@@ -1396,26 +1462,23 @@ msgstr "Nepročitane poruke"
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_allocation__product_uom_id
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__product_uom_id
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__product_uom_id
 msgid "UoM"
 msgstr "JMJ"
 
 #. module: purchase_request
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_line_search_sub
-#: model_terms:ir.ui.view,arch_db:purchase_request.purchase_order_line_tree_sub
 msgid "Vendor"
 msgstr "Dobavljač"
 
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request__website_message_ids
-#: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line__website_message_ids
+#, fuzzy
 msgid "Website Messages"
 msgstr "Nepročitane poruke"
 
 #. module: purchase_request
 #: model:ir.model.fields,help:purchase_request.field_purchase_request__website_message_ids
-#: model:ir.model.fields,help:purchase_request.field_purchase_request_line__website_message_ids
 msgid "Website communication history"
 msgstr "Povijest komunikacije Web stranice"
 
@@ -1425,6 +1488,8 @@ msgid ""
 "When checked, PO lines on the selected purchase order are only reused if the"
 " scheduled date matches as well."
 msgstr ""
+"Kada je označeno, stavke narudžbenice na odabranoj narudžbenici se ponovo "
+"koriste samo ako se i planirani datum podudara."
 
 #. module: purchase_request
 #: model:ir.model.fields,field_description:purchase_request.field_purchase_request_line_make_purchase_order_item__wiz_id
@@ -1433,61 +1498,65 @@ msgstr "ID čarobnjaka"
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/purchase_request_line.py:0
+#: code:addons/purchase_request/models/purchase_request_line.py
 #, python-format
 msgid ""
 "You can only delete a purchase request line if the purchase request is in "
 "draft state."
 msgstr ""
+"Stavku zahtjeva za nabavku možete izbrisati samo ako je zahtjev za nabavku u"
+" statusu 'nacrt'."
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/purchase_request.py:0
+#: code:addons/purchase_request/models/purchase_request.py
 #, python-format
 msgid ""
 "You can't request an approval for a purchase request which is empty. (%s)"
-msgstr ""
+msgstr "Ne možete tražiti odobrenje za prazan zahtjev za nabavku. (%s)"
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py:0
+#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py
 #, python-format
 msgid ""
 "You cannot create a single purchase order from purchase requests that have "
 "different procurement group."
 msgstr ""
+"Ne možete kreirati jednu narudžbenicu iz zahtjeva za nabavku koji imaju "
+"različite grupe nabavke."
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/purchase_request.py:0
+#: code:addons/purchase_request/models/purchase_request.py
 #, python-format
 msgid "You cannot delete a purchase request which is not draft."
 msgstr "Ne možete izbrisati zahtjev za nabavku koji nije u statusu 'nacrt'."
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/models/purchase_request_line.py:0
+#: code:addons/purchase_request/models/purchase_request_line.py
 #, python-format
 msgid "You cannot delete a record that refers to purchase lines!"
 msgstr "Ne možete izbrisati zapis koji se odnosi na stavke nabavke!"
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py:0
+#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py
 #, python-format
 msgid "You have to enter a Picking Type."
 msgstr "Morate unijeti vrstu prijemnice."
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py:0
+#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py
 #, python-format
 msgid "You have to select lines from the same Picking Type."
 msgstr "Morate odabrati stavke iz iste vrste prijemnice."
 
 #. module: purchase_request
 #. odoo-python
-#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py:0
+#: code:addons/purchase_request/wizard/purchase_request_line_make_purchase_order.py
 #, python-format
 msgid "You have to select lines from the same company."
 msgstr "Morate odabrati stavke iz iste kompanije."

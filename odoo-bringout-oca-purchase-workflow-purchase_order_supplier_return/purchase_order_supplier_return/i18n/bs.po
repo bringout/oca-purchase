@@ -13,6 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: purchase_order_supplier_return
 #: model:ir.model,name:purchase_order_supplier_return.model_stock_move
 msgid "Stock Move"

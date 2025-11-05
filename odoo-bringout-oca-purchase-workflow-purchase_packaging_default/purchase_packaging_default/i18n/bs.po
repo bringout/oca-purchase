@@ -18,6 +18,7 @@ msgstr ""
 msgid ""
 "Assign the first packaging found in product configuration to purchase order"
 msgstr ""
+"Assign the first packaging found in product configuration to purchase order"
 
 #. module: purchase_packaging_default
 #: model:ir.model,name:purchase_packaging_default.model_res_company
@@ -26,10 +27,10 @@ msgstr "Kompanije"
 
 #. module: purchase_packaging_default
 #: model:ir.model.fields,help:purchase_packaging_default.field_res_company__purchase_packaging_default_enabled
-#: model:ir.model.fields,help:purchase_packaging_default.field_res_config_settings__purchase_packaging_default_enabled
 msgid ""
 "In purchase order line get 1st packaging found in product configuration"
 msgstr ""
+"In purchase order line get 1st packaging found in product configuration"
 
 #. module: purchase_packaging_default
 #: model:ir.model,name:purchase_packaging_default.model_res_config_settings
@@ -48,6 +49,5 @@ msgstr "Stavka naloga za nabavu"
 
 #. module: purchase_packaging_default
 #: model:ir.model.fields,field_description:purchase_packaging_default.field_res_company__purchase_packaging_default_enabled
-#: model:ir.model.fields,field_description:purchase_packaging_default.field_res_config_settings__purchase_packaging_default_enabled
 msgid "Purchase Packaging Default Enabled"
 msgstr "Nabavni Packaging Default Enabled"

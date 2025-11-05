@@ -95,15 +95,12 @@ msgstr "Naziv oznake već postoji!"
 
 #. module: purchase_tag
 #: model:ir.actions.act_window,name:purchase_tag.purchase_tag_action
-#: model:ir.model.fields,field_description:purchase_tag.field_purchase_order__tag_ids
-#: model:ir.ui.menu,name:purchase_tag.menu_purchase_tag_config
-#: model_terms:ir.ui.view,arch_db:purchase_tag.purchase_tag_view_form
 msgid "Tags"
 msgstr "Oznake"
 
 #. module: purchase_tag
 #. odoo-python
-#: code:addons/purchase_tag/models/purchase_tag.py:0
+#: code:addons/purchase_tag/models/purchase_tag.py
 #, python-format
 msgid "Tags cannot be recursive."
 msgstr "Oznake ne mogu biti rekurzivne."

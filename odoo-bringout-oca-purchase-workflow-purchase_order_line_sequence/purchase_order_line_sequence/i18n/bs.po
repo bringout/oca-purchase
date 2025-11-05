@@ -15,7 +15,6 @@ msgstr ""
 
 #. module: purchase_order_line_sequence
 #: model_terms:ir.ui.view,arch_db:purchase_order_line_sequence.report_purchase_order_sequence_qweb
-#: model_terms:ir.ui.view,arch_db:purchase_order_line_sequence.report_purchase_quote_sequence_qweb
 msgid "<strong>Line Number</strong>"
 msgstr "<strong>Linija Number</strong>"
 
@@ -41,7 +40,6 @@ msgstr "Stavka žurnala"
 
 #. module: purchase_order_line_sequence
 #: model:ir.model.fields,field_description:purchase_order_line_sequence.field_purchase_order_line__visible_sequence
-#: model_terms:ir.ui.view,arch_db:purchase_order_line_sequence.report_invoice_document_inherit_purchase_sequence
 msgid "Line Number"
 msgstr "Linija Number"
 
@@ -52,12 +50,14 @@ msgstr "Maximalna seqvenca u stavkama"
 
 #. module: purchase_order_line_sequence
 #. odoo-python
-#: code:addons/purchase_order_line_sequence/models/stock_move.py:0
+#: code:addons/purchase_order_line_sequence/models/stock_move.py
 #, python-format
 msgid ""
 "Not allowed to change the sequence of moves from the picking, you can do it "
 "from the PO."
 msgstr ""
+"Not allowed to change the sequence of moves from the picking, you can do it "
+"from the PO."
 
 #. module: purchase_order_line_sequence
 #: model:ir.model.fields,field_description:purchase_order_line_sequence.field_account_move_line__related_po_sequence

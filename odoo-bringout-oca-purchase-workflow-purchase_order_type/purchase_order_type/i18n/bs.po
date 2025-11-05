@@ -13,6 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__active
 msgid "Active"
@@ -30,7 +31,6 @@ msgstr "Click to set a new type for purchase order."
 
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__company_id
-#: model_terms:ir.ui.view,arch_db:purchase_order_type.view_purchase_order_type_search
 msgid "Company"
 msgstr "Preduzeće"
 
@@ -39,11 +39,13 @@ msgstr "Preduzeće"
 msgid "Contact"
 msgstr "Kontakt"
 
+# taken from hr.po
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__create_date
 msgid "Created on"
@@ -54,6 +56,7 @@ msgstr "Kreirano"
 msgid "Description"
 msgstr "Opis"
 
+# taken from hr.po
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__display_name
 msgid "Display Name"
@@ -61,14 +64,13 @@ msgstr "Prikaži naziv"
 
 #. module: purchase_order_type
 #. odoo-python
-#: code:addons/purchase_order_type/models/purchase_order.py:0
+#: code:addons/purchase_order_type/models/purchase_order.py
 #, python-format
 msgid "Document's company and type's company mismatch"
 msgstr "Document's company and type's company mismatch"
 
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__sequence_id
-#: model_terms:ir.ui.view,arch_db:purchase_order_type.view_purchase_order_type_search
 msgid "Entry Sequence"
 msgstr "Ulazna sekvenca"
 
@@ -84,25 +86,28 @@ msgstr "ID"
 
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__incoterm_id
-#: model_terms:ir.ui.view,arch_db:purchase_order_type.view_purchase_order_type_search
 msgid "Incoterm"
 msgstr "Incoterm"
 
+# taken from hr.po
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
+# taken from hr.po
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
+# taken from hr.po
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
+# taken from hr.po
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__name
 msgid "Name"
@@ -125,15 +130,11 @@ msgstr "Nalog za nabavu"
 
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_res_partner__purchase_type
-#: model:ir.model.fields,field_description:purchase_order_type.field_res_users__purchase_type
-#: model_terms:ir.ui.view,arch_db:purchase_order_type.res_partner_purchase_type_form_view
 msgid "Purchase Order Type"
 msgstr "Nabavni Nalog Type"
 
 #. module: purchase_order_type
 #: model:ir.actions.act_window,name:purchase_order_type.action_purchase_order_type_view
-#: model:ir.ui.menu,name:purchase_order_type.menu_purchase_order_type
-#: model_terms:ir.ui.view,arch_db:purchase_order_type.view_purchase_order_type_search
 msgid "Purchase Order Types"
 msgstr "Nabavni Nalog Types"
 
@@ -142,10 +143,9 @@ msgstr "Nabavni Nalog Types"
 msgid "Sequence"
 msgstr "Sekvenca"
 
+# taken from hr.po
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order__order_type
-#: model_terms:ir.ui.view,arch_db:purchase_order_type.view_purchase_order_filter
-#: model_terms:ir.ui.view,arch_db:purchase_order_type.view_purchase_order_type_form
 msgid "Type"
 msgstr "Vrsta"
 

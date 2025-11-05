@@ -25,13 +25,11 @@ msgstr "Kontakt"
 
 #. module: purchase_partner_incoterm
 #: model:ir.model.fields,field_description:purchase_partner_incoterm.field_res_partner__purchase_incoterm_id
-#: model:ir.model.fields,field_description:purchase_partner_incoterm.field_res_users__purchase_incoterm_id
 msgid "Default Purchase Incoterm"
 msgstr "Zadani nabavni Incoterm"
 
 #. module: purchase_partner_incoterm
 #: model:ir.model.fields,field_description:purchase_partner_incoterm.field_res_partner__purchase_incoterm_address_id
-#: model:ir.model.fields,field_description:purchase_partner_incoterm.field_res_users__purchase_incoterm_address_id
 msgid "Default Purchase Incoterm Address"
 msgstr "Zadana adresa nabavnog Incoterma"
 

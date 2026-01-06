@@ -259,13 +259,11 @@ class PurchaseRequestLineMakePurchaseOrder(models.TransientModel):
                 po_line = available_po_lines[0]
                 po_line.purchase_request_lines = [(4, line.id)]
                 po_line.move_dest_ids |= line.move_dest_ids
-                po_line_product_uom_qty = po_line.product_uom._compute_quantity(
-                    po_line.product_uom_qty, alloc_uom
-                )
                 wizard_product_uom_qty = wizard_uom._compute_quantity(
                     item.product_qty, alloc_uom
                 )
-                all_qty = min(po_line_product_uom_qty, wizard_product_uom_qty)
+                # Allocation should be the PR line's requested qty, not min with existing PO line
+                all_qty = wizard_product_uom_qty
                 self.create_allocation(po_line, line, all_qty, alloc_uom)
             else:
                 po_line_data = self._prepare_purchase_order_line(purchase, item)

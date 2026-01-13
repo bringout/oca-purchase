@@ -380,7 +380,7 @@ msgstr "Kopiraj procijenjeni trošak u novu narudžbenicu"
 #. module: purchase_request
 #: model:ir.actions.act_window,name:purchase_request.action_purchase_request_line_make_purchase_order
 msgid "Create RFQ"
-msgstr "Kreirao"
+msgstr "Kreiraj RFQ"
 
 # taken from hr.po
 #. module: purchase_request
@@ -879,7 +879,7 @@ msgstr "Zahtjev za nabavu"
 #. module: purchase_request
 #. odoo-python
 #: code:addons/purchase_request/models/purchase_order.py
-#, fuzzy, python-format
+#, python-format
 msgid "Purchase Request %s has already been completed"
 msgstr "Zahtjev za nabau %s odbijen"
 
@@ -1560,3 +1560,8 @@ msgstr "Morate odabrati stavke iz iste vrste prijemnice."
 #, python-format
 msgid "You have to select lines from the same company."
 msgstr "Morate odabrati stavke iz iste kompanije."
+
+#. module: purchase_request
+#: model:ir.model.fields,field_description:purchase_request.field_purchase_request__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr ""

@@ -119,7 +119,7 @@ msgstr "Neriješeni izuzeci za upravljanje"
 #. module: purchase_request_exception
 #: model:ir.model,name:purchase_request_exception.model_purchase_request
 msgid "Purchase Request"
-msgstr "Zahtjev za nabavu"
+msgstr "Zahtjev za nabavku"
 
 #. module: purchase_request_exception
 #: model:ir.actions.act_window,name:purchase_request_exception.action_purchase_request_test_tree
@@ -129,7 +129,7 @@ msgstr "Pravila izuzetaka za zahtjeve za nabavku"
 #. module: purchase_request_exception
 #: model:ir.model,name:purchase_request_exception.model_purchase_request_line
 msgid "Purchase Request Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka zahtjeva za nabavku"
 
 #. module: purchase_request_exception
 #: model:ir.actions.server,name:purchase_request_exception.ir_cron_test_pr_request_except_ir_actions_server
@@ -140,7 +140,7 @@ msgstr ""
 #. module: purchase_request_exception
 #: model:ir.model.fields,field_description:purchase_request_exception.field_exception_rule__purchase_request_ids
 msgid "Purchase Requests"
-msgstr "Zahtjevi za nabavkom"
+msgstr "Zahtjevi za nabavke"
 
 #. module: purchase_request_exception
 #: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request_exception_confirm__related_model_id

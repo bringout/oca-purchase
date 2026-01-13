@@ -815,7 +815,7 @@ msgstr "Proizvodi za nabavku"
 #: model_terms:ir.ui.view,arch_db:purchase_request.purchase_request_line_search
 #, fuzzy
 msgid "Purchase Confirmed"
-msgstr "Zahtjevi za nabavkom"
+msgstr "Zahtjevi za nabavke"
 
 # taken from hr.po
 #. module: purchase_request
@@ -836,7 +836,7 @@ msgstr "Zahtjev za nabavku"
 #: model:ir.model,name:purchase_request.model_purchase_order
 #, fuzzy
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavkom"
+msgstr "Zahtjevi za nabavke"
 
 # taken from hr.po
 #. module: purchase_request
@@ -867,7 +867,7 @@ msgstr "Narudžbenica je potvrđena"
 #: model_terms:ir.ui.view,arch_db:purchase_request.view_purchase_request_form
 #, fuzzy
 msgid "Purchase Orders"
-msgstr "Zahtjevi za nabavkom"
+msgstr "Zahtjevi za nabavke"
 
 # taken from hr.po
 #. module: purchase_request
@@ -983,7 +983,7 @@ msgstr "Zahtjevi nabave za odobriti"
 #. module: purchase_request
 #: model:ir.actions.act_window,name:purchase_request.action_purchase_request_line_product_tree
 msgid "Purchase Requests"
-msgstr "Zahtjevi za nabavkom"
+msgstr "Zahtjevi za nabavke"
 
 # taken from hr.po
 #. module: purchase_request

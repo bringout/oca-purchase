@@ -194,7 +194,7 @@ msgstr "Kreiraj Purchase Order"
 #. module: purchase_blanket_order
 #: model:ir.actions.act_window,name:purchase_blanket_order.action_create_purchase_order
 msgid "Create RFQ"
-msgstr "Kreirao"
+msgstr "Kreiraj RFQ"
 
 #. module: purchase_blanket_order
 #: model_terms:ir.ui.view,arch_db:purchase_blanket_order.view_create_purchase_order
@@ -588,7 +588,7 @@ msgstr "Količina za narudžbu"
 #: code:addons/purchase_blanket_order/wizard/create_purchase_orders.py
 #, python-format
 msgid "RFQ"
-msgstr "ZZP (RFQ)"
+msgstr "RFQ"
 
 #. module: purchase_blanket_order
 #: model_terms:ir.ui.view,arch_db:purchase_blanket_order.view_purchase_blanket_order_form

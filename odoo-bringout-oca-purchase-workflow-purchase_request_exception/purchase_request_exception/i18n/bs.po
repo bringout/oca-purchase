@@ -140,7 +140,7 @@ msgstr ""
 #. module: purchase_request_exception
 #: model:ir.model.fields,field_description:purchase_request_exception.field_exception_rule__purchase_request_ids
 msgid "Purchase Requests"
-msgstr "Zahtjevi za nabavom"
+msgstr "Zahtjevi za nabavkom"
 
 #. module: purchase_request_exception
 #: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request_exception_confirm__related_model_id

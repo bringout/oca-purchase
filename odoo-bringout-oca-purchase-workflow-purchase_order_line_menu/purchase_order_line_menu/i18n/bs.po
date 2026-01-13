@@ -102,7 +102,7 @@ msgstr "Stavke narudžbi"
 #. module: purchase_order_line_menu
 #: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
 msgid "RFQ"
-msgstr "ZZP (RFQ)"
+msgstr "RFQ"
 
 #. module: purchase_order_line_menu
 #: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search

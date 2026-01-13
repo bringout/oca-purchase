@@ -35,7 +35,7 @@ msgstr "Stavka zadnje nabave"
 #. module: purchase_last_price_info
 #: model:ir.model.fields,field_description:purchase_last_price_info.field_product_product__last_purchase_line_ids
 msgid "Last Purchase Order Lines"
-msgstr "Stavke zadnjih nabava"
+msgstr "Stavke zadnjih nabavka"
 
 # taken from hr.po
 #. module: purchase_last_price_info
@@ -70,7 +70,7 @@ msgstr "Varijanta proizvoda"
 #. module: purchase_last_price_info
 #: model_terms:ir.ui.view,arch_db:purchase_last_price_info.product_product_last_purchase_info_form_view
 msgid "Purchase"
-msgstr "Nabava"
+msgstr "Nabavka"
 
 # taken from hr.po
 #. module: purchase_last_price_info

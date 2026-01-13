@@ -65,7 +65,7 @@ msgstr "Varijanta proizvoda"
 #. module: purchase_allowed_product
 #: model:ir.model,name:purchase_allowed_product.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nabavni nalog"
+msgstr "Zahtjevi za nabavom"
 
 # taken from hr.po
 #. module: purchase_allowed_product

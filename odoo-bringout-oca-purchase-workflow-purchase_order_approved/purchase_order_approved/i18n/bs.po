@@ -52,7 +52,7 @@ msgstr "Uvijek"
 #. module: purchase_order_approved
 #: model:ir.model.fields.selection,name:purchase_order_approved.selection__purchase_order__state__approved
 msgid "Approved"
-msgstr "Odobren"
+msgstr "Odobreno"
 
 #. module: purchase_order_approved
 #: model_terms:ir.ui.view,arch_db:purchase_order_approved.view_purchase_order_filter
@@ -75,7 +75,7 @@ msgstr "Poduzeća"
 #: model:ir.model.fields,field_description:purchase_order_approved.field_purchase_order__company_id
 #, fuzzy
 msgid "Company"
-msgstr "Poduzeća"
+msgstr "Kompanija"
 
 #. module: purchase_order_approved
 #: model:ir.model,name:purchase_order_approved.model_res_partner
@@ -134,7 +134,7 @@ msgstr "Postavke grupiranja nabavki za prokuraciju"
 #. module: purchase_order_approved
 #: model:ir.model,name:purchase_order_approved.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_order_approved
 #: model:ir.model.fields,field_description:purchase_order_approved.field_res_partner__purchase_requires_second_approval

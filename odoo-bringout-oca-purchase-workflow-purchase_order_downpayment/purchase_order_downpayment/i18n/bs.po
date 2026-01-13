@@ -85,17 +85,17 @@ msgstr "ID"
 #. module: purchase_order_downpayment
 #: model:ir.model.fields,field_description:purchase_order_downpayment.field_purchase_order_down_payment_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: purchase_order_downpayment
 #: model:ir.model.fields,field_description:purchase_order_downpayment.field_purchase_order_down_payment_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: purchase_order_downpayment
 #: model:ir.model.fields,field_description:purchase_order_downpayment.field_purchase_order_down_payment_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: purchase_order_downpayment
 #: model:ir.model.fields,field_description:purchase_order_downpayment.field_purchase_order_down_payment_wizard__order_id
@@ -134,7 +134,7 @@ msgstr "Nabavke"
 #. module: purchase_order_downpayment
 #: model:ir.model,name:purchase_order_downpayment.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_order_downpayment
 #: model:ir.model,name:purchase_order_downpayment.model_purchase_order_down_payment_wizard

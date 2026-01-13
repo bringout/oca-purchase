@@ -31,7 +31,7 @@ msgstr "Nabavni Force Fakturad qty product 2"
 #. module: purchase_force_invoiced_quantity
 #: model:ir.model,name:purchase_force_invoiced_quantity.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka zahtjeva za nabavu"
 
 #. module: purchase_force_invoiced_quantity
 #: model:ir.model.fields,help:purchase_force_invoiced_quantity.field_purchase_order_line__force_invoiced

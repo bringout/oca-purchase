@@ -16,7 +16,7 @@ msgstr ""
 #. module: purchase_sale_link_by_origin
 #: model:ir.model,name:purchase_sale_link_by_origin.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_sale_link_by_origin
 #: model:ir.model,name:purchase_sale_link_by_origin.model_sale_order

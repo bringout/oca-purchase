@@ -48,7 +48,7 @@ msgstr "Datum početka promocije mora biti prije datuma završetka."
 #. module: purchase_vendor_promotion
 #: model:ir.model,name:purchase_vendor_promotion.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka zahtjeva za nabavu"
 
 #. module: purchase_vendor_promotion
 #: model:ir.model,name:purchase_vendor_promotion.model_product_supplierinfo

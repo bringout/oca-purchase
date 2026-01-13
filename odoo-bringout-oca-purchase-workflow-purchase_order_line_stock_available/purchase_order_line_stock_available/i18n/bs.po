@@ -34,4 +34,4 @@ msgstr "Projicirana količina"
 #. module: purchase_order_line_stock_available
 #: model:ir.model,name:purchase_order_line_stock_available.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka zahtjeva za nabavu"

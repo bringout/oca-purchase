@@ -53,12 +53,12 @@ msgstr "Postavke grupiranja nabavki za prokuraciju"
 #. module: purchase_order_duplicate_check
 #: model:ir.model,name:purchase_order_duplicate_check.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_order_duplicate_check
 #: model:ir.model,name:purchase_order_duplicate_check.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka zahtjeva za nabavu"
 
 #. module: purchase_order_duplicate_check
 #. odoo-python

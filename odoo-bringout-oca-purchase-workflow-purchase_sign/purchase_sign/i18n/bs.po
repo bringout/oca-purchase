@@ -126,7 +126,7 @@ msgstr "Online potpis za nabavku"
 #. module: purchase_sign
 #: model:ir.model,name:purchase_sign.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_sign
 #: model:ir.model.fields,help:purchase_sign.field_purchase_order__require_signature

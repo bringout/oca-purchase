@@ -35,7 +35,7 @@ msgstr "Ispis"
 #. module: purchase_no_rfq
 #: model:ir.model,name:purchase_no_rfq.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_no_rfq
 #: model_terms:ir.ui.view,arch_db:purchase_no_rfq.report_purchaseorder_document

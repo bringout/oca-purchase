@@ -376,7 +376,7 @@ msgstr "Kopiraj opise u novi nalog"
 msgid "Copy estimative cost to new PO"
 msgstr "Kopiraj procijenjeni trošak u novu narudžbenicu"
 
-# taken from hr.po
+# manually edited for variant: default
 #. module: purchase_request
 #: model:ir.actions.act_window,name:purchase_request.action_purchase_request_line_make_purchase_order
 msgid "Create RFQ"

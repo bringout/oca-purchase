@@ -51,7 +51,7 @@ msgstr "<strong>Validity Datum:</strong>"
 #. module: purchase_blanket_order
 #: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__message_needaction
 msgid "Action Needed"
-msgstr "Potrebna akcija"
+msgstr "Potrebna radnja"
 
 #. module: purchase_blanket_order
 #: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__activity_ids
@@ -61,7 +61,7 @@ msgstr "Aktivnosti"
 #. module: purchase_blanket_order
 #: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Dekoracija iznimke aktivnosti"
+msgstr "Dekoracija izuzetka aktivnosti"
 
 #. module: purchase_blanket_order
 #: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__activity_state
@@ -151,7 +151,7 @@ msgstr "Otkaži"
 #. module: purchase_blanket_order
 #: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__cancelled
 msgid "Cancelled"
-msgstr "Otkazan"
+msgstr "Otkazano"
 
 #. module: purchase_blanket_order
 #. odoo-python
@@ -173,7 +173,7 @@ msgstr "Nekonzumni"
 #. module: purchase_blanket_order
 #: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: purchase_blanket_order
 #: model_terms:ir.ui.view,arch_db:purchase_blanket_order.view_purchase_blanket_order_form
@@ -190,10 +190,11 @@ msgstr "Potvrđeno"
 msgid "Create Purchase Order"
 msgstr "Kreiraj Purchase Order"
 
+# manually edited for variant: default
 #. module: purchase_blanket_order
 #: model:ir.actions.act_window,name:purchase_blanket_order.action_create_purchase_order
 msgid "Create RFQ"
-msgstr "Kreirao"
+msgstr "Kreiraj RFQ"
 
 #. module: purchase_blanket_order
 #: model_terms:ir.ui.view,arch_db:purchase_blanket_order.view_create_purchase_order
@@ -260,7 +261,7 @@ msgstr "Prikazani naziv"
 #. module: purchase_blanket_order
 #: model:ir.model.fields.selection,name:purchase_blanket_order.selection__purchase_blanket_order__state__done
 msgid "Done"
-msgstr "Gotovo"
+msgstr "Dovršeno"
 
 #. module: purchase_blanket_order
 #: model:ir.model.fields.selection,name:purchase_blanket_order.selection__purchase_blanket_order__state__draft
@@ -285,12 +286,12 @@ msgstr "Fiskalna pozicija"
 #. module: purchase_blanket_order
 #: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__message_follower_ids
 msgid "Followers"
-msgstr "Pratioci"
+msgstr "Pratitelji"
 
 #. module: purchase_blanket_order
 #: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratioci (Partneri)"
+msgstr "Pratitelji (partneri)"
 
 #. module: purchase_blanket_order
 #: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order__activity_type_icon
@@ -350,17 +351,17 @@ msgstr "Pratilac"
 #. module: purchase_blanket_order
 #: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: purchase_blanket_order
 #: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: purchase_blanket_order
 #: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: purchase_blanket_order
 #: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_wizard__line_ids
@@ -380,7 +381,7 @@ msgstr "Greška pri isporuci poruke"
 #. module: purchase_blanket_order
 #: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__message_ids
 msgid "Messages"
-msgstr "Poruke"
+msgstr "Nepročitane poruke"
 
 #. module: purchase_blanket_order
 #. odoo-python
@@ -521,7 +522,7 @@ msgstr "Postavke grupiranja nabavki za prokuraciju"
 #. module: purchase_blanket_order
 #: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__product_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: purchase_blanket_order
 #: model:ir.actions.report,name:purchase_blanket_order.report_blanket_order
@@ -558,17 +559,17 @@ msgstr "Broj nabavki"
 #. module: purchase_blanket_order
 #: model:ir.model,name:purchase_blanket_order.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_blanket_order
 #: model:ir.model,name:purchase_blanket_order.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka zahtjeva za nabavu"
 
 #. module: purchase_blanket_order
 #: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order_line__purchase_lines
 msgid "Purchase Order Lines"
-msgstr "Stavke narudžbenice"
+msgstr "Stavke zahtjeva za nabavu"
 
 #. module: purchase_blanket_order
 #. odoo-python
@@ -663,7 +664,7 @@ msgstr "Broj blanket naloga"
 #. module: purchase_blanket_order
 #: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__date_start
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Datum početka"
 
 #. module: purchase_blanket_order
 #: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__state
@@ -799,7 +800,7 @@ msgstr "Upozorenja blanket naloga"
 #. module: purchase_blanket_order
 #: model:ir.model.fields,field_description:purchase_blanket_order.field_purchase_blanket_order__website_message_ids
 msgid "Website Messages"
-msgstr "Poruke sa website-a"
+msgstr "Nepročitane poruke"
 
 #. module: purchase_blanket_order
 #: model:ir.model.fields,help:purchase_blanket_order.field_purchase_blanket_order__website_message_ids
@@ -846,7 +847,7 @@ msgstr "Originalna količina blanket naloga"
 #: code:addons/purchase_blanket_order/wizard/create_purchase_orders.py
 #, python-format
 msgid "You have to select lines from the same company."
-msgstr "Preostala količina"
+msgstr "Morate odabrati stavke iz iste kompanije."
 
 #. module: purchase_blanket_order
 #. odoo-python

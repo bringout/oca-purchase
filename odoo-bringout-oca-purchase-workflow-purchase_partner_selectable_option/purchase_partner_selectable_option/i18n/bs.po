@@ -21,7 +21,7 @@ msgstr "Kontakt"
 #. module: purchase_partner_selectable_option
 #: model:ir.model,name:purchase_partner_selectable_option.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_partner_selectable_option
 #: model_terms:ir.ui.view,arch_db:purchase_partner_selectable_option.view_partner_form

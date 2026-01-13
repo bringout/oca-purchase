@@ -21,7 +21,7 @@ msgstr "Osigurava sljedivost uskladištivog proizvoda u vašem skladištu."
 #. module: purchase_lot
 #: model:ir.model,name:purchase_lot.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka zahtjeva za nabavu"
 
 #. module: purchase_lot
 #: model:ir.model.fields,field_description:purchase_lot.field_purchase_order_line__lot_id

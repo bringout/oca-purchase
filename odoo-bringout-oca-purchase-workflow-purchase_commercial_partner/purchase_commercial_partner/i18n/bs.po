@@ -23,4 +23,4 @@ msgstr "Dobavljač"
 #. module: purchase_commercial_partner
 #: model:ir.model,name:purchase_commercial_partner.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nabavni nalog"
+msgstr "Zahtjevi za nabavom"

@@ -16,12 +16,12 @@ msgstr ""
 #. module: purchase_line_procurement_group
 #: model:ir.model.fields,field_description:purchase_line_procurement_group.field_purchase_order_line__procurement_group_id
 msgid "Procurement Group"
-msgstr "Grupa naručivanja"
+msgstr "Nalog za nabavu"
 
 #. module: purchase_line_procurement_group
 #: model:ir.model,name:purchase_line_procurement_group.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka zahtjeva za nabavu"
 
 #. module: purchase_line_procurement_group
 #: model:ir.model,name:purchase_line_procurement_group.model_stock_move

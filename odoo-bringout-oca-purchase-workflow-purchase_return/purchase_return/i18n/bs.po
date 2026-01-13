@@ -73,7 +73,7 @@ msgstr "<strong>Datum zaht.</strong>"
 #. module: purchase_return
 #: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
 msgid "<strong>Description</strong>"
-msgstr "<strong>Opis</strong>"
+msgstr "<strong>Opis</strong><br/>"
 
 #. module: purchase_return
 #: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
@@ -88,7 +88,7 @@ msgstr "<strong>Referent nabave:</strong>"
 #. module: purchase_return
 #: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
 msgid "<strong>Qty</strong>"
-msgstr "<strong>Kol</strong>"
+msgstr "<strong>Količina</strong>"
 
 #. module: purchase_return
 #: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
@@ -138,7 +138,7 @@ msgstr "Upozorenje pristupa"
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__message_needaction
 msgid "Action Needed"
-msgstr "Potrebna akcija"
+msgstr "Potrebna radnja"
 
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__activity_ids
@@ -148,7 +148,7 @@ msgstr "Aktivnosti"
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Dekoracija iznimke aktivnosti"
+msgstr "Dekoracija izuzetka aktivnosti"
 
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__activity_state
@@ -238,7 +238,7 @@ msgstr "Otkaži"
 #. module: purchase_return
 #: model:ir.model.fields.selection,name:purchase_return.selection__purchase_return_order__state__cancel
 msgid "Cancelled"
-msgstr "Otkazan"
+msgstr "Otkazano"
 
 #. module: purchase_return
 #: model_terms:ir.ui.view,arch_db:purchase_return.report_purchasereturnorder_document
@@ -264,7 +264,7 @@ msgstr "Kategorija"
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: purchase_return
 #. odoo-python
@@ -400,12 +400,12 @@ msgstr "Fiskalna pozicija"
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__message_follower_ids
 msgid "Followers"
-msgstr "Pratioci"
+msgstr "Pratitelji"
 
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratioci (Partneri)"
+msgstr "Pratitelji (partneri)"
 
 #. module: purchase_return
 #: model:ir.model.fields,help:purchase_return.field_purchase_return_order__activity_type_icon
@@ -431,7 +431,7 @@ msgstr "Buduće aktivnosti"
 #. module: purchase_return
 #: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_line_search
 msgid "Group By"
-msgstr "Grupiši po"
+msgstr "Grupiši po..."
 
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__has_message
@@ -520,17 +520,17 @@ msgstr ""
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: purchase_return
 #: model_terms:ir.ui.view,arch_db:purchase_return.view_purchase_return_order_filter
@@ -570,7 +570,7 @@ msgstr "Greška pri isporuci poruke"
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__message_ids
 msgid "Messages"
-msgstr "Poruke"
+msgstr "Nepročitane poruke"
 
 #. module: purchase_return
 #: model:ir.model.constraint,message:purchase_return.constraint_purchase_return_order_line_accountable_required_fields
@@ -685,7 +685,7 @@ msgstr "Stavke naloga"
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__name
 msgid "Order Reference"
-msgstr "Referenca narudžbe"
+msgstr "Referenca zahtjeva"
 
 #. module: purchase_return
 #: model_terms:ir.ui.view,arch_db:purchase_return.track_po_line_template
@@ -731,7 +731,7 @@ msgstr "Ispiši povrat"
 #. module: purchase_return
 #: model:ir.model,name:purchase_return.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: purchase_return
 #: model:ir.model,name:purchase_return.model_product_category
@@ -741,19 +741,19 @@ msgstr "Kategorija proizvoda"
 #. module: purchase_return
 #: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
 msgid "Products"
-msgstr "Artikli"
+msgstr "Proizvodi"
 
 #. module: purchase_return
 #. odoo-python
 #: code:addons/purchase_return/models/purchase_return_order.py
 #, python-format
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_return
 #: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_line_form2
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka zahtjeva za nabavu"
 
 #. module: purchase_return
 #: model:ir.model.fields.selection,name:purchase_return.selection__purchase_return_order__state__purchase
@@ -1082,7 +1082,7 @@ msgstr "Ovaj ulazni račun promijenio je: %s"
 #. module: purchase_return
 #: model:ir.model.fields.selection,name:purchase_return.selection__purchase_return_order__state__to_approve
 msgid "To Approve"
-msgstr "Za odobriti"
+msgstr "Odobriti"
 
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__qty_to_invoice
@@ -1215,7 +1215,7 @@ msgstr "Upozorenja"
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__website_message_ids
 msgid "Website Messages"
-msgstr "Poruke sa website-a"
+msgstr "Nepročitane poruke"
 
 #. module: purchase_return
 #: model:ir.model.fields,help:purchase_return.field_purchase_return_order__website_message_ids

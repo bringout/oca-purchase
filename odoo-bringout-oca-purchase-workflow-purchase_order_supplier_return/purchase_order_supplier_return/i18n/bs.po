@@ -17,4 +17,4 @@ msgstr ""
 #. module: purchase_order_supplier_return
 #: model:ir.model,name:purchase_order_supplier_return.model_stock_move
 msgid "Stock Move"
-msgstr "Skladišni prijenos"
+msgstr "Skladišno kretanje"

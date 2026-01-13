@@ -65,7 +65,7 @@ msgstr "Varijante proizvoda"
 #. module: purchase_quick
 #: model:ir.model,name:purchase_quick.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_quick
 #: model:ir.model.fields,field_description:purchase_quick.field_product_product__seller_price

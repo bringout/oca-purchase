@@ -61,7 +61,7 @@ msgstr "Broj prethodnih revizija"
 #. module: purchase_order_revision
 #: model:ir.model,name:purchase_order_revision.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_order_revision
 #: model:ir.model.fields,field_description:purchase_order_revision.field_purchase_order__revision_number

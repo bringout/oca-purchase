@@ -56,7 +56,7 @@ msgstr "Narudžbenice validirane i spremne za potvrdu"
 #. module: purchase_tier_validation
 #: model:ir.model,name:purchase_tier_validation.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_tier_validation
 #: model:ir.model.fields,field_description:purchase_tier_validation.field_purchase_order__rejected

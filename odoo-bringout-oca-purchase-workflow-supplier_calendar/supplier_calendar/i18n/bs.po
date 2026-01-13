@@ -36,7 +36,7 @@ msgstr "Prirodni dani"
 #. module: supplier_calendar
 #: model:ir.model,name:supplier_calendar.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka zahtjeva za nabavu"
 
 #. module: supplier_calendar
 #: model:ir.model,name:supplier_calendar.model_stock_rule

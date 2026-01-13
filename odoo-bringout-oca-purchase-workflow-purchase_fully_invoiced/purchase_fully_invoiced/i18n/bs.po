@@ -36,7 +36,7 @@ msgstr "Posted Računing Status"
 #. module: purchase_fully_invoiced
 #: model:ir.model,name:purchase_fully_invoiced.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_fully_invoiced
 #: model_terms:ir.ui.view,arch_db:purchase_fully_invoiced.fully_invoice_fully_invoiced_filters_view_search

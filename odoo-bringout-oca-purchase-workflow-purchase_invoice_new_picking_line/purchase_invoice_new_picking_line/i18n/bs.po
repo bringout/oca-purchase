@@ -16,4 +16,4 @@ msgstr ""
 #. module: purchase_invoice_new_picking_line
 #: model:ir.model,name:purchase_invoice_new_picking_line.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"

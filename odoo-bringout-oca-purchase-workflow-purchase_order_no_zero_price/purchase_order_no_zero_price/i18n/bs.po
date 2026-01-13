@@ -23,4 +23,4 @@ msgstr "Missing unit price for Proizvods: %s"
 #. module: purchase_order_no_zero_price
 #: model:ir.model,name:purchase_order_no_zero_price.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka zahtjeva za nabavu"

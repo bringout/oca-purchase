@@ -69,7 +69,7 @@ msgstr ""
 #. module: purchase_only_by_packaging
 #: model:ir.model,name:purchase_only_by_packaging.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: purchase_only_by_packaging
 #. odoo-python
@@ -115,7 +115,7 @@ msgstr "Varijanta proizvoda"
 #. module: purchase_only_by_packaging
 #: model:ir.model,name:purchase_only_by_packaging.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka zahtjeva za nabavu"
 
 #. module: purchase_only_by_packaging
 #: model:ir.model.fields,help:purchase_only_by_packaging.field_product_product__purchase_only_by_packaging

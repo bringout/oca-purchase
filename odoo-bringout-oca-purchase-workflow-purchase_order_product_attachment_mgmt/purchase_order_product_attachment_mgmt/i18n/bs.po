@@ -21,4 +21,4 @@ msgstr "Prilozi"
 #. module: purchase_order_product_attachment_mgmt
 #: model:ir.model,name:purchase_order_product_attachment_mgmt.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"

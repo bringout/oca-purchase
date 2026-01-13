@@ -18,13 +18,13 @@ msgstr ""
 #: model:ir.model,name:purchase_delivery_split_date.model_purchase_order
 #, fuzzy
 msgid "Purchase Order"
-msgstr "Stavka naloga za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 # taken from hr.po
 #. module: purchase_delivery_split_date
 #: model:ir.model,name:purchase_delivery_split_date.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka zahtjeva za nabavu"
 
 #. module: purchase_delivery_split_date
 #: model:ir.model,name:purchase_delivery_split_date.model_stock_picking

@@ -45,7 +45,7 @@ msgstr "Pakiranje proizvoda"
 #. module: purchase_packaging_default
 #: model:ir.model,name:purchase_packaging_default.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka zahtjeva za nabavu"
 
 #. module: purchase_packaging_default
 #: model:ir.model.fields,field_description:purchase_packaging_default.field_res_company__purchase_packaging_default_enabled

@@ -56,17 +56,17 @@ msgstr "ID korisnika se može uređivati"
 #. module: purchase_security
 #: model:ir.model.fields,field_description:purchase_security.field_purchase_team____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: purchase_security
 #: model:ir.model.fields,field_description:purchase_security.field_purchase_team__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: purchase_security
 #: model:ir.model.fields,field_description:purchase_security.field_purchase_team__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: purchase_security
 #: model_terms:ir.ui.view,arch_db:purchase_security.purchase_team_form
@@ -81,7 +81,7 @@ msgstr "Naziv:"
 #. module: purchase_security
 #: model:ir.model,name:purchase_security.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_security
 #: model:ir.model,name:purchase_security.model_purchase_team

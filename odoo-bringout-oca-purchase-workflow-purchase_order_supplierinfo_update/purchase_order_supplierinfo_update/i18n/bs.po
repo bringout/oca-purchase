@@ -16,9 +16,9 @@ msgstr ""
 #. module: purchase_order_supplierinfo_update
 #: model:ir.model,name:purchase_order_supplierinfo_update.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_order_supplierinfo_update
 #: model:ir.model,name:purchase_order_supplierinfo_update.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka zahtjeva za nabavu"

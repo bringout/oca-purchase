@@ -17,4 +17,4 @@ msgstr ""
 #. module: purchase_stock_packaging
 #: model:ir.model,name:purchase_stock_packaging.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka narudžbe"
+msgstr "Stavka zahtjeva za nabavu"

@@ -52,7 +52,7 @@ msgstr "Djelomično zaprimljeno"
 #. module: purchase_reception_status
 #: model:ir.model,name:purchase_reception_status.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_reception_status
 #: model:ir.model.fields,field_description:purchase_reception_status.field_purchase_order__reception_status

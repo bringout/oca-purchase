@@ -51,12 +51,12 @@ msgstr "Number of Requests for Quotations"
 #. module: purchase_order_type_dashboard
 #: model:ir.actions.act_window,name:purchase_order_type_dashboard.action_purchase_order_from_dashboard
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_order_type_dashboard
 #: model:ir.model.fields,field_description:purchase_order_type_dashboard.field_purchase_order_type__purchase_order_ids
 msgid "Purchase Orders"
-msgstr "Nalozi u nabavi"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_order_type_dashboard
 #: model:ir.model.fields,field_description:purchase_order_type_dashboard.field_purchase_order_type__state_rfq_po_count

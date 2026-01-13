@@ -53,7 +53,7 @@ msgstr "Standardni uslovi nabavke"
 #. module: purchase_default_terms_conditions
 #: model:ir.model,name:purchase_default_terms_conditions.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nalog za nabavu"
+msgstr "Zahtjevi za nabavom"
 
 #. module: purchase_default_terms_conditions
 #: model:ir.model.fields,field_description:purchase_default_terms_conditions.field_res_config_settings__purchase_note

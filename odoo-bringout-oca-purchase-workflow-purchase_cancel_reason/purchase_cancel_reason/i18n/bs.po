@@ -22,7 +22,7 @@ msgstr "Zatražite razlog za otkazivanje nabavnog naloga."
 #. module: purchase_cancel_reason
 #: model_terms:ir.ui.view,arch_db:purchase_cancel_reason.purchase_order_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: purchase_cancel_reason
 #: model_terms:ir.ui.view,arch_db:purchase_cancel_reason.purchase_order_form
@@ -59,7 +59,7 @@ msgstr "Kreirano"
 #. module: purchase_cancel_reason
 #: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Prikaži naziv"
 
 #. module: purchase_cancel_reason
 #: model:ir.model.fields,field_description:purchase_cancel_reason.field_purchase_order_cancel__id
@@ -98,7 +98,7 @@ msgstr "Odabran je drugi pružatelj usluge"
 #. module: purchase_cancel_reason
 #: model:ir.model,name:purchase_cancel_reason.model_purchase_order
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nabavni nalog"
 
 #. module: purchase_cancel_reason
 #: model:ir.actions.act_window,name:purchase_cancel_reason.action_purchase_order_cancel_reason

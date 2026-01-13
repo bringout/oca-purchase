@@ -77,7 +77,7 @@ msgstr "Grupiranje kategorije proizvoda"
 #. module: procurement_purchase_no_grouping
 #: model:ir.model,name:procurement_purchase_no_grouping.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka naloga za nabavu"
 
 #. module: procurement_purchase_no_grouping
 #: model:ir.model.fields,help:procurement_purchase_no_grouping.field_product_category__procured_purchase_grouping

@@ -41,4 +41,4 @@ msgstr "Incoterm adresa"
 #. module: purchase_partner_incoterm
 #: model:ir.model,name:purchase_partner_incoterm.model_purchase_order
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalog za nabavu"

@@ -76,7 +76,7 @@ msgstr "Pop. 3(%)"
 #. module: purchase_triple_discount
 #: model:ir.model,name:purchase_triple_discount.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka naloga za nabavu"
 
 # taken from hr.po
 #. module: purchase_triple_discount

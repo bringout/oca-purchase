@@ -29,13 +29,13 @@ msgstr "Zaprimanje u tijeku"
 #. module: purchase_open_qty
 #: model:ir.model,name:purchase_open_qty.model_purchase_order
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nabavni nalog"
 
 # taken from hr.po
 #. module: purchase_open_qty
 #: model:ir.model,name:purchase_open_qty.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka naloga za nabavu"
 
 # taken from hr.po
 #. module: purchase_open_qty

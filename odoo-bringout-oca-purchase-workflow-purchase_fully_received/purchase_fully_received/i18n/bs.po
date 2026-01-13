@@ -21,7 +21,7 @@ msgstr "Potpuno isporučeno"
 #. module: purchase_fully_received
 #: model:ir.model,name:purchase_fully_received.model_purchase_order
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalog za nabavu"
 
 #. module: purchase_fully_received
 #: model_terms:ir.ui.view,arch_db:purchase_fully_received.fully_invoice_fully_invoiced_filters_view_search

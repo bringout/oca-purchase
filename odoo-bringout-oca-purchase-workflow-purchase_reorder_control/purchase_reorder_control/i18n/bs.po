@@ -26,7 +26,7 @@ msgstr "Pravilo minimalne zalihe"
 #. module: purchase_reorder_control
 #: model:ir.model,name:purchase_reorder_control.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: purchase_reorder_control
 #. odoo-python

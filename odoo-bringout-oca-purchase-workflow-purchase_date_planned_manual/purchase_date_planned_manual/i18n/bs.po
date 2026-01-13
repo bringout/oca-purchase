@@ -26,7 +26,7 @@ msgstr "Planirano je da kasni"
 #. module: purchase_date_planned_manual
 #: model:ir.model,name:purchase_date_planned_manual.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka naloga za nabavu"
 
 #. module: purchase_date_planned_manual
 #. odoo-python

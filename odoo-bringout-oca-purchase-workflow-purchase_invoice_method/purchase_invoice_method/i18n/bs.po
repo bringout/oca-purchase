@@ -21,9 +21,9 @@ msgstr "Metoda fakturisanja"
 #. module: purchase_invoice_method
 #: model:ir.model,name:purchase_invoice_method.model_purchase_order
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalog za nabavu"
 
 #. module: purchase_invoice_method
 #: model:ir.model,name:purchase_invoice_method.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka naloga za nabavu"

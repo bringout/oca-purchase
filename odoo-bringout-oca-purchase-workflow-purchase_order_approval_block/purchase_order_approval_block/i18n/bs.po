@@ -69,17 +69,17 @@ msgstr "ID"
 #. module: purchase_order_approval_block
 #: model:ir.model.fields,field_description:purchase_order_approval_block.field_purchase_approval_block_reason____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: purchase_order_approval_block
 #: model:ir.model.fields,field_description:purchase_order_approval_block.field_purchase_approval_block_reason__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: purchase_order_approval_block
 #: model:ir.model.fields,field_description:purchase_order_approval_block.field_purchase_approval_block_reason__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: purchase_order_approval_block
 #: model:ir.model.fields,field_description:purchase_order_approval_block.field_purchase_approval_block_reason__name
@@ -113,7 +113,7 @@ msgstr "Nabavni Blokada odobrenja Reasons"
 #. module: purchase_order_approval_block
 #: model:ir.model,name:purchase_order_approval_block.model_purchase_order
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalog za nabavu"
 
 #. module: purchase_order_approval_block
 #: model:ir.model,name:purchase_order_approval_block.model_purchase_exception_confirm

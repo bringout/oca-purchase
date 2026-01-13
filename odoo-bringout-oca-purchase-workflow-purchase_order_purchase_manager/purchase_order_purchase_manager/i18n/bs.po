@@ -21,4 +21,4 @@ msgstr "Kupuje"
 #. module: purchase_order_purchase_manager
 #: model:ir.model,name:purchase_order_purchase_manager.model_purchase_order
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalog za nabavu"

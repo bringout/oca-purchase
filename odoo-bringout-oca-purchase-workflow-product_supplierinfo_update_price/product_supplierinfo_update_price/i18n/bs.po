@@ -21,7 +21,7 @@ msgstr "Can Update Product Supplierinfo"
 #. module: product_supplierinfo_update_price
 #: model:ir.model,name:product_supplierinfo_update_price.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka naloga za nabavu"
 
 #. module: product_supplierinfo_update_price
 #: model_terms:ir.ui.view,arch_db:product_supplierinfo_update_price.purchase_order_form

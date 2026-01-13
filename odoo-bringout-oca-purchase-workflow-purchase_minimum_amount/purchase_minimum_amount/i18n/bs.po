@@ -31,9 +31,9 @@ msgstr "Nabavni Minimum Iznos"
 #. module: purchase_minimum_amount
 #: model:ir.model,name:purchase_minimum_amount.model_purchase_order
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalog za nabavu"
 
 #. module: purchase_minimum_amount
 #: model:ir.model,name:purchase_minimum_amount.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka naloga za nabavu"

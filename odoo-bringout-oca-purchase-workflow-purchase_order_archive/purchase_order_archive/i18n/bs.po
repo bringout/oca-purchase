@@ -33,4 +33,4 @@ msgstr "Only 'Locked' or 'Canceled' orders can be archived"
 #. module: purchase_order_archive
 #: model:ir.model,name:purchase_order_archive.model_purchase_order
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalog za nabavu"

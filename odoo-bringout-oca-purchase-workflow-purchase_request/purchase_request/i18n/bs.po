@@ -376,11 +376,11 @@ msgstr "Kopiraj opise u novi nalog"
 msgid "Copy estimative cost to new PO"
 msgstr "Kopiraj procijenjeni trošak u novu narudžbenicu"
 
-# manually edited for variant: default
+# taken from hr.po
 #. module: purchase_request
 #: model:ir.actions.act_window,name:purchase_request.action_purchase_request_line_make_purchase_order
 msgid "Create RFQ"
-msgstr "Kreiraj RFQ"
+msgstr "Kreirao"
 
 # taken from hr.po
 #. module: purchase_request
@@ -879,7 +879,7 @@ msgstr "Zahtjev za nabavu"
 #. module: purchase_request
 #. odoo-python
 #: code:addons/purchase_request/models/purchase_order.py
-#, python-format
+#, fuzzy, python-format
 msgid "Purchase Request %s has already been completed"
 msgstr "Zahtjev za nabau %s odbijen"
 

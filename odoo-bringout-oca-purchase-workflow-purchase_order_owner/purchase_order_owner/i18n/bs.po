@@ -26,7 +26,7 @@ msgstr "Vlasnik"
 #. module: purchase_order_owner
 #: model:ir.model,name:purchase_order_owner.model_purchase_order
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalog za nabavu"
 
 #. module: purchase_order_owner
 #: model:ir.model.fields,help:purchase_order_owner.field_purchase_order__owner_id

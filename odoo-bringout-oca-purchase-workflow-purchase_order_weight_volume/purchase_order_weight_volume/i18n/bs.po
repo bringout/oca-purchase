@@ -66,12 +66,12 @@ msgstr "Postavke grupiranja nabavki za prokuraciju"
 #. module: purchase_order_weight_volume
 #: model:ir.model,name:purchase_order_weight_volume.model_purchase_order
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalog za nabavu"
 
 #. module: purchase_order_weight_volume
 #: model:ir.model,name:purchase_order_weight_volume.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka naloga za nabavu"
 
 #. module: purchase_order_weight_volume
 #: model:ir.model.fields,field_description:purchase_order_weight_volume.field_purchase_order__total_volume

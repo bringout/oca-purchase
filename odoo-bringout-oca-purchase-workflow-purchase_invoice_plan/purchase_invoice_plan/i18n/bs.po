@@ -105,7 +105,7 @@ msgstr "Fillig invoice planning criteria"
 #. module: purchase_invoice_plan
 #: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_invoice_plan_filter
 msgid "Group By"
-msgstr "Grupiši po..."
+msgstr "Grupiši po"
 
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_create_invoice_plan__id
@@ -198,17 +198,17 @@ msgstr "Last Rata"
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_create_invoice_plan____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_create_invoice_plan__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_create_invoice_plan__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,help:purchase_invoice_plan.field_purchase_invoice_plan__last
@@ -278,12 +278,12 @@ msgstr "Nabavni Faktura Plan"
 #. module: purchase_invoice_plan
 #: model:ir.model,name:purchase_invoice_plan.model_purchase_order
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalog za nabavu"
 
 #. module: purchase_invoice_plan
 #: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_invoice_plan_filter
 msgid "Purchase Orders"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nalozi u nabavi"
 
 #. module: purchase_invoice_plan
 #: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_invoice_plan_filter
@@ -348,7 +348,7 @@ msgstr "This wizard help you quickly create invoice plan."
 #. module: purchase_invoice_plan
 #: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_invoice_plan_filter
 msgid "To Approve"
-msgstr "Odobriti"
+msgstr "Za odobriti"
 
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_order__ip_total_amount

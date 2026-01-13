@@ -62,7 +62,7 @@ msgstr "Minimalni iznos nabavnog naloga za besplatnu dostavu"
 #. module: purchase_fop_shipping
 #: model:ir.model,name:purchase_fop_shipping.model_purchase_order
 msgid "Purchase Order"
-msgstr "Zahtjevi za nabavom"
+msgstr "Nabavni nalog"
 
 #. module: purchase_fop_shipping
 #. odoo-python

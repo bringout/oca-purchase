@@ -23,7 +23,7 @@ msgstr "Odredište"
 #. module: purchase_location_by_line
 #: model:ir.model,name:purchase_location_by_line.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka zahtjeva za nabavu"
+msgstr "Stavka naloga za nabavu"
 
 #. module: purchase_location_by_line
 #: model:ir.model,name:purchase_location_by_line.model_stock_picking

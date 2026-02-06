@@ -943,13 +943,13 @@ msgstr "Stavke zahtjeva za nabavku"
 #. module: purchase_request
 #: model:res.groups,name:purchase_request.group_purchase_request_manager
 msgid "Purchase Request Manager"
-msgstr "Voditelj nabave"
+msgstr "Šef nabavki"
 
 # taken from hr.po
 #. module: purchase_request
 #: model:res.groups,name:purchase_request.group_purchase_request_user
 msgid "Purchase Request User"
-msgstr "Korisnik nabave"
+msgstr "Referent nabavki"
 
 # taken from hr.po
 #. module: purchase_request

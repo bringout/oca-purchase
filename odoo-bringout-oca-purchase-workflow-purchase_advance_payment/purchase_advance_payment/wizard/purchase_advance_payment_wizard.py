@@ -194,6 +194,14 @@ class AccountVoucherWizardPurchase(models.TransientModel):
             ):
                 payment.action_post()
 
+            return {
+                "type": "ir.actions.act_window",
+                "res_model": "account.payment",
+                "res_id": payment.id,
+                "view_mode": "form",
+                "target": "current",
+            }
+
         return {
             "type": "ir.actions.act_window_close",
         }

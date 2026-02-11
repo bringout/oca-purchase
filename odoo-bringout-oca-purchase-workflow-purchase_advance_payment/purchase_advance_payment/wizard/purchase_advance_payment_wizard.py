@@ -142,7 +142,7 @@ class AccountVoucherWizardPurchase(models.TransientModel):
         self.currency_amount = amount_advance
 
     def _prepare_payment_vals(self, purchase):
-        partner_id = purchase.partner_id.commercial_partner_id.id
+        partner_id = purchase.partner_id.id
         return {
             "purchase_id": purchase.id,
             "date": self.date,
@@ -183,13 +183,9 @@ class AccountVoucherWizardPurchase(models.TransientModel):
         if self.journal_currency_id.compare_amounts(self.amount_advance, 0.0) <= 0:
             raise exceptions.ValidationError(_("Amount of advance must be positive."))
         payment_obj = self.env["account.payment"]
-        purchase_obj = self.env["purchase.order"]
 
-        purchase_ids = self.env.context.get("active_ids", [])
-        if purchase_ids:
-            purchase_id = fields.first(purchase_ids)
-            purchase = purchase_obj.browse(purchase_id)
-            payment_vals = self._prepare_payment_vals(purchase)
+        if self.order_id:
+            payment_vals = self._prepare_payment_vals(self.order_id)
             payment = payment_obj.create(payment_vals)
             if bool(
                 self.env["ir.config_parameter"]

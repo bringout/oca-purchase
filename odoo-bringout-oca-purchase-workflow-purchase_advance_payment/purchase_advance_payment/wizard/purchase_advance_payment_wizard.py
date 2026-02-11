@@ -126,6 +126,8 @@ class AccountVoucherWizardPurchase(models.TransientModel):
             )
             .id
         )
+        if purchase.partner_ref:
+            res["payment_ref"] = purchase.partner_ref
         return res
 
     @api.depends("journal_id", "date", "amount_advance", "journal_currency_id")

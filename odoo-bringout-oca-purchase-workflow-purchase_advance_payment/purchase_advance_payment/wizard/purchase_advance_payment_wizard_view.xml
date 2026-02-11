@@ -26,7 +26,8 @@
                             name="action_fill_amount"
                             string="Pay order due amount"
                             type="object"
-                            class="btn-secondary"
+                            class="btn-secondary w-100"
+                            colspan="2"
                         />
                         <field name="currency_id" invisible="1" />
                     </group>

@@ -149,7 +149,7 @@ class AccountVoucherWizardPurchase(models.TransientModel):
             "amount": self.amount_advance,
             "payment_type": "outbound",
             "partner_type": "supplier",
-            "ref": self.payment_ref or purchase.name,
+            "ref": self.payment_ref or purchase.partner_ref or purchase.name,
             "journal_id": self.journal_id.id,
             "currency_id": self.journal_currency_id.id,
             "partner_id": partner_id,

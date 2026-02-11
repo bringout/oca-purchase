@@ -16,7 +16,7 @@ msgstr ""
 #. module: purchase_advance_payment
 #: model:ir.model,name:purchase_advance_payment.model_account_voucher_wizard_purchase
 msgid "Account Voucher Wizard Purchase"
-msgstr "Account Voucher Wizard Purchase"
+msgstr "Čarobnjak za avansno plaćanje nabavke"
 
 #. module: purchase_advance_payment
 #: model:ir.actions.act_window,name:purchase_advance_payment.action_view_account_voucher_wizard
@@ -36,7 +36,7 @@ msgstr "Avansna plaćanja"
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.purchase_order_kpis_tree
 msgid "Amount Residual"
-msgstr "Amount Residual"
+msgstr "Preostali iznos"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__amount_total
@@ -55,14 +55,14 @@ msgstr "Iznos u valuti naloga"
 
 #. module: purchase_advance_payment
 #. odoo-python
-#: code:addons/purchase_advance_payment/wizard/purchase_advance_payment_wizard.py
+#: code:addons/purchase_advance_payment/wizard/purchase_advance_payment_wizard.py:0
 #, python-format
 msgid "Amount of advance is greater than residual amount on purchase"
-msgstr "Amount of advance is greater than residual amount on purchase"
+msgstr "Iznos avansa je veći od preostalog iznosa na nabavci"
 
 #. module: purchase_advance_payment
 #. odoo-python
-#: code:addons/purchase_advance_payment/wizard/purchase_advance_payment_wizard.py
+#: code:addons/purchase_advance_payment/wizard/purchase_advance_payment_wizard.py:0
 #, python-format
 msgid "Amount of advance must be positive."
 msgstr "Iznos avansa mora biti pozitivan."
@@ -70,12 +70,12 @@ msgstr "Iznos avansa mora biti pozitivan."
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_res_config_settings__auto_post_purchase_advance_payments
 msgid "Auto Post Purchase Advance Payments"
-msgstr "Auto Post Purchase Advance Payments"
+msgstr "Automatsko knjiženje avansnih plaćanja nabavke"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__available_payment_method_line_ids
 msgid "Available Payment Method Line"
-msgstr "Available Payment Method Line"
+msgstr "Dostupna linija metode plaćanja"
 
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
@@ -122,7 +122,8 @@ msgstr "ID"
 msgid ""
 "If enabled, advance payments created from POs are automatically posted."
 msgstr ""
-"If enabled, advance payments created from POs are automatically posted."
+"Ako je omogućeno, avansna plaćanja kreirana iz nabavnih naloga se automatski"
+" knjže."
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__journal_id
@@ -162,12 +163,12 @@ msgstr "Nije plaćeno"
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_payment_search
 msgid "Not Reconciled"
-msgstr "Not Reconciled"
+msgstr "Nije zatvoreno"
 
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_payment_search
 msgid "Not Sent"
-msgstr "Not Sent"
+msgstr "Nije poslano"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__order_id
@@ -192,7 +193,7 @@ msgstr "Djelimično plaćeno"
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.purchase_order_form
 msgid "Pay purchase advanced"
-msgstr "Pay purchase advanced"
+msgstr "Avansno plaćanje nabavke"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__payment_method_line_id
@@ -202,17 +203,17 @@ msgstr "Metoda plaćanja"
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_supplier_payment_tree
 msgid "Payment Sent?"
-msgstr "Payment Sent?"
+msgstr "Plaćanje poslano?"
 
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.purchase_order_form
 msgid "Payment advances"
-msgstr "Payment advances"
+msgstr "Avansna plaćanja"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_purchase_order__payment_line_ids
 msgid "Payment move lines"
-msgstr "Payment move lines"
+msgstr "Stavke plaćanja"
 
 #. module: purchase_advance_payment
 #: model:ir.model,name:purchase_advance_payment.model_account_payment
@@ -237,7 +238,7 @@ msgstr "Nalog za nabavu"
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_purchase_order__account_payment_ids
 msgid "Purchase Payment"
-msgstr "Purchase Payment"
+msgstr "Plaćanje nabavke"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__payment_ref
@@ -252,4 +253,4 @@ msgstr "Dospjeli iznos"
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_payment_search
 msgid "Vendor Advance Payments"
-msgstr "Vendor Advance Payments"
+msgstr "Avansna plaćanja dobavljačima"

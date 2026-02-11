@@ -114,8 +114,8 @@ msgstr "Prikazani naziv"
 
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
-msgid "Fill amount"
-msgstr "Popuni iznos"
+msgid "Pay order due amount"
+msgstr "Plati dospjeli iznos ponude"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__id

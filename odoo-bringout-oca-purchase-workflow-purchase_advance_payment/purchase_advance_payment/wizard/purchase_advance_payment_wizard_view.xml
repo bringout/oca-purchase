@@ -24,9 +24,9 @@
                         <field name="amount_total" string="Order Due Amount" />
                         <button
                             name="action_fill_amount"
-                            string="Fill amount"
+                            string="Pay order due amount"
                             type="object"
-                            class="btn-link"
+                            class="btn-secondary"
                         />
                         <field name="currency_id" invisible="1" />
                     </group>

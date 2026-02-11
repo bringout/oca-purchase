@@ -85,7 +85,7 @@ class AccountVoucherWizardPurchase(models.TransientModel):
 
     @api.constrains("amount_advance")
     def check_amount(self):
-        if self.journal_currency_id.compare_amounts(self.amount_advance, 0.0) <= 0:
+        if self.journal_currency_id.compare_amounts(self.amount_advance, 0.0) < 0:
             raise exceptions.ValidationError(_("Amount of advance must be positive."))
         if self.env.context.get("active_id", False):
             if (
@@ -180,6 +180,8 @@ class AccountVoucherWizardPurchase(models.TransientModel):
     def make_advance_payment(self):
         """Create customer paylines and validates the payment"""
         self.ensure_one()
+        if self.journal_currency_id.compare_amounts(self.amount_advance, 0.0) <= 0:
+            raise exceptions.ValidationError(_("Amount of advance must be positive."))
         payment_obj = self.env["account.payment"]
         purchase_obj = self.env["purchase.order"]
 

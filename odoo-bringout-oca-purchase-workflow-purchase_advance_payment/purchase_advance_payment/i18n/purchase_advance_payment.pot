@@ -118,7 +118,7 @@ msgstr ""
 
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
-msgid "Fill amount"
+msgid "Pay order due amount"
 msgstr ""
 
 #. module: purchase_advance_payment

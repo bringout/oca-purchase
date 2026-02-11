@@ -156,6 +156,27 @@ class AccountVoucherWizardPurchase(models.TransientModel):
             "payment_method_line_id": self.payment_method_line_id.id,
         }
 
+    def action_fill_amount(self):
+        """Fill advance amount with the order due amount (converted to journal currency)."""
+        self.ensure_one()
+        if self.journal_currency_id != self.currency_id:
+            amount = self.currency_id._convert(
+                self.amount_total,
+                self.journal_currency_id,
+                self.order_id.company_id,
+                self.date or fields.Date.today(),
+            )
+        else:
+            amount = self.amount_total
+        self.amount_advance = amount
+        return {
+            "type": "ir.actions.act_window",
+            "res_model": self._name,
+            "res_id": self.id,
+            "view_mode": "form",
+            "target": "new",
+        }
+
     def make_advance_payment(self):
         """Create customer paylines and validates the payment"""
         self.ensure_one()

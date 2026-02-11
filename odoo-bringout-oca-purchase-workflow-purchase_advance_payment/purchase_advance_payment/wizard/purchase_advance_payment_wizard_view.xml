@@ -22,6 +22,12 @@
                         />
                         <field name="available_payment_method_line_ids" invisible="1" />
                         <field name="amount_total" string="Order Due Amount" />
+                        <button
+                            name="action_fill_amount"
+                            string="Fill amount"
+                            type="object"
+                            class="btn-link"
+                        />
                         <field name="currency_id" invisible="1" />
                     </group>
                     <group>

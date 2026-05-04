@@ -21,17 +21,17 @@ msgstr "<strong>Linija Number</strong>"
 #. module: purchase_order_line_sequence
 #: model:ir.model.fields,help:purchase_order_line_sequence.field_purchase_order_line__visible_sequence
 msgid "Displays the sequence of the line in the purchase order."
-msgstr "Displays the sequence of the line in the purchase order."
+msgstr ""
 
 #. module: purchase_order_line_sequence
 #: model:ir.model.fields,help:purchase_order_line_sequence.field_purchase_order_line__sequence
 msgid "Gives the sequence of the line when displaying the purchase order."
-msgstr "Gives the sequence of the line when displaying the purchase order."
+msgstr ""
 
 #. module: purchase_order_line_sequence
 #: model:ir.model.fields,field_description:purchase_order_line_sequence.field_purchase_order_line__sequence
 msgid "Hidden Sequence"
-msgstr "Hidden Sequence"
+msgstr ""
 
 #. module: purchase_order_line_sequence
 #: model:ir.model,name:purchase_order_line_sequence.model_account_move_line
@@ -50,14 +50,12 @@ msgstr "Maximalna seqvenca u stavkama"
 
 #. module: purchase_order_line_sequence
 #. odoo-python
-#: code:addons/purchase_order_line_sequence/models/stock_move.py
+#: code:addons/purchase_order_line_sequence/models/stock_move.py:0
 #, python-format
 msgid ""
 "Not allowed to change the sequence of moves from the picking, you can do it "
 "from the PO."
 msgstr ""
-"Not allowed to change the sequence of moves from the picking, you can do it "
-"from the PO."
 
 #. module: purchase_order_line_sequence
 #: model:ir.model.fields,field_description:purchase_order_line_sequence.field_account_move_line__related_po_sequence
@@ -72,7 +70,7 @@ msgstr "Nalog za nabavu"
 #. module: purchase_order_line_sequence
 #: model:ir.model,name:purchase_order_line_sequence.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"
 
 #. module: purchase_order_line_sequence
 #: model:ir.model,name:purchase_order_line_sequence.model_stock_move

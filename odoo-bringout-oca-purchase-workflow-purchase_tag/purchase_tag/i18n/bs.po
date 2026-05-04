@@ -41,7 +41,7 @@ msgstr "Kreirano"
 #. module: purchase_tag
 #: model:ir.model.fields,field_description:purchase_tag.field_purchase_tag__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: purchase_tag
 #: model:ir.model.fields,field_description:purchase_tag.field_purchase_tag__id
@@ -51,7 +51,7 @@ msgstr "ID"
 #. module: purchase_tag
 #: model:ir.model.fields,field_description:purchase_tag.field_purchase_tag____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: purchase_tag
 #: model:ir.model.fields,field_description:purchase_tag.field_purchase_tag__write_uid
@@ -66,7 +66,7 @@ msgstr "Zadnje ažurirano"
 #. module: purchase_tag
 #: model:ir.model.fields,field_description:purchase_tag.field_purchase_tag__parent_id
 msgid "Parent"
-msgstr "Nasljeđeni"
+msgstr "Nadređeno"
 
 #. module: purchase_tag
 #: model:ir.model.fields,field_description:purchase_tag.field_purchase_tag__parent_path
@@ -100,7 +100,7 @@ msgstr "Oznake"
 
 #. module: purchase_tag
 #. odoo-python
-#: code:addons/purchase_tag/models/purchase_tag.py
+#: code:addons/purchase_tag/models/purchase_tag.py:0
 #, python-format
 msgid "Tags cannot be recursive."
 msgstr "Oznake ne mogu biti rekurzivne."

@@ -62,7 +62,7 @@ msgstr "Approved Nalogs"
 #. module: purchase_order_approved
 #: model:ir.model.fields.selection,name:purchase_order_approved.selection__res_partner__purchase_requires_second_approval__based_on_company
 msgid "Based on company policy"
-msgstr "Based on company policy"
+msgstr ""
 
 # taken from hr.po
 #. module: purchase_order_approved
@@ -75,7 +75,7 @@ msgstr "Poduzeća"
 #: model:ir.model.fields,field_description:purchase_order_approved.field_purchase_order__company_id
 #, fuzzy
 msgid "Company"
-msgstr "Poduzeća"
+msgstr "Kompanija"
 
 #. module: purchase_order_approved
 #: model:ir.model,name:purchase_order_approved.model_res_partner
@@ -104,7 +104,7 @@ msgid ""
 "converted into a purchase order."
 msgstr ""
 "Predstavlja vremenski okvir u kojem je potrebno potvrditi Ponudu i "
-"pretvoriti je u nalog za nabavu."
+"pretvoriti je u nalog za nabavku."
 
 #. module: purchase_order_approved
 #: model:ir.model.fields,field_description:purchase_order_approved.field_purchase_order__dest_address_id
@@ -129,7 +129,7 @@ msgstr "Stavke naloga"
 #. module: purchase_order_approved
 #: model:ir.model,name:purchase_order_approved.model_res_config_settings
 msgid "Procurement purchase grouping settings"
-msgstr "Postavke grupiranja nabavki za prokuraciju"
+msgstr "Podešavanja grupisanja nabavnih prokuremenata"
 
 #. module: purchase_order_approved
 #: model:ir.model,name:purchase_order_approved.model_purchase_order
@@ -156,7 +156,7 @@ msgid ""
 "Reference of the document that generated this purchase order request (e.g. a"
 " sales order)"
 msgstr ""
-"Referenca na dokument koji je generirao ovaj upit za nalog za nabavu (npr. "
+"Referenca na dokument koji je generirao ovaj upit za nalog za nabavku (npr. "
 "prodajni nalog)"
 
 #. module: purchase_order_approved
@@ -172,12 +172,12 @@ msgstr "State 'Approved' in Nabavni Nalogs"
 #. module: purchase_order_approved
 #: model:ir.model.fields,field_description:purchase_order_approved.field_purchase_order__state
 msgid "Status"
-msgstr "Status"
+msgstr ""
 
 #. module: purchase_order_approved
 #: model:ir.model.fields,help:purchase_order_approved.field_purchase_order__picking_type_id
 msgid "This will determine operation type of incoming shipment"
-msgstr "This will determine operation type of incoming shipment"
+msgstr ""
 
 #. module: purchase_order_approved
 #: model:ir.model.fields,field_description:purchase_order_approved.field_res_company__purchase_approve_active

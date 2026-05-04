@@ -26,4 +26,4 @@ msgstr "Nalog za nabavu"
 #. module: product_supplier_code_purchase
 #: model:ir.model,name:product_supplier_code_purchase.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"

@@ -40,7 +40,7 @@ msgstr "Datum početka promocije"
 
 #. module: purchase_vendor_promotion
 #. odoo-python
-#: code:addons/purchase_vendor_promotion/models/product_supplierinfo.py
+#: code:addons/purchase_vendor_promotion/models/product_supplierinfo.py:0
 #, python-format
 msgid "Promotion start date must be before end date."
 msgstr "Datum početka promocije mora biti prije datuma završetka."
@@ -48,7 +48,7 @@ msgstr "Datum početka promocije mora biti prije datuma završetka."
 #. module: purchase_vendor_promotion
 #: model:ir.model,name:purchase_vendor_promotion.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"
 
 #. module: purchase_vendor_promotion
 #: model:ir.model,name:purchase_vendor_promotion.model_product_supplierinfo
@@ -57,7 +57,7 @@ msgstr "Cjenik dobavljača"
 
 #. module: purchase_vendor_promotion
 #. odoo-python
-#: code:addons/purchase_vendor_promotion/models/product_supplierinfo.py
+#: code:addons/purchase_vendor_promotion/models/product_supplierinfo.py:0
 #, python-format
 msgid "Vendor promotion requires start and end dates."
 msgstr "Promocija dobavljača zahtijeva datum početka i završetka."

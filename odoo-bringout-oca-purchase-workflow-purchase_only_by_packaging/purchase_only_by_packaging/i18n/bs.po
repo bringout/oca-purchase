@@ -21,25 +21,21 @@ msgid ""
 "You purchase a product by packaging of 5 products.\n"
 "When the user will put 3 as quantity, the system can force the quantity to the superior unit (5 for this example)."
 msgstr ""
-"Determine if during the creation of a purchase order line, the quantity should be forced with a multiple of the packaging.\n"
-"Example:\n"
-"You purchase a product by packaging of 5 products.\n"
-"When the user will put 3 as quantity, the system can force the quantity to the superior unit (5 for this example)."
 
 #. module: purchase_only_by_packaging
 #: model:ir.model.fields,field_description:purchase_only_by_packaging.field_product_packaging__force_purchase_qty
 msgid "Force purchase quantity"
-msgstr "Force purchase quantity"
+msgstr ""
 
 #. module: purchase_only_by_packaging
 #: model:ir.model,name:purchase_only_by_packaging.model_product_packaging_level
 msgid "Level management for product.packaging"
-msgstr "Level management for product.packaging"
+msgstr ""
 
 #. module: purchase_only_by_packaging
 #: model:ir.model.fields,field_description:purchase_only_by_packaging.field_product_product__min_purchasable_qty
 msgid "Min Purchasable Qty"
-msgstr "Min Purchasable Qty"
+msgstr ""
 
 #. module: purchase_only_by_packaging
 #: model:ir.model.fields,help:purchase_only_by_packaging.field_product_product__min_purchasable_qty
@@ -53,27 +49,25 @@ msgstr ""
 #. module: purchase_only_by_packaging
 #: model:ir.model.fields,field_description:purchase_only_by_packaging.field_product_product__purchase_only_by_packaging
 msgid "Only purchase by packaging"
-msgstr "Only purchase by packaging"
+msgstr ""
 
 #. module: purchase_only_by_packaging
 #. odoo-python
-#: code:addons/purchase_only_by_packaging/models/product_packaging_level.py
+#: code:addons/purchase_only_by_packaging/models/product_packaging_level.py:0
 #, python-format
 msgid ""
 "Packaging level \"{}\" must stay with \"Can be purchased\", at least one "
 "product configured as \"purchase only by packaging\" is using it."
 msgstr ""
-"Packaging level \"{}\" must stay with \"Can be purchased\", at least one "
-"product configured as \"purchase only by packaging\" is using it."
 
 #. module: purchase_only_by_packaging
 #: model:ir.model,name:purchase_only_by_packaging.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: purchase_only_by_packaging
 #. odoo-python
-#: code:addons/purchase_only_by_packaging/models/purchase_order_line.py
+#: code:addons/purchase_only_by_packaging/models/purchase_order_line.py:0
 #, python-format
 msgid ""
 "Product %s can only be purchased with a packaging and a packaging quantity."
@@ -82,7 +76,7 @@ msgstr ""
 
 #. module: purchase_only_by_packaging
 #. odoo-python
-#: code:addons/purchase_only_by_packaging/models/product_template.py
+#: code:addons/purchase_only_by_packaging/models/product_template.py:0
 #, python-format
 msgid ""
 "Product %s cannot be defined to be purchased only by packaging if it cannot "
@@ -93,7 +87,7 @@ msgstr ""
 
 #. module: purchase_only_by_packaging
 #. odoo-python
-#: code:addons/purchase_only_by_packaging/models/product_template.py
+#: code:addons/purchase_only_by_packaging/models/product_template.py:0
 #, python-format
 msgid ""
 "Product %s cannot be defined to be purchased only by packaging if it does "
@@ -115,7 +109,7 @@ msgstr "Varijanta proizvoda"
 #. module: purchase_only_by_packaging
 #: model:ir.model,name:purchase_only_by_packaging.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"
 
 #. module: purchase_only_by_packaging
 #: model:ir.model.fields,help:purchase_only_by_packaging.field_product_product__purchase_only_by_packaging
@@ -123,5 +117,3 @@ msgid ""
 "Restrict the usage of this product on purchase order lines without packaging"
 " defined"
 msgstr ""
-"Restrict the usage of this product on purchase order lines without packaging"
-" defined"

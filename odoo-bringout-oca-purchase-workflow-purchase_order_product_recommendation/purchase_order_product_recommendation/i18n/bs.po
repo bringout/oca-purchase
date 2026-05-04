@@ -26,7 +26,7 @@ msgstr "Otkaži"
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,help:purchase_order_product_recommendation.field_purchase_order_recommendation__warehouse_ids
 msgid "Constrain search to an specific warehouse"
-msgstr "Constrain search to an specific warehouse"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__create_uid
@@ -56,22 +56,22 @@ msgstr "Datum završetka"
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,help:purchase_order_product_recommendation.field_purchase_order_recommendation__product_category_ids
 msgid "Filter by product internal category"
-msgstr "Filter by product internal category"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,help:purchase_order_product_recommendation.field_purchase_order_recommendation__date_end
 msgid "Final date to compute recommendations."
-msgstr "Final date to compute recommendations."
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model_terms:ir.ui.view,arch_db:purchase_order_product_recommendation.purchase_order_recommendation_view_form
 msgid "Forecasted Qty"
-msgstr "Forecasted Qty"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__id
@@ -81,17 +81,17 @@ msgstr "ID"
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,help:purchase_order_product_recommendation.field_purchase_order_recommendation__date_begin
 msgid "Initial date to compute recommendations."
-msgstr "Initial date to compute recommendations."
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__is_modified
 msgid "Is Modified"
-msgstr "Is Modified"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__write_uid
@@ -106,7 +106,7 @@ msgstr "Zadnje ažurirano"
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__line_amount
 msgid "Number of recommendations"
-msgstr "Number of recommendations"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model_terms:ir.ui.view,arch_db:purchase_order_product_recommendation.purchase_order_recommendation_view_form
@@ -121,7 +121,7 @@ msgstr "Jedinica cijene"
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__product_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__product_category_ids
@@ -141,12 +141,12 @@ msgstr "Proizvod reference"
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__line_ids
 msgid "Products"
-msgstr "Artikli"
+msgstr "Proizvodi"
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__purchase_line_id
 msgid "Purchase Line"
-msgstr "Zahtjev za nabavu"
+msgstr "Zahtjev za nabavku"
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__order_id
@@ -161,12 +161,12 @@ msgstr "Količina"
 #. module: purchase_order_product_recommendation
 #: model_terms:ir.ui.view,arch_db:purchase_order_product_recommendation.purchase_order_recommendation_view_form
 msgid "Qty Dlvd./day"
-msgstr "Qty Dlvd./day"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model_terms:ir.ui.view,arch_db:purchase_order_product_recommendation.purchase_order_recommendation_view_form
 msgid "Qty On Hand"
-msgstr "Qty On Hand"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model_terms:ir.ui.view,arch_db:purchase_order_product_recommendation.purchase_order_recommendation_view_form
@@ -176,7 +176,7 @@ msgstr "Kol primljena"
 #. module: purchase_order_product_recommendation
 #: model_terms:ir.ui.view,arch_db:purchase_order_product_recommendation.purchase_order_recommendation_view_form
 msgid "Qty delivered"
-msgstr "Qty delivered"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model_terms:ir.ui.view,arch_db:purchase_order_product_recommendation.purchase_order_form
@@ -191,27 +191,27 @@ msgstr "Recommended Proizvods for this Dobavljač"
 #. module: purchase_order_product_recommendation
 #: model:ir.model,name:purchase_order_product_recommendation.model_purchase_order_recommendation_line
 msgid "Recommended product for current purchase order"
-msgstr "Recommended product for current purchase order"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model,name:purchase_order_product_recommendation.model_purchase_order_recommendation
 msgid "Recommended products for current purchase order"
-msgstr "Recommended products for current purchase order"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,help:purchase_order_product_recommendation.field_purchase_order_recommendation__show_all_partner_products
 msgid "Show all products with supplier infos for this supplier"
-msgstr "Show all products with supplier infos for this supplier"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__show_all_products
 msgid "Show all purchasable products"
-msgstr "Show all purchasable products"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__show_all_partner_products
 msgid "Show all supplier products"
-msgstr "Show all supplier products"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,help:purchase_order_product_recommendation.field_purchase_order_recommendation__line_amount
@@ -219,60 +219,58 @@ msgid ""
 "Stablish a limit on how many recommendations you want to get.Leave it as 0 "
 "to set no limit"
 msgstr ""
-"Stablish a limit on how many recommendations you want to get.Leave it as 0 "
-"to set no limit"
 
 #. module: purchase_order_product_recommendation
 #. odoo-python
-#: code:addons/purchase_order_product_recommendation/wizards/purchase_order_recommendation.py
+#: code:addons/purchase_order_product_recommendation/wizards/purchase_order_recommendation.py:0
 #, python-format
 msgid "This wizard is only valid for purchases"
-msgstr "This wizard is only valid for purchases"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__times_delivered
 msgid "Times Delivered"
-msgstr "Times Delivered"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__times_received
 msgid "Times Received"
-msgstr "Times Received"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__units_available
 msgid "Units Available"
-msgstr "Units Available"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__units_avg_delivered
 msgid "Units Avg Delivered"
-msgstr "Units Avg Delivered"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__units_delivered
 msgid "Units Delivered"
-msgstr "Units Delivered"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__units_included
 msgid "Units Included"
-msgstr "Units Included"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__units_received
 msgid "Units Received"
-msgstr "Units Received"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__units_virtual_available
 msgid "Units Virtual Available"
-msgstr "Units Virtual Available"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,help:purchase_order_product_recommendation.field_purchase_order_recommendation__show_all_products
 msgid "Useful if a product hasn't been selled by the partner yet"
-msgstr "Useful if a product hasn't been selled by the partner yet"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__partner_id
@@ -287,7 +285,7 @@ msgstr "Skladište"
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation__warehouse_count
 msgid "Warehouse Count"
-msgstr "Warehouse Count"
+msgstr ""
 
 #. module: purchase_order_product_recommendation
 #: model:ir.model.fields,field_description:purchase_order_product_recommendation.field_purchase_order_recommendation_line__wizard_id

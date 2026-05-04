@@ -19,8 +19,6 @@ msgid ""
 "<span attrs=\"{'invisible': [('advance_payment_method', '!=', "
 "'percentage')]}\" class=\"oe_inline\">%</span>"
 msgstr ""
-"<span attrs=\"{'invisible': [('advance_payment_method', '!=', "
-"'percentage')]}\" class=\"oe_inline\">%</span>"
 
 #. module: purchase_order_downpayment
 #: model_terms:ir.ui.view,arch_db:purchase_order_downpayment.view_po_downpayment_wizard
@@ -35,12 +33,12 @@ msgstr "Kreiraj plaćanje"
 #. module: purchase_order_downpayment
 #: model_terms:ir.ui.view,arch_db:purchase_order_downpayment.view_po_downpayment_wizard
 msgid "Create and view payment"
-msgstr "Create and view payment"
+msgstr ""
 
 #. module: purchase_order_downpayment
 #: model_terms:ir.ui.view,arch_db:purchase_order_downpayment.view_po_downpayment_wizard
 msgid "Create payment"
-msgstr "Create payment"
+msgstr ""
 
 #. module: purchase_order_downpayment
 #: model:ir.model.fields,field_description:purchase_order_downpayment.field_purchase_order_down_payment_wizard__create_uid
@@ -55,7 +53,7 @@ msgstr "Kreirano"
 #. module: purchase_order_downpayment
 #: model:ir.model.fields,field_description:purchase_order_downpayment.field_purchase_order_down_payment_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: purchase_order_downpayment
 #: model:ir.model.fields,field_description:purchase_order_downpayment.field_purchase_order_down_payment_wizard__amount
@@ -85,7 +83,7 @@ msgstr "ID"
 #. module: purchase_order_downpayment
 #: model:ir.model.fields,field_description:purchase_order_downpayment.field_purchase_order_down_payment_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: purchase_order_downpayment
 #: model:ir.model.fields,field_description:purchase_order_downpayment.field_purchase_order_down_payment_wizard__write_uid
@@ -144,7 +142,7 @@ msgstr "Nabavni Nalog DownPlaćanje Čarobnjak"
 #. module: purchase_order_downpayment
 #: model:ir.model.fields,field_description:purchase_order_downpayment.field_purchase_order__account_payment_ids
 msgid "Purchase Payment"
-msgstr "Nabavni Plaćanje"
+msgstr "Plaćanje nabavke"
 
 #. module: purchase_order_downpayment
 #: model:ir.model.fields.selection,name:purchase_order_downpayment.selection__purchase_order_down_payment_wizard__advance_payment_method__delivered
@@ -153,14 +151,14 @@ msgstr "Regular Plaćanje"
 
 #. module: purchase_order_downpayment
 #. odoo-python
-#: code:addons/purchase_order_downpayment/wizard/purchase_order_downpayment_wizard.py
+#: code:addons/purchase_order_downpayment/wizard/purchase_order_downpayment_wizard.py:0
 #, python-format
 msgid "The value of the down payment amount must be positive."
 msgstr "Iznos predujma mora biti pozitivan."
 
 #. module: purchase_order_downpayment
 #. odoo-python
-#: code:addons/purchase_order_downpayment/wizard/purchase_order_downpayment_wizard.py
+#: code:addons/purchase_order_downpayment/wizard/purchase_order_downpayment_wizard.py:0
 #, python-format
 msgid "The value of the down payment percentage cannot be greater than 100%."
-msgstr "The value of the down payment percentage cannot be greater than 100%."
+msgstr ""

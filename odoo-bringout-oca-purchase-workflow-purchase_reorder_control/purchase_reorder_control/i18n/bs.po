@@ -26,11 +26,11 @@ msgstr "Pravilo minimalne zalihe"
 #. module: purchase_reorder_control
 #: model:ir.model,name:purchase_reorder_control.model_product_template
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: purchase_reorder_control
 #. odoo-python
-#: code:addons/purchase_reorder_control/models/stock_warehouse_orderpoint.py
+#: code:addons/purchase_reorder_control/models/stock_warehouse_orderpoint.py:0
 #, python-format
 msgid "Unpurchaseable Products cannot be reordered"
 msgstr "Proizvodi koji se ne mogu kupiti ne mogu se ponovo naručiti"

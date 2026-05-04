@@ -36,7 +36,7 @@ msgstr "Potvrdi nalog"
 #. module: purchase_manual_delivery
 #: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.purchase_order_view_form_inherit
 msgid "Create Incoming Shipment"
-msgstr "Create Incoming Shipment"
+msgstr ""
 
 #. module: purchase_manual_delivery
 #: model:ir.actions.act_window,name:purchase_manual_delivery.action_create_manual_stock_picking
@@ -61,7 +61,7 @@ msgstr "Create Skladišno tikovanje"
 #. module: purchase_manual_delivery
 #: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.view_create_stock_picking
 msgid "Create and View Picking"
-msgstr "Create and View Picking"
+msgstr ""
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard__create_uid
@@ -81,7 +81,7 @@ msgstr "Valuta"
 #. module: purchase_manual_delivery
 #: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.res_config_settings_view_form
 msgid "Deliveries on purchase orders should be created manually."
-msgstr "Deliveries on purchase orders should be created manually."
+msgstr ""
 
 #. module: purchase_manual_delivery
 #: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.res_config_settings_view_form
@@ -110,12 +110,12 @@ msgstr "Odredišna lokacija"
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: purchase_manual_delivery
 #: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.view_create_stock_picking
 msgid "Existing Qty"
-msgstr "Existing Qty"
+msgstr ""
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard_line__existing_qty
@@ -135,7 +135,7 @@ msgstr "Grupiši po"
 #. module: purchase_manual_delivery
 #: model_terms:ir.actions.act_window,help:purchase_manual_delivery.action_order_line_delivery_tree
 msgid "Here is a list of each purchase order line to be received."
-msgstr "Here is a list of each purchase order line to be received."
+msgstr ""
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard__id
@@ -145,12 +145,12 @@ msgstr "ID"
 #. module: purchase_manual_delivery
 #: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.res_config_settings_view_form
 msgid "If active, Receipt of purchase orders should be manual created."
-msgstr "If active, Receipt of purchase orders should be manual created."
+msgstr ""
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard__write_uid
@@ -170,7 +170,7 @@ msgstr "Stavke"
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,help:purchase_manual_delivery.field_create_stock_picking_wizard__location_dest_id
 msgid "Location where the system will stock the received products."
-msgstr "Location where the system will stock the received products."
+msgstr ""
 
 #. module: purchase_manual_delivery
 #: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.res_config_settings_view_form
@@ -190,12 +190,12 @@ msgstr "Zaprimanje u tijeku"
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_purchase_order__pending_to_receive
 msgid "Pending To Receive"
-msgstr "Pending To Receive"
+msgstr ""
 
 #. module: purchase_manual_delivery
 #: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.view_purchase_order_unreceived_line_filter
 msgid "Pending to receive"
-msgstr "Pending to receive"
+msgstr ""
 
 #. module: purchase_manual_delivery
 #: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.view_create_stock_picking
@@ -204,22 +204,22 @@ msgstr "Picking Scheduled Datum"
 
 #. module: purchase_manual_delivery
 #. odoo-python
-#: code:addons/purchase_manual_delivery/wizard/create_manual_stock_picking.py
+#: code:addons/purchase_manual_delivery/wizard/create_manual_stock_picking.py:0
 #, python-format
 msgid "Please select one partner at a time"
-msgstr "Please select one partner at a time"
+msgstr ""
 
 #. module: purchase_manual_delivery
 #. odoo-python
-#: code:addons/purchase_manual_delivery/wizard/create_manual_stock_picking.py
+#: code:addons/purchase_manual_delivery/wizard/create_manual_stock_picking.py:0
 #, python-format
 msgid "Please select one purchase order at a time"
-msgstr "Please select one purchase order at a time"
+msgstr ""
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard_line__product_id
 msgid "Product"
-msgstr "Artikal"
+msgstr "Proizvod"
 
 #. module: purchase_manual_delivery
 #: model:ir.model,name:purchase_manual_delivery.model_product_product
@@ -239,7 +239,7 @@ msgstr "Nalog za nabavu"
 #. module: purchase_manual_delivery
 #: model:ir.model,name:purchase_manual_delivery.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"
 
 #. module: purchase_manual_delivery
 #: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.view_purchase_order_unreceived_line_filter
@@ -282,7 +282,7 @@ msgstr "Količina to Receive"
 #. module: purchase_manual_delivery
 #: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.view_purchase_order_unreceived_line_filter
 msgid "Reception confirmed"
-msgstr "Reception confirmed"
+msgstr ""
 
 #. module: purchase_manual_delivery
 #: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.view_create_stock_picking
@@ -296,10 +296,10 @@ msgstr "Remaining Količina"
 
 #. module: purchase_manual_delivery
 #. odoo-javascript
-#: code:addons/purchase_manual_delivery/static/src/purchase_manual_delivery_forecasted/forecasted_details.xml
+#: code:addons/purchase_manual_delivery/static/src/purchase_manual_delivery_forecasted/forecasted_details.xml:0
 #, python-format
 msgid "Requests without delivery"
-msgstr "Requests without delivery"
+msgstr ""
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard__scheduled_date
@@ -323,7 +323,7 @@ msgstr "Search Undelivered Linijas"
 
 #. module: purchase_manual_delivery
 #. odoo-python
-#: code:addons/purchase_manual_delivery/wizard/create_manual_stock_picking.py
+#: code:addons/purchase_manual_delivery/wizard/create_manual_stock_picking.py:0
 #, python-format
 msgid "Stock Picking"
 msgstr "Preuzimanje u skladištu"
@@ -341,12 +341,12 @@ msgstr "Porezi"
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,help:purchase_manual_delivery.field_purchase_order_line__pending_to_receive
 msgid "There is pending quantity to receive not yet planned"
-msgstr "There is pending quantity to receive not yet planned"
+msgstr ""
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,help:purchase_manual_delivery.field_create_stock_picking_wizard_line__qty
 msgid "This is the quantity taken into account to create the picking"
-msgstr "This is the quantity taken into account to create the picking"
+msgstr ""
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard_line__price_unit
@@ -376,11 +376,9 @@ msgstr ""
 
 #. module: purchase_manual_delivery
 #. odoo-python
-#: code:addons/purchase_manual_delivery/wizard/create_manual_stock_picking.py
+#: code:addons/purchase_manual_delivery/wizard/create_manual_stock_picking.py:0
 #, python-format
 msgid ""
 "You can not receive more than the remaining quantity. If you need to do so, "
 "please edit the purchase order first."
 msgstr ""
-"You can not receive more than the remaining quantity. If you need to do so, "
-"please edit the purchase order first."

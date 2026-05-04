@@ -21,7 +21,7 @@ msgstr "Kompanije"
 #. module: sale_purchase_force_vendor
 #: model:ir.model,name:sale_purchase_force_vendor.model_res_config_settings
 msgid "Procurement purchase grouping settings"
-msgstr "Postavke grupiranja nabavnih nabava"
+msgstr "Podešavanja grupisanja nabavnih prokuremenata"
 
 #. module: sale_purchase_force_vendor
 #: model:ir.model.fields,field_description:sale_purchase_force_vendor.field_res_company__sale_purchase_force_vendor_restrict
@@ -31,12 +31,12 @@ msgstr "Ograniči dozvoljene dobavljače u prodajnim nalozima"
 #. module: sale_purchase_force_vendor
 #: model:ir.model,name:sale_purchase_force_vendor.model_sale_order
 msgid "Sales Order"
-msgstr "Prodajni nalog"
+msgstr "Narudžba"
 
 #. module: sale_purchase_force_vendor
 #: model:ir.model,name:sale_purchase_force_vendor.model_sale_order_line
 msgid "Sales Order Line"
-msgstr "Stavka prodajne narudžbe"
+msgstr "Stavka narudžbe"
 
 #. module: sale_purchase_force_vendor
 #: model:ir.model,name:sale_purchase_force_vendor.model_stock_move

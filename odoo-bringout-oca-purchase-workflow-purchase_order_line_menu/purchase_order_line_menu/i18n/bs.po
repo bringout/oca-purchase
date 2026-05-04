@@ -30,7 +30,7 @@ msgid ""
 "converted into a purchase order."
 msgstr ""
 "Predstavlja vremenski okvir u kojem je potrebno potvrditi Ponudu i "
-"pretvoriti je u nalog za nabavu."
+"pretvoriti je u nalog za nabavku."
 
 #. module: purchase_order_line_menu
 #: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
@@ -66,7 +66,7 @@ msgstr "Nalog date"
 #. module: purchase_order_line_menu
 #: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_search
 msgid "Planned date"
-msgstr "Planned date"
+msgstr ""
 
 #. module: purchase_order_line_menu
 #: model_terms:ir.ui.view,arch_db:purchase_order_line_menu.purchase_order_line_tree
@@ -91,7 +91,7 @@ msgstr "Nalog za nabavu"
 #. module: purchase_order_line_menu
 #: model:ir.model,name:purchase_order_line_menu.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"
 
 # taken from hr.po
 #. module: purchase_order_line_menu

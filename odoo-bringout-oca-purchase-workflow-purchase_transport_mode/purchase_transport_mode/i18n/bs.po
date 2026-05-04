@@ -54,7 +54,7 @@ msgstr "Opis"
 #. module: purchase_transport_mode
 #: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: purchase_transport_mode
 #: model:ir.model.fields,help:purchase_transport_mode.field_purchase_transport_mode_constraint__purchase_domain
@@ -69,7 +69,7 @@ msgstr "ID"
 #. module: purchase_transport_mode
 #: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: purchase_transport_mode
 #: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode__write_uid
@@ -84,12 +84,12 @@ msgstr "Zadnje ažurirano"
 #. module: purchase_transport_mode
 #: model:ir.model.fields,field_description:purchase_transport_mode.field_purchase_transport_mode__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: purchase_transport_mode
 #: model:ir.model,name:purchase_transport_mode.model_res_config_settings
 msgid "Procurement purchase grouping settings"
-msgstr "Postavke grupisanja nabavke"
+msgstr "Podešavanja grupisanja nabavnih prokuremenata"
 
 #. module: purchase_transport_mode
 #: model:ir.model,name:purchase_transport_mode.model_purchase_order

@@ -24,7 +24,7 @@ msgstr "The user will be able to release an RFQ blocked for approval."
 #. module: purchase_order_approval_block
 #: model:ir.model.fields,field_description:purchase_order_approval_block.field_purchase_approval_block_reason__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: purchase_order_approval_block
 #: model:ir.model.fields,field_description:purchase_order_approval_block.field_purchase_order__approval_block_id
@@ -39,7 +39,7 @@ msgstr "Blokada odobrenjaed"
 #. module: purchase_order_approval_block
 #: model_terms:ir.ui.view,arch_db:purchase_order_approval_block.view_purchase_order_filter
 msgid "Blocked for Approval"
-msgstr "Blocked for Approval"
+msgstr ""
 
 #. module: purchase_order_approval_block
 #: model:ir.model.fields,field_description:purchase_order_approval_block.field_purchase_approval_block_reason__create_uid
@@ -59,7 +59,7 @@ msgstr "Opis"
 #. module: purchase_order_approval_block
 #: model:ir.model.fields,field_description:purchase_order_approval_block.field_purchase_approval_block_reason__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: purchase_order_approval_block
 #: model:ir.model.fields,field_description:purchase_order_approval_block.field_purchase_approval_block_reason__id
@@ -69,7 +69,7 @@ msgstr "ID"
 #. module: purchase_order_approval_block
 #: model:ir.model.fields,field_description:purchase_order_approval_block.field_purchase_approval_block_reason____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: purchase_order_approval_block
 #: model:ir.model.fields,field_description:purchase_order_approval_block.field_purchase_approval_block_reason__write_uid
@@ -84,18 +84,18 @@ msgstr "Zadnje ažurirano"
 #. module: purchase_order_approval_block
 #: model:ir.model.fields,field_description:purchase_order_approval_block.field_purchase_approval_block_reason__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: purchase_order_approval_block
 #. odoo-python
-#: code:addons/purchase_order_approval_block/models/purchase_order.py
+#: code:addons/purchase_order_approval_block/models/purchase_order.py:0
 #, python-format
 msgid "Order \"%(order_name)s\" blocked with reason \"%(block_name)s\""
 msgstr "Nalog \"%(order_name)s\" blocked with reason \"%(block_name)s\""
 
 #. module: purchase_order_approval_block
 #. odoo-python
-#: code:addons/purchase_order_approval_block/models/purchase_order.py
+#: code:addons/purchase_order_approval_block/models/purchase_order.py:0
 #, python-format
 msgid "Order \"%s\" approval block released."
 msgstr "Nalog \"%s\" approval block released."
@@ -128,7 +128,7 @@ msgstr "Release Blokada odobrenja"
 #. module: purchase_order_approval_block
 #: model:res.groups,name:purchase_order_approval_block.group_rfq_approval_block
 msgid "Release RFQ with approval block"
-msgstr "Release RFQ with approval block"
+msgstr ""
 
 #. module: purchase_order_approval_block
 #: model:exception.rule,description:purchase_order_approval_block.po_excep_approval_block

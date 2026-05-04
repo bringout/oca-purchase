@@ -16,14 +16,14 @@ msgstr ""
 #. module: product_supplierinfo_update_price
 #: model:ir.model.fields,field_description:product_supplierinfo_update_price.field_purchase_order_line__can_update_product_supplierinfo
 msgid "Can Update Product Supplierinfo"
-msgstr "Can Update Product Supplierinfo"
+msgstr ""
 
 #. module: product_supplierinfo_update_price
 #: model:ir.model,name:product_supplierinfo_update_price.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"
 
 #. module: product_supplierinfo_update_price
 #: model_terms:ir.ui.view,arch_db:product_supplierinfo_update_price.purchase_order_form
 msgid "Update Product Supplierinfo Price"
-msgstr "Update Product Supplierinfo Price"
+msgstr ""

@@ -21,7 +21,7 @@ msgstr "<i class="
 #. module: purchase_security
 #: model_terms:ir.ui.view,arch_db:purchase_security.purchase_team_form
 msgid "Avatar"
-msgstr "Avatar"
+msgstr ""
 
 #. module: purchase_security
 #: model:ir.model,name:purchase_security.model_res_partner
@@ -41,7 +41,7 @@ msgstr "Kreirano"
 #. module: purchase_security
 #: model:ir.model.fields,field_description:purchase_security.field_purchase_team__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: purchase_security
 #: model:ir.model.fields,field_description:purchase_security.field_purchase_team__id
@@ -56,7 +56,7 @@ msgstr "ID korisnika se može uređivati"
 #. module: purchase_security
 #: model:ir.model.fields,field_description:purchase_security.field_purchase_team____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: purchase_security
 #: model:ir.model.fields,field_description:purchase_security.field_purchase_team__write_uid
@@ -76,7 +76,7 @@ msgstr "Članovi"
 #. module: purchase_security
 #: model:ir.model.fields,field_description:purchase_security.field_purchase_team__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: purchase_security
 #: model:ir.model,name:purchase_security.model_purchase_order
@@ -121,7 +121,7 @@ msgstr "Pravilo zapisa"
 #. module: purchase_security
 #: model:ir.model.fields,field_description:purchase_security.field_purchase_team__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: purchase_security
 #: model:ir.model.fields,field_description:purchase_security.field_purchase_order__team_id

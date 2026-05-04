@@ -16,7 +16,7 @@ msgstr ""
 #. module: purchase_request_type
 #: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: purchase_request_type
 #: model_terms:ir.ui.view,arch_db:purchase_request_type.view_purchase_request_type_form
@@ -31,7 +31,7 @@ msgstr "Kliknite da postavite novu vrstu za zahtjev za nabavku."
 #. module: purchase_request_type
 #: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: purchase_request_type
 #: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type__create_uid
@@ -51,11 +51,11 @@ msgstr "Opis"
 #. module: purchase_request_type
 #: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: purchase_request_type
 #. odoo-python
-#: code:addons/purchase_request_type/models/purchase_request.py
+#: code:addons/purchase_request_type/models/purchase_request.py:0
 #, python-format
 msgid "Document's company and type's company mismatch"
 msgstr "Neusklađenost kompanije dokumenta i kompanije vrste"
@@ -78,7 +78,7 @@ msgstr "ID"
 #. module: purchase_request_type
 #: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: purchase_request_type
 #: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type__write_uid
@@ -93,7 +93,7 @@ msgstr "Zadnje ažurirano"
 #. module: purchase_request_type
 #: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: purchase_request_type
 #: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type__picking_type_id
@@ -103,7 +103,7 @@ msgstr "Vrsta dokumenta"
 #. module: purchase_request_type
 #: model:ir.model,name:purchase_request_type.model_purchase_request
 msgid "Purchase Request"
-msgstr "Zahtjev za nabavu"
+msgstr "Zahtjev za nabavku"
 
 #. module: purchase_request_type
 #: model:ir.actions.act_window,name:purchase_request_type.action_purchase_request_type_view
@@ -128,7 +128,7 @@ msgstr "Vrsta zahtjeva"
 #. module: purchase_request_type
 #: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: purchase_request_type
 #: model_terms:ir.ui.view,arch_db:purchase_request_type.view_purchase_request_type_form

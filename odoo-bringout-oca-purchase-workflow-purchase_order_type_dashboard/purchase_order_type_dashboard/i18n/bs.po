@@ -21,7 +21,7 @@ msgstr "<span>Pogledaj</span>"
 #. module: purchase_order_type_dashboard
 #: model_terms:ir.ui.view,arch_db:purchase_order_type_dashboard.view_purchase_order_type_kanban
 msgid "All"
-msgstr "Sve"
+msgstr "Svi"
 
 #. module: purchase_order_type_dashboard
 #: model:ir.actions.act_window,name:purchase_order_type_dashboard.purchase_order_type_dashboard_action
@@ -46,7 +46,7 @@ msgstr "Number of Nabavni Nalogs waiting for bills"
 #. module: purchase_order_type_dashboard
 #: model_terms:ir.ui.view,arch_db:purchase_order_type_dashboard.view_purchase_order_type_kanban
 msgid "Number of Requests for Quotations"
-msgstr "Number of Requests for Quotations"
+msgstr ""
 
 #. module: purchase_order_type_dashboard
 #: model:ir.actions.act_window,name:purchase_order_type_dashboard.action_purchase_order_from_dashboard
@@ -71,7 +71,7 @@ msgstr "Zahtjev za ponudu"
 #. module: purchase_order_type_dashboard
 #: model_terms:ir.ui.view,arch_db:purchase_order_type_dashboard.view_purchase_order_type_kanban
 msgid "Show other options"
-msgstr "Show other options"
+msgstr ""
 
 #. module: purchase_order_type_dashboard
 #: model_terms:ir.ui.view,arch_db:purchase_order_type_dashboard.view_purchase_order_type_tree
@@ -91,7 +91,7 @@ msgstr "Ukupno Waiting Računs"
 #. module: purchase_order_type_dashboard
 #: model:ir.model,name:purchase_order_type_dashboard.model_purchase_order_type
 msgid "Type of purchase order"
-msgstr "Type of purchase order"
+msgstr ""
 
 #. module: purchase_order_type_dashboard
 #: model:ir.model.fields,field_description:purchase_order_type_dashboard.field_purchase_order_type__invoice_status_ti_po_count

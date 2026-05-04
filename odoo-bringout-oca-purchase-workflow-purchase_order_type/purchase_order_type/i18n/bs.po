@@ -27,12 +27,12 @@ msgstr "Arhivirano"
 #. module: purchase_order_type
 #: model_terms:ir.actions.act_window,help:purchase_order_type.action_purchase_order_type_view
 msgid "Click to set a new type for purchase order."
-msgstr "Click to set a new type for purchase order."
+msgstr ""
 
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: purchase_order_type
 #: model:ir.model,name:purchase_order_type.model_res_partner
@@ -60,14 +60,14 @@ msgstr "Opis"
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__display_name
 msgid "Display Name"
-msgstr "Prikaži naziv"
+msgstr "Naziv za prikaz"
 
 #. module: purchase_order_type
 #. odoo-python
-#: code:addons/purchase_order_type/models/purchase_order.py
+#: code:addons/purchase_order_type/models/purchase_order.py:0
 #, python-format
 msgid "Document's company and type's company mismatch"
-msgstr "Document's company and type's company mismatch"
+msgstr ""
 
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__sequence_id
@@ -87,13 +87,13 @@ msgstr "ID"
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__incoterm_id
 msgid "Incoterm"
-msgstr "Incoterm"
+msgstr ""
 
 # taken from hr.po
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: purchase_order_type
@@ -111,7 +111,7 @@ msgstr "Zadnje ažurirano"
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__name
 msgid "Name"
-msgstr "Ime"
+msgstr "Naziv"
 
 #. module: purchase_order_type
 #: model_terms:ir.ui.view,arch_db:purchase_order_type.view_purchase_order_type_search
@@ -141,15 +141,15 @@ msgstr "Nabavni Nalog Types"
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order_type__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 # taken from hr.po
 #. module: purchase_order_type
 #: model:ir.model.fields,field_description:purchase_order_type.field_purchase_order__order_type
 msgid "Type"
-msgstr "Vrsta"
+msgstr "Tip"
 
 #. module: purchase_order_type
 #: model:ir.model,name:purchase_order_type.model_purchase_order_type
 msgid "Type of purchase order"
-msgstr "Type of purchase order"
+msgstr ""

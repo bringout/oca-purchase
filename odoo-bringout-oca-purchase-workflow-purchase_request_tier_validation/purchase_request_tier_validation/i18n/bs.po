@@ -66,7 +66,7 @@ msgstr "Sljedeća ovjera"
 #. module: purchase_request_tier_validation
 #: model:ir.model,name:purchase_request_tier_validation.model_purchase_request
 msgid "Purchase Request"
-msgstr "Zahtjev za nabavu"
+msgstr "Zahtjev za nabavku"
 
 #. module: purchase_request_tier_validation
 #: model_terms:ir.ui.view,arch_db:purchase_request_tier_validation.view_purchase_request_filter

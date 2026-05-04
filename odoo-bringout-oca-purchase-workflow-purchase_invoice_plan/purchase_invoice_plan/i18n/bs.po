@@ -31,7 +31,7 @@ msgstr "Da li ste sigurni da želite ukloniti ovaj plan fakturisanja?"
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,help:purchase_invoice_plan.field_purchase_order__ip_invoice_plan
 msgid "At least one invoice plan line pending to create invoice"
-msgstr "At least one invoice plan line pending to create invoice"
+msgstr ""
 
 #. module: purchase_invoice_plan
 #: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_make_planned_invoice
@@ -95,12 +95,12 @@ msgstr "Dan"
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_create_invoice_plan__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: purchase_invoice_plan
 #: model:ir.model,name:purchase_invoice_plan.model_purchase_create_invoice_plan
 msgid "Fillig invoice planning criteria"
-msgstr "Fillig invoice planning criteria"
+msgstr ""
 
 #. module: purchase_invoice_plan
 #: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_invoice_plan_filter
@@ -115,12 +115,12 @@ msgstr "ID"
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,help:purchase_invoice_plan.field_purchase_invoice_plan__invoiced
 msgid "If this line already invoiced"
-msgstr "If this line already invoiced"
+msgstr ""
 
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,help:purchase_invoice_plan.field_purchase_invoice_plan__to_invoice
 msgid "If this line is ready to create new invoice"
-msgstr "If this line is ready to create new invoice"
+msgstr ""
 
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_invoice_plan__installment
@@ -129,7 +129,7 @@ msgstr "Rata"
 
 #. module: purchase_invoice_plan
 #. odoo-python
-#: code:addons/purchase_invoice_plan/models/purchase.py
+#: code:addons/purchase_invoice_plan/models/purchase.py:0
 #, python-format
 msgid ""
 "Installment %s: already used and not allowed to delete.\n"
@@ -151,7 +151,7 @@ msgstr "Razdoblje"
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_create_invoice_plan__interval_type
 msgid "Interval Type"
-msgstr "Interval Type"
+msgstr ""
 
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_invoice_plan__invoiced
@@ -180,7 +180,7 @@ msgstr "Faktura Planning Detail"
 
 #. module: purchase_invoice_plan
 #. odoo-python
-#: code:addons/purchase_invoice_plan/models/purchase.py
+#: code:addons/purchase_invoice_plan/models/purchase.py:0
 #, python-format
 msgid "Invoice plan total percentage must not exceed 100%"
 msgstr "Faktura plan total percentage must not exceed 100%"
@@ -198,7 +198,7 @@ msgstr "Last Rata"
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_create_invoice_plan____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_create_invoice_plan__write_uid
@@ -228,11 +228,11 @@ msgstr "Next Faktura"
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_invoice_plan__no_edit
 msgid "No Edit"
-msgstr "No Edit"
+msgstr ""
 
 #. module: purchase_invoice_plan
 #. odoo-python
-#: code:addons/purchase_invoice_plan/wizard/purchase_create_invoice_plan.py
+#: code:addons/purchase_invoice_plan/wizard/purchase_create_invoice_plan.py:0
 #, python-format
 msgid "Number Installment must greater than 1"
 msgstr "Number Rata must greater than 1"
@@ -254,7 +254,7 @@ msgstr "Plan Datum"
 
 #. module: purchase_invoice_plan
 #. odoo-python
-#: code:addons/purchase_invoice_plan/models/purchase.py
+#: code:addons/purchase_invoice_plan/models/purchase.py:0
 #, python-format
 msgid ""
 "Plan quantity: %(plan)s, exceed invoiceable quantity: %(qty)s\n"
@@ -265,10 +265,10 @@ msgstr ""
 
 #. module: purchase_invoice_plan
 #. odoo-python
-#: code:addons/purchase_invoice_plan/models/purchase.py
+#: code:addons/purchase_invoice_plan/models/purchase.py:0
 #, python-format
 msgid "Please fill percentage for all invoice plan lines"
-msgstr "Please fill percentage for all invoice plan lines"
+msgstr ""
 
 #. module: purchase_invoice_plan
 #: model:ir.actions.act_window,name:purchase_invoice_plan.action_purchase_invoice_plan
@@ -318,7 +318,7 @@ msgstr "Search Nabavni Faktura Plan Linijas"
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_invoice_plan__state
 msgid "Status"
-msgstr "Status"
+msgstr ""
 
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_invoice_plan__partner_id
@@ -328,22 +328,22 @@ msgstr "Dobavljač"
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,help:purchase_invoice_plan.field_purchase_invoice_plan__amount
 msgid "This amount will be used to calculate the percent"
-msgstr "This amount will be used to calculate the percent"
+msgstr ""
 
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,help:purchase_invoice_plan.field_purchase_invoice_plan__percent
 msgid "This percent will be used to calculate new quantity"
-msgstr "This percent will be used to calculate new quantity"
+msgstr ""
 
 #. module: purchase_invoice_plan
 #: model_terms:ir.actions.act_window,help:purchase_invoice_plan.action_purchase_invoice_plan
 msgid "This view show all available invoice plan line for reporting purposes"
-msgstr "This view show all available invoice plan line for reporting purposes"
+msgstr ""
 
 #. module: purchase_invoice_plan
 #: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_create_invoice_plan
 msgid "This wizard help you quickly create invoice plan."
-msgstr "This wizard help you quickly create invoice plan."
+msgstr ""
 
 #. module: purchase_invoice_plan
 #: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_invoice_plan_filter
@@ -367,7 +367,7 @@ msgstr "Use Faktura Plan"
 
 #. module: purchase_invoice_plan
 #. odoo-python
-#: code:addons/purchase_invoice_plan/models/purchase.py
+#: code:addons/purchase_invoice_plan/models/purchase.py:0
 #, python-format
 msgid "Use Invoice Plan selected, but no plan created"
 msgstr "Use Faktura Plan selected, but no plan created"
@@ -375,7 +375,7 @@ msgstr "Use Faktura Plan selected, but no plan created"
 #. module: purchase_invoice_plan
 #: model_terms:ir.actions.act_window,help:purchase_invoice_plan.action_purchase_invoice_plan
 msgid "View purchase invoice plan lines"
-msgstr "View purchase invoice plan lines"
+msgstr ""
 
 #. module: purchase_invoice_plan
 #: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_invoice_plan_filter

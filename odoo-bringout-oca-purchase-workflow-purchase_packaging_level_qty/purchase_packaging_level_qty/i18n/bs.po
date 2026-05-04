@@ -35,7 +35,7 @@ msgstr ""
 #. module: purchase_packaging_level_qty
 #: model:ir.model,name:purchase_packaging_level_qty.model_res_config_settings
 msgid "Procurement purchase grouping settings"
-msgstr "Postavke grupisanja nabavki"
+msgstr "Podešavanja grupisanja nabavnih prokuremenata"
 
 #. module: purchase_packaging_level_qty
 #: model:ir.model,name:purchase_packaging_level_qty.model_purchase_order
@@ -45,7 +45,7 @@ msgstr "Nalog za nabavu"
 #. module: purchase_packaging_level_qty
 #: model:ir.model,name:purchase_packaging_level_qty.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"
 
 #. module: purchase_packaging_level_qty
 #: model:ir.model.fields,field_description:purchase_packaging_level_qty.field_res_company__purchase_packaging_level_id

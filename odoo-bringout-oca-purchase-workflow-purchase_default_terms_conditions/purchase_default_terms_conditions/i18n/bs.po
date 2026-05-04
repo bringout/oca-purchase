@@ -43,7 +43,7 @@ msgstr "Umetnite ovdje svoje uvijete i pravila..."
 #. module: purchase_default_terms_conditions
 #: model:ir.model,name:purchase_default_terms_conditions.model_res_config_settings
 msgid "Procurement purchase grouping settings"
-msgstr "Postavke grupiranja nabavki za prokuraciju"
+msgstr "Podešavanja grupisanja nabavnih prokuremenata"
 
 #. module: purchase_default_terms_conditions
 #: model:ir.model.fields,field_description:purchase_default_terms_conditions.field_res_company__purchase_note

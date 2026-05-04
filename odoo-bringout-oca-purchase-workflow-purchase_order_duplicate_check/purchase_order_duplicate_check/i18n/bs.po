@@ -40,7 +40,7 @@ msgstr "Otvori"
 
 #. module: purchase_order_duplicate_check
 #. odoo-python
-#: code:addons/purchase_order_duplicate_check/models/purchase_order_line.py
+#: code:addons/purchase_order_duplicate_check/models/purchase_order_line.py:0
 #, python-format
 msgid "Pending Orders"
 msgstr "Pending Nalogs"
@@ -48,7 +48,7 @@ msgstr "Pending Nalogs"
 #. module: purchase_order_duplicate_check
 #: model:ir.model,name:purchase_order_duplicate_check.model_res_config_settings
 msgid "Procurement purchase grouping settings"
-msgstr "Postavke grupiranja nabavki za prokuraciju"
+msgstr "Podešavanja grupisanja nabavnih prokuremenata"
 
 #. module: purchase_order_duplicate_check
 #: model:ir.model,name:purchase_order_duplicate_check.model_purchase_order
@@ -58,11 +58,11 @@ msgstr "Nalog za nabavu"
 #. module: purchase_order_duplicate_check
 #: model:ir.model,name:purchase_order_duplicate_check.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"
 
 #. module: purchase_order_duplicate_check
 #. odoo-python
-#: code:addons/purchase_order_duplicate_check/wizard/confirmation_wizard.py
+#: code:addons/purchase_order_duplicate_check/wizard/confirmation_wizard.py:0
 #, python-format
 msgid "There are existing Requests for Quotations for:"
-msgstr "There are existing Requests for Quotations for:"
+msgstr ""

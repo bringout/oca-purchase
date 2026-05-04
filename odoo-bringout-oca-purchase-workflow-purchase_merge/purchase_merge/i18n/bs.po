@@ -41,7 +41,7 @@ msgstr "Odredište"
 #. module: purchase_merge
 #: model:ir.model.fields,field_description:purchase_merge.field_purchase_merge_automatic_wizard__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: purchase_merge
 #: model:ir.model.fields,field_description:purchase_merge.field_purchase_merge_automatic_wizard__id
@@ -51,7 +51,7 @@ msgstr "ID"
 #. module: purchase_merge
 #: model:ir.model.fields,field_description:purchase_merge.field_purchase_merge_automatic_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: purchase_merge
 #: model:ir.model.fields,field_description:purchase_merge.field_purchase_merge_automatic_wizard__write_uid
@@ -86,60 +86,60 @@ msgstr "Nabavni Merge Automatic Čarobnjak"
 #. module: purchase_merge
 #: model_terms:ir.ui.view,arch_db:purchase_merge.purchase_merge_automatic_wizard_form
 msgid "Selected purchase will be merged together."
-msgstr "Selected purchase will be merged together."
+msgstr ""
 
 #. module: purchase_merge
 #. odoo-python
-#: code:addons/purchase_merge/wizard/purchase_merge.py
+#: code:addons/purchase_merge/wizard/purchase_merge.py:0
 #, python-format
 msgid "This purchase order lines have been merged %(way)s : %(po_names)s"
-msgstr "This purchase order lines have been merged %(way)s : %(po_names)s"
+msgstr ""
 
 #. module: purchase_merge
 #. odoo-python
-#: code:addons/purchase_merge/wizard/purchase_merge.py
+#: code:addons/purchase_merge/wizard/purchase_merge.py:0
 #, python-format
 msgid "You can't merge purchase orders that aren't in draft state like: {}"
-msgstr "You can't merge purchase orders that aren't in draft state like: {}"
+msgstr ""
 
 #. module: purchase_merge
 #. odoo-python
-#: code:addons/purchase_merge/wizard/purchase_merge.py
+#: code:addons/purchase_merge/wizard/purchase_merge.py:0
 #, python-format
 msgid "You can't merge purchase orders with different currencies: %s"
-msgstr "You can't merge purchase orders with different currencies: %s"
+msgstr ""
 
 #. module: purchase_merge
 #. odoo-python
-#: code:addons/purchase_merge/wizard/purchase_merge.py
+#: code:addons/purchase_merge/wizard/purchase_merge.py:0
 #, python-format
 msgid "You can't merge purchase orders with different fiscal positions: %s"
-msgstr "You can't merge purchase orders with different fiscal positions: %s"
+msgstr ""
 
 #. module: purchase_merge
 #. odoo-python
-#: code:addons/purchase_merge/wizard/purchase_merge.py
+#: code:addons/purchase_merge/wizard/purchase_merge.py:0
 #, python-format
 msgid "You can't merge purchase orders with different incoterms: %s"
-msgstr "You can't merge purchase orders with different incoterms: %s"
+msgstr ""
 
 #. module: purchase_merge
 #. odoo-python
-#: code:addons/purchase_merge/wizard/purchase_merge.py
+#: code:addons/purchase_merge/wizard/purchase_merge.py:0
 #, python-format
 msgid "You can't merge purchase orders with different payment terms: %s"
-msgstr "You can't merge purchase orders with different payment terms: %s"
+msgstr ""
 
 #. module: purchase_merge
 #. odoo-python
-#: code:addons/purchase_merge/wizard/purchase_merge.py
+#: code:addons/purchase_merge/wizard/purchase_merge.py:0
 #, python-format
 msgid "You can't merge purchase orders with different picking types: %s"
-msgstr "You can't merge purchase orders with different picking types: %s"
+msgstr ""
 
 #. module: purchase_merge
 #. odoo-python
-#: code:addons/purchase_merge/wizard/purchase_merge.py
+#: code:addons/purchase_merge/wizard/purchase_merge.py:0
 #, python-format
 msgid "You can't merge purchase orders with different suppliers: %s"
-msgstr "You can't merge purchase orders with different suppliers: %s"
+msgstr ""

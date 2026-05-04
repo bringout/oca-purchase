@@ -31,7 +31,7 @@ msgstr "Nalog za nabavu"
 #. module: purchase_split_by_route
 #: model:ir.model,name:purchase_split_by_route.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"
 
 #. module: purchase_split_by_route
 #: model:ir.model.fields,field_description:purchase_split_by_route.field_stock_route__split_purchase_by_route

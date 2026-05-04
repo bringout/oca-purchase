@@ -19,8 +19,6 @@ msgid ""
 "<span attrs=\"{'invisible': [('advance_payment_method', '!=', "
 "'percentage')]}\" class=\"oe_inline\">%</span>"
 msgstr ""
-"<span attrs=\"{'invisible': [('advance_payment_method', '!=', "
-"'percentage')]}\" class=\"oe_inline\">%</span>"
 
 #. module: purchase_deposit
 #: model:ir.model.fields,help:purchase_deposit.field_purchase_advance_payment_inv__deposit_account_id
@@ -29,7 +27,7 @@ msgstr "Konto za depozite"
 
 #. module: purchase_deposit
 #. odoo-python
-#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py
+#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py:0
 #, python-format
 msgid "Advance: %s"
 msgstr "Avans: %s"
@@ -71,7 +69,7 @@ msgstr "Standardni proizvod korišten za avanse plaćanja."
 
 #. module: purchase_deposit
 #. odoo-python
-#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py
+#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py:0
 #, python-format
 msgid "Deposit Payment"
 msgstr "Depozitno plaćanje"
@@ -113,7 +111,7 @@ msgstr ""
 #. module: purchase_deposit
 #: model:ir.model.fields,field_description:purchase_deposit.field_purchase_advance_payment_inv__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: purchase_deposit
 #: model:ir.model.fields,field_description:purchase_deposit.field_purchase_advance_payment_inv__deposit_account_id
@@ -152,12 +150,12 @@ msgstr "Je depozitno plaćanje"
 #. module: purchase_deposit
 #: model:ir.model,name:purchase_deposit.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: purchase_deposit
 #: model:ir.model.fields,field_description:purchase_deposit.field_purchase_advance_payment_inv____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: purchase_deposit
 #: model:ir.model.fields,field_description:purchase_deposit.field_purchase_advance_payment_inv__write_uid
@@ -172,7 +170,7 @@ msgstr "Zadnje ažurirano"
 #. module: purchase_deposit
 #: model:ir.model,name:purchase_deposit.model_res_config_settings
 msgid "Procurement purchase grouping settings"
-msgstr "Postavke grupiranja nabavki za prokuraciju"
+msgstr "Podešavanja grupisanja nabavnih prokuremenata"
 
 #. module: purchase_deposit
 #: model_terms:ir.ui.view,arch_db:purchase_deposit.res_config_settings_view_form_purchase
@@ -191,7 +189,7 @@ msgstr "Proizvod nabavnog depozita"
 
 #. module: purchase_deposit
 #. odoo-python
-#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py
+#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py:0
 #, python-format
 msgid "Purchase Deposits"
 msgstr "Nabavni depoziti"
@@ -204,7 +202,7 @@ msgstr "Nalog za nabavu"
 #. module: purchase_deposit
 #: model:ir.model,name:purchase_deposit.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"
 
 #. module: purchase_deposit
 #: model_terms:ir.ui.view,arch_db:purchase_deposit.view_purchase_order_form_inherit
@@ -223,14 +221,14 @@ msgstr "Iznos koji treba fakturisati unaprijed, bez poreza."
 
 #. module: purchase_deposit
 #. odoo-python
-#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py
+#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py:0
 #, python-format
 msgid "The percentage of the deposit must be not over 100"
 msgstr "Procenat depozita ne smije biti preko 100"
 
 #. module: purchase_deposit
 #. odoo-python
-#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py
+#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py:0
 #, python-format
 msgid ""
 "The product used to invoice a down payment should be of type \"Service\". "
@@ -241,7 +239,7 @@ msgstr ""
 
 #. module: purchase_deposit
 #. odoo-python
-#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py
+#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py:0
 #, python-format
 msgid ""
 "The product used to invoice a down payment should have an invoice policy set"
@@ -254,14 +252,14 @@ msgstr ""
 
 #. module: purchase_deposit
 #. odoo-python
-#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py
+#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py:0
 #, python-format
 msgid "The value of the deposit must be positive."
 msgstr "Vrijednost depozita mora biti pozitivna."
 
 #. module: purchase_deposit
 #. odoo-python
-#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py
+#: code:addons/purchase_deposit/wizard/purchase_make_invoice_advance.py:0
 #, python-format
 msgid ""
 "There is no purchase account defined for this product: %s.\n"

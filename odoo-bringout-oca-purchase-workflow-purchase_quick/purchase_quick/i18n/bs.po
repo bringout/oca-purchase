@@ -31,7 +31,7 @@ msgstr "Za trenutnog dobavljača"
 
 #. module: purchase_quick
 #. odoo-python
-#: code:addons/purchase_quick/models/purchase_order.py
+#: code:addons/purchase_quick/models/purchase_order.py:0
 #, python-format
 msgid ""
 "Must have only 1 line per product for mass addition, but there are "
@@ -57,7 +57,7 @@ msgstr "Varijanta proizvoda"
 
 #. module: purchase_quick
 #. odoo-python
-#: code:addons/purchase_quick/models/purchase_order.py
+#: code:addons/purchase_quick/models/purchase_order.py:0
 #, python-format
 msgid "Product Variants"
 msgstr "Varijante proizvoda"

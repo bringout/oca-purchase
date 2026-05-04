@@ -26,7 +26,7 @@ msgstr "Nalog za nabavu"
 #. module: purchase_product_packaging_container_deposit
 #: model:ir.model,name:purchase_product_packaging_container_deposit.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"
 
 #. module: purchase_product_packaging_container_deposit
 #: model:ir.model,name:purchase_product_packaging_container_deposit.model_stock_move

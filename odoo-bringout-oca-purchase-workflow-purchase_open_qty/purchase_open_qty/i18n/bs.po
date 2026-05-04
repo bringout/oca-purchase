@@ -29,13 +29,13 @@ msgstr "Zaprimanje u tijeku"
 #. module: purchase_open_qty
 #: model:ir.model,name:purchase_open_qty.model_purchase_order
 msgid "Purchase Order"
-msgstr "Nabavni nalog"
+msgstr "Nalog za nabavu"
 
 # taken from hr.po
 #. module: purchase_open_qty
 #: model:ir.model,name:purchase_open_qty.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Stavka naloga za nabavu"
+msgstr "Stavka naloga za nabavku"
 
 # taken from hr.po
 #. module: purchase_open_qty
@@ -51,7 +51,7 @@ msgstr "Kol za zaprimanje"
 
 #. module: purchase_open_qty
 #. odoo-python
-#: code:addons/purchase_open_qty/models/purchase_order.py
+#: code:addons/purchase_open_qty/models/purchase_order.py:0
 #, python-format
 msgid "Unsupported search operator"
-msgstr "Unsupported search operator"
+msgstr ""

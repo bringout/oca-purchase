@@ -16,7 +16,7 @@ msgstr ""
 #. module: purchase_order_revision
 #: model:ir.model.fields,field_description:purchase_order_revision.field_purchase_order__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: purchase_order_revision
 #: model:ir.model.fields,field_description:purchase_order_revision.field_purchase_order__current_revision_id
@@ -31,7 +31,7 @@ msgstr "Ima starih revizija"
 #. module: purchase_order_revision
 #: model_terms:ir.ui.view,arch_db:purchase_order_revision.view_purchase_order_form
 msgid "New Revision"
-msgstr "New Revision"
+msgstr ""
 
 #. module: purchase_order_revision
 #: model:ir.model.fields,field_description:purchase_order_revision.field_purchase_order__old_revision_ids

@@ -231,7 +231,7 @@ msgstr "Primljeni ul.računi"
 #. module: purchase_return
 #: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: purchase_return
 #: model:ir.model.fields.selection,name:purchase_return.selection__purchase_return_order__state__cancel
@@ -361,7 +361,7 @@ msgstr "Opis"
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order_line__display_type
@@ -500,12 +500,12 @@ msgstr "Datum izdavanja"
 #. module: purchase_return
 #: model:ir.model,name:purchase_return.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: purchase_return
 #: model:ir.model,name:purchase_return.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 #. module: purchase_return
 #: model:ir.model.fields,help:purchase_return.field_product_category__property_account_vendor_return_categ_id
@@ -518,17 +518,17 @@ msgstr ""
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: purchase_return
 #: model:ir.model.fields,field_description:purchase_return.field_purchase_return_order__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: purchase_return
 #: model_terms:ir.ui.view,arch_db:purchase_return.view_purchase_return_order_filter
@@ -624,7 +624,7 @@ msgstr "Zabilješka"
 #. module: purchase_return
 #: model_terms:ir.ui.view,arch_db:purchase_return.purchase_return_order_form
 msgid "Notes"
-msgstr "Zabilješke"
+msgstr "Napomene"
 
 #. module: purchase_return
 #: model:ir.model.fields.selection,name:purchase_return.selection__purchase_return_order__invoice_status__no

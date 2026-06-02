@@ -16,7 +16,7 @@ msgstr ""
 #. module: purchase_manual_delivery
 #: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.view_create_stock_picking
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: purchase_manual_delivery
 #: model:ir.model,name:purchase_manual_delivery.model_res_company
@@ -26,7 +26,7 @@ msgstr "Kompanije"
 #. module: purchase_manual_delivery
 #: model:ir.model,name:purchase_manual_delivery.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 #. module: purchase_manual_delivery
 #: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.purchase_order_view_form_inherit
@@ -110,7 +110,7 @@ msgstr "Odredišna lokacija"
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: purchase_manual_delivery
 #: model_terms:ir.ui.view,arch_db:purchase_manual_delivery.view_create_stock_picking
@@ -150,17 +150,17 @@ msgstr ""
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: purchase_manual_delivery
 #: model:ir.model.fields,field_description:purchase_manual_delivery.field_create_stock_picking_wizard__line_ids

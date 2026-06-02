@@ -95,7 +95,7 @@ msgstr "Broj priloga"
 #. module: purchase_work_acceptance
 #: model_terms:ir.ui.view,arch_db:purchase_work_acceptance.view_select_work_acceptance_wizard
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: purchase_work_acceptance
 #: model:ir.model.fields.selection,name:purchase_work_acceptance.selection__work_acceptance__state__cancel
@@ -155,7 +155,7 @@ msgstr "Opis"
 #. module: purchase_work_acceptance
 #: model:ir.model.fields,field_description:purchase_work_acceptance.field_select_work_acceptance_wizard__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: purchase_work_acceptance
 #: model:ir.model.fields.selection,name:purchase_work_acceptance.selection__work_acceptance__state__draft
@@ -255,22 +255,22 @@ msgstr "Je pratilac"
 #. module: purchase_work_acceptance
 #: model:ir.model,name:purchase_work_acceptance.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 #. module: purchase_work_acceptance
 #: model:ir.model.fields,field_description:purchase_work_acceptance.field_select_work_acceptance_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: purchase_work_acceptance
 #: model:ir.model.fields,field_description:purchase_work_acceptance.field_select_work_acceptance_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: purchase_work_acceptance
 #: model:ir.model.fields,field_description:purchase_work_acceptance.field_select_work_acceptance_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: purchase_work_acceptance
 #: model:ir.model.fields,field_description:purchase_work_acceptance.field_work_acceptance__message_main_attachment_id
@@ -320,7 +320,7 @@ msgstr "Tip sljedeće aktivnosti"
 #. module: purchase_work_acceptance
 #: model:ir.model.fields,field_description:purchase_work_acceptance.field_work_acceptance__notes
 msgid "Notes"
-msgstr "Zabilješke"
+msgstr "Napomene"
 
 #. module: purchase_work_acceptance
 #: model:ir.model.fields,field_description:purchase_work_acceptance.field_work_acceptance__message_needaction_counter

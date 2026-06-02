@@ -51,7 +51,7 @@ msgstr "Opis"
 #. module: purchase_request_type
 #: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: purchase_request_type
 #. odoo-python
@@ -78,17 +78,17 @@ msgstr "ID"
 #. module: purchase_request_type
 #: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: purchase_request_type
 #: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: purchase_request_type
 #: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: purchase_request_type
 #: model:ir.model.fields,field_description:purchase_request_type.field_purchase_request_type__name

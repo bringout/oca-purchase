@@ -55,7 +55,7 @@ msgstr ""
 #. module: purchase_invoice_plan
 #: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_create_invoice_plan
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: purchase_invoice_plan
 #: model_terms:ir.ui.view,arch_db:purchase_invoice_plan.view_purchase_make_planned_invoice
@@ -95,7 +95,7 @@ msgstr "Dan"
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_create_invoice_plan__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: purchase_invoice_plan
 #: model:ir.model,name:purchase_invoice_plan.model_purchase_create_invoice_plan
@@ -198,17 +198,17 @@ msgstr "Last Rata"
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_create_invoice_plan____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_create_invoice_plan__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,field_description:purchase_invoice_plan.field_purchase_create_invoice_plan__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: purchase_invoice_plan
 #: model:ir.model.fields,help:purchase_invoice_plan.field_purchase_invoice_plan__last

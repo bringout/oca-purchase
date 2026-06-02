@@ -36,7 +36,7 @@ msgstr ""
 #. module: purchase_order_line_sequence
 #: model:ir.model,name:purchase_order_line_sequence.model_account_move_line
 msgid "Journal Item"
-msgstr "Stavka žurnala"
+msgstr "Stavka dnevnika"
 
 #. module: purchase_order_line_sequence
 #: model:ir.model.fields,field_description:purchase_order_line_sequence.field_purchase_order_line__visible_sequence

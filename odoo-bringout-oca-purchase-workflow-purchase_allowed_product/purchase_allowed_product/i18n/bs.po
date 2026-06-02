@@ -42,7 +42,7 @@ msgstr ""
 #. module: purchase_allowed_product
 #: model:ir.model,name:purchase_allowed_product.model_account_move
 msgid "Journal Entry"
-msgstr "Stavka dnevnika"
+msgstr "Knjiženje"
 
 # taken from hr.po
 #. module: purchase_allowed_product

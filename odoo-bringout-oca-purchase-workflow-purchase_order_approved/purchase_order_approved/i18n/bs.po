@@ -68,7 +68,7 @@ msgstr ""
 #. module: purchase_order_approved
 #: model:ir.model,name:purchase_order_approved.model_res_company
 msgid "Companies"
-msgstr "Poduzeća"
+msgstr "Kompanije"
 
 # taken from hr.po
 #. module: purchase_order_approved

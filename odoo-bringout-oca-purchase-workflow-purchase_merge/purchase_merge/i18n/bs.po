@@ -21,7 +21,7 @@ msgstr "Čarobnjak automatskog spajanja"
 #. module: purchase_merge
 #: model_terms:ir.ui.view,arch_db:purchase_merge.purchase_merge_automatic_wizard_form
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: purchase_merge
 #: model:ir.model.fields,field_description:purchase_merge.field_purchase_merge_automatic_wizard__create_uid
@@ -41,7 +41,7 @@ msgstr "Odredište"
 #. module: purchase_merge
 #: model:ir.model.fields,field_description:purchase_merge.field_purchase_merge_automatic_wizard__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: purchase_merge
 #: model:ir.model.fields,field_description:purchase_merge.field_purchase_merge_automatic_wizard__id
@@ -51,17 +51,17 @@ msgstr "ID"
 #. module: purchase_merge
 #: model:ir.model.fields,field_description:purchase_merge.field_purchase_merge_automatic_wizard____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: purchase_merge
 #: model:ir.model.fields,field_description:purchase_merge.field_purchase_merge_automatic_wizard__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: purchase_merge
 #: model:ir.model.fields,field_description:purchase_merge.field_purchase_merge_automatic_wizard__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: purchase_merge
 #: model_terms:ir.ui.view,arch_db:purchase_merge.purchase_merge_automatic_wizard_form

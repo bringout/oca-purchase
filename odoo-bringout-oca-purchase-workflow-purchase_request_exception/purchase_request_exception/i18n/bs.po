@@ -49,7 +49,7 @@ msgstr "Kreirano"
 #. module: purchase_request_exception
 #: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request_exception_confirm__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: purchase_request_exception
 #: model:ir.model,name:purchase_request_exception.model_exception_rule
@@ -84,17 +84,17 @@ msgstr "Ignoriraj izuzetke"
 #. module: purchase_request_exception
 #: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request_exception_confirm____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: purchase_request_exception
 #: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request_exception_confirm__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: purchase_request_exception
 #: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request_exception_confirm__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: purchase_request_exception
 #: model:ir.model.fields,field_description:purchase_request_exception.field_purchase_request__main_exception_id

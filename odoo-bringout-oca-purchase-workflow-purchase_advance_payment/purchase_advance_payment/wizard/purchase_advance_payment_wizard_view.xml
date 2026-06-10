@@ -8,7 +8,6 @@
             <form string="Advance Payment">
                 <group>
                     <group>
-                        <field name="order_id" invisible="1" />
                         <field
                             name="journal_id"
                             domain="[('type','in',['bank', 'cash'])]"
@@ -20,15 +19,7 @@
                             required="1"
                             options="{'no_create': True, 'no_open': True}"
                         />
-                        <field name="available_payment_method_line_ids" invisible="1" />
                         <field name="amount_total" string="Order Due Amount" />
-                        <button
-                            name="action_fill_amount"
-                            string="Pay order due amount"
-                            type="object"
-                            class="btn-secondary w-100"
-                            colspan="2"
-                        />
                         <field name="currency_id" invisible="1" />
                     </group>
                     <group>
@@ -50,7 +41,6 @@
                         <field name="date" />
                         <field name="payment_ref" />
                     </group>
-
                 </group>
                 <footer>
                     <button

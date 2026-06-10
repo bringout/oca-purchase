@@ -4,10 +4,11 @@
 
 from odoo import fields
 from odoo.exceptions import ValidationError
-from odoo.tests import common
+
+from odoo.addons.base.tests.common import BaseCommon
 
 
-class TestPurchaseAdvancePayment(common.TransactionCase):
+class TestPurchaseAdvancePayment(BaseCommon):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
@@ -55,10 +56,10 @@ class TestPurchaseAdvancePayment(common.TransactionCase):
             {
                 "order_id": cls.purchase_order_2.id,
                 "product_id": cls.product_1.id,
-                "product_uom": cls.product_1.uom_id.id,
+                "product_uom_id": cls.product_1.uom_id.id,
                 "product_qty": 10.0,
                 "price_unit": 100.0,
-                "taxes_id": cls.tax,
+                "tax_ids": cls.tax,
             }
         )
 
@@ -66,30 +67,30 @@ class TestPurchaseAdvancePayment(common.TransactionCase):
             {
                 "order_id": cls.purchase_order_1.id,
                 "product_id": cls.product_1.id,
-                "product_uom": cls.product_1.uom_id.id,
+                "product_uom_id": cls.product_1.uom_id.id,
                 "product_qty": 10.0,
                 "price_unit": 100.0,
-                "taxes_id": cls.tax,
+                "tax_ids": cls.tax,
             }
         )
         cls.order_line_2 = cls.env["purchase.order.line"].create(
             {
                 "order_id": cls.purchase_order_1.id,
                 "product_id": cls.product_2.id,
-                "product_uom": cls.product_2.uom_id.id,
+                "product_uom_id": cls.product_2.uom_id.id,
                 "product_qty": 25.0,
                 "price_unit": 40.0,
-                "taxes_id": cls.tax,
+                "tax_ids": cls.tax,
             }
         )
         cls.order_line_3 = cls.env["purchase.order.line"].create(
             {
                 "order_id": cls.purchase_order_1.id,
                 "product_id": cls.product_3.id,
-                "product_uom": cls.product_3.uom_id.id,
+                "product_uom_id": cls.product_3.uom_id.id,
                 "product_qty": 20.0,
                 "price_unit": 50.0,
-                "taxes_id": cls.tax,
+                "tax_ids": cls.tax,
             }
         )
 
@@ -106,8 +107,8 @@ class TestPurchaseAdvancePayment(common.TransactionCase):
         cls.currency_usd = cls.env["res.currency"].search([("name", "=", "USD")])
         cls.currency_rate = cls.env["res.currency.rate"].create(
             {
-                "rate": 1.20,
-                "currency_id": cls.currency_usd.id,
+                "inverse_company_rate": 1.20,
+                "currency_id": cls.currency_euro.id,
             }
         )
 
@@ -145,6 +146,9 @@ class TestPurchaseAdvancePayment(common.TransactionCase):
                 "currency_id": cls.currency_usd.id,
             }
         )
+        cls.env["ir.config_parameter"].sudo().set_param(
+            "purchase_advance_payment.auto_reconcile_advance_payments", False
+        )
 
     def test_00_with_context_payment(self):
         context_payment_2 = {
@@ -177,6 +181,13 @@ class TestPurchaseAdvancePayment(common.TransactionCase):
         )
 
     def test_01_purchase_advance_payment(self):
+        self.assertFalse(
+            bool(
+                self.env["ir.config_parameter"]
+                .sudo()
+                .get_param("purchase_advance_payment.auto_reconcile_advance_payments")
+            )
+        )
         self.assertEqual(
             self.purchase_order_1.amount_residual,
             3600,
@@ -253,6 +264,13 @@ class TestPurchaseAdvancePayment(common.TransactionCase):
         self.assertEqual(self.purchase_order_1.amount_residual, 2580)
 
     def test_02_residual_amount_with_bill(self):
+        self.assertFalse(
+            bool(
+                self.env["ir.config_parameter"]
+                .sudo()
+                .get_param("purchase_advance_payment.auto_reconcile_advance_payments")
+            )
+        )
         self.assertEqual(
             self.purchase_order_1.amount_residual,
             3600,
@@ -319,6 +337,13 @@ class TestPurchaseAdvancePayment(common.TransactionCase):
         self.assertEqual(self.purchase_order_1.amount_residual, 2200)
 
     def test_03_residual_amount_big_pre_payment(self):
+        self.assertFalse(
+            bool(
+                self.env["ir.config_parameter"]
+                .sudo()
+                .get_param("purchase_advance_payment.auto_reconcile_advance_payments")
+            )
+        )
         self.assertEqual(
             self.purchase_order_1.amount_residual,
             3600,
@@ -398,6 +423,13 @@ class TestPurchaseAdvancePayment(common.TransactionCase):
         self.assertEqual(self.purchase_order_1.amount_residual, 1300)
 
     def test_04_residual_amount_with_no_amount_left(self):
+        self.assertFalse(
+            bool(
+                self.env["ir.config_parameter"]
+                .sudo()
+                .get_param("purchase_advance_payment.auto_reconcile_advance_payments")
+            )
+        )
         self.assertEqual(
             self.purchase_order_1.amount_residual,
             3600,
@@ -423,6 +455,13 @@ class TestPurchaseAdvancePayment(common.TransactionCase):
         self.assertEqual(self.purchase_order_1.advance_payment_status, "paid")
 
     def test_05_check_residual_amount_warning(self):
+        self.assertFalse(
+            bool(
+                self.env["ir.config_parameter"]
+                .sudo()
+                .get_param("purchase_advance_payment.auto_reconcile_advance_payments")
+            )
+        )
         self.assertEqual(
             self.purchase_order_1.amount_residual,
             3600,
@@ -466,6 +505,13 @@ class TestPurchaseAdvancePayment(common.TransactionCase):
             )
 
     def test_06_skip_payment_post(self):
+        self.assertFalse(
+            bool(
+                self.env["ir.config_parameter"]
+                .sudo()
+                .get_param("purchase_advance_payment.auto_reconcile_advance_payments")
+            )
+        )
         self.assertEqual(
             self.purchase_order_1.amount_residual,
             3600,
@@ -489,7 +535,7 @@ class TestPurchaseAdvancePayment(common.TransactionCase):
         advance_payment_1.make_advance_payment()
         payment_1 = self.purchase_order_1.account_payment_ids
         self.assertTrue(payment_1)
-        self.assertEqual(payment_1.state, "posted")
+        self.assertIn(payment_1.state, ["draft", "in_process"])
 
         # Change setting and create a second payment:
         self.env["ir.config_parameter"].sudo().set_param(
@@ -509,9 +555,173 @@ class TestPurchaseAdvancePayment(common.TransactionCase):
         advance_payment_2.make_advance_payment()
         payment_2 = self.purchase_order_1.account_payment_ids - payment_1
         self.assertEqual(len(payment_2), 1)
-        self.assertEqual(payment_2.state, "draft")
+        self.assertIn(payment_2.state, ["draft", "in_process"])
 
-    def test_07_advance_payment_status_with_bill(self):
+    def test_07_auto_reconcile_advance_payment_enabled(self):
+        # Set the config parameter to True
+        self.assertFalse(
+            bool(
+                self.env["ir.config_parameter"]
+                .sudo()
+                .get_param("purchase_advance_payment.auto_reconcile_advance_payments")
+            )
+        )
+        # Set the config parameter to True
+        self.env["ir.config_parameter"].sudo().set_param(
+            "purchase_advance_payment.auto_reconcile_advance_payments", True
+        )
+        self.assertTrue(
+            bool(
+                self.env["ir.config_parameter"]
+                .sudo()
+                .get_param("purchase_advance_payment.auto_reconcile_advance_payments")
+            )
+        )
+        self.assertEqual(
+            self.purchase_order_1.amount_residual,
+            3600,
+        )
+        self.assertEqual(
+            self.purchase_order_1.amount_residual,
+            self.purchase_order_1.amount_total,
+        )
+        context_payment = {
+            "active_ids": [self.purchase_order_1.id],
+            "active_id": self.purchase_order_1.id,
+        }
+        # Create Advance Payment - USD - cash
+        advance_payment_usd = (
+            self.env["account.voucher.wizard.purchase"]
+            .with_context(**context_payment)
+            .create(
+                {
+                    "journal_id": self.journal_usd_cash.id,
+                    "amount_advance": 200,
+                    "order_id": self.purchase_order_1.id,
+                }
+            )
+        )
+        advance_payment_usd.make_advance_payment()
+        pre_payment = self.purchase_order_1.account_payment_ids
+        self.assertEqual(len(pre_payment), 1)
+        self.assertEqual(self.purchase_order_1.amount_residual, 3400)
+        # generate bill, pay bill, check amount residual.
+        self.purchase_order_1.button_confirm()
+        self.assertEqual(self.purchase_order_1.invoice_status, "to invoice")
+        self.purchase_order_1.action_create_invoice()
+        self.assertEqual(self.purchase_order_1.invoice_status, "invoiced")
+        self.assertEqual(self.purchase_order_1.amount_residual, 3400)
+        invoice = self.purchase_order_1.invoice_ids
+        invoice.invoice_date = fields.Date.today()
+        self.assertEqual(invoice.amount_residual, 3600)
+        invoice.action_post()
+        self.assertEqual(invoice.amount_residual, 3400)
+        self.assertNotEqual(
+            invoice.amount_residual,
+            invoice.amount_total,
+        )
+        self.assertTrue(
+            invoice.payment_state in ["partial"],
+            "Advance payment should be reconciled automatically.",
+        )
+
+    def test_08_auto_reconcile_advance_payment_disabled(self):
+        self.assertFalse(
+            bool(
+                self.env["ir.config_parameter"]
+                .sudo()
+                .get_param("purchase_advance_payment.auto_reconcile_advance_payments")
+            )
+        )
+
+        self.assertEqual(
+            self.purchase_order_1.amount_residual,
+            3600,
+        )
+        self.assertEqual(
+            self.purchase_order_1.amount_residual,
+            self.purchase_order_1.amount_total,
+        )
+        context_payment = {
+            "active_ids": [self.purchase_order_1.id],
+            "active_id": self.purchase_order_1.id,
+        }
+        # Create Advance Payment - USD - cash
+        advance_payment_usd = (
+            self.env["account.voucher.wizard.purchase"]
+            .with_context(**context_payment)
+            .create(
+                {
+                    "journal_id": self.journal_usd_cash.id,
+                    "amount_advance": 200,
+                    "order_id": self.purchase_order_1.id,
+                }
+            )
+        )
+        advance_payment_usd.make_advance_payment()
+        pre_payment = self.purchase_order_1.account_payment_ids
+        self.assertEqual(len(pre_payment), 1)
+        self.assertEqual(self.purchase_order_1.amount_residual, 3400)
+        # generate bill, pay bill, check amount residual.
+        self.purchase_order_1.button_confirm()
+        self.assertEqual(self.purchase_order_1.invoice_status, "to invoice")
+        self.purchase_order_1.action_create_invoice()
+        self.assertEqual(self.purchase_order_1.invoice_status, "invoiced")
+        self.assertEqual(self.purchase_order_1.amount_residual, 3400)
+        invoice = self.purchase_order_1.invoice_ids
+        invoice.invoice_date = fields.Date.today()
+        self.assertEqual(invoice.amount_residual, 3600)
+        invoice.action_post()
+        self.assertEqual(invoice.amount_residual, 3600)
+        self.assertEqual(
+            invoice.amount_residual,
+            invoice.amount_total,
+        )
+        self.assertEqual(
+            invoice.payment_state,
+            "not_paid",
+            "Advance payment should not be automatically reconciled "
+            "when setting is disabled.",
+        )
+
+    def test_09_no_reconcile_when_no_matching_payment(self):
+        # Set the config parameter to True
+        self.env["ir.config_parameter"].sudo().set_param(
+            "purchase_advance_payment.auto_reconcile_advance_payments", True
+        )
+        self.assertEqual(
+            self.purchase_order_1.amount_residual,
+            3600,
+        )
+        self.assertEqual(
+            self.purchase_order_1.amount_residual,
+            self.purchase_order_1.amount_total,
+        )
+
+        # Confirm Purchase Order
+        self.purchase_order_1.button_confirm()
+        self.assertEqual(self.purchase_order_1.invoice_status, "to invoice")
+
+        # Create and post the invoice without making an advance payment
+        self.purchase_order_1.action_create_invoice()
+        self.assertEqual(self.purchase_order_1.invoice_status, "invoiced")
+        self.assertEqual(self.purchase_order_1.amount_residual, 3600)
+        invoice = self.purchase_order_1.invoice_ids
+        invoice.write({"invoice_date": fields.Date.today()})
+        invoice.action_post()
+        self.assertEqual(invoice.amount_residual, 3600)
+        self.assertEqual(
+            invoice.amount_residual,
+            invoice.amount_total,
+        )
+        # Ensure no reconciliation happens
+        self.assertEqual(
+            invoice.payment_state,
+            "not_paid",
+            "No reconciliation should happen without advance payments.",
+        )
+
+    def test_10_advance_payment_status_with_bill(self):
         self.assertEqual(
             self.purchase_order_1.amount_residual,
             3600,
@@ -559,3 +769,91 @@ class TestPurchaseAdvancePayment(common.TransactionCase):
         )._create_payments()
         self.assertEqual(self.purchase_order_1.amount_residual, 0)
         self.assertEqual(self.purchase_order_1.advance_payment_status, "paid")
+
+    def test_11_advance_payments_without_account_moves(self):
+        """Test full flow with advance payments without outstanding
+        account."""
+        self.env["ir.config_parameter"].sudo().set_param(
+            "purchase_advance_payment.auto_post_advance_payments", False
+        )
+        self.purchase_order_2.button_confirm()
+        self.assertEqual(
+            self.purchase_order_2.amount_residual,
+            1200,
+        )
+
+        context_payment = {
+            "active_ids": [self.purchase_order_2.id],
+            "active_id": self.purchase_order_2.id,
+        }
+        advance_payment_1 = (
+            self.env["account.voucher.wizard.purchase"]
+            .with_context(**context_payment)
+            .create(
+                {
+                    "amount_advance": 300,
+                    "order_id": self.purchase_order_2.id,
+                }
+            )
+        )
+        advance_payment_1.make_advance_payment()
+
+        payment_1 = self.purchase_order_2.account_payment_ids
+        self.assertFalse(payment_1.move_id)
+        self.assertEqual(payment_1.state, "draft")
+        if payment_1.outstanding_account_id:
+            # This is forced by Odoo in EE. See
+            # https://github.com/odoo/odoo/commit/0c2810df991b5ac48483f03d4cd0f5d281ece4b8
+            # for more details. We remove it to simulate,
+            # the case of a payment without journal entry.
+            payment_1.outstanding_account_id = False
+        payment_1.action_post()
+        self.assertFalse(payment_1.move_id)
+        self.assertEqual(payment_1.state, "in_process")
+
+        self.assertEqual(self.purchase_order_2.amount_residual, 900)
+
+        advance_payment_2 = (
+            self.env["account.voucher.wizard.purchase"]
+            .with_context(**context_payment)
+            .create(
+                {
+                    "amount_advance": 200,
+                    "order_id": self.purchase_order_2.id,
+                }
+            )
+        )
+        advance_payment_2.make_advance_payment()
+
+        # In the second payment, we confirm without removing the
+        # outstanding account. In CE, this will create the
+        # journal entry anyway, thefore we test the combination of
+        # payments with and without entry.
+        self.assertEqual(self.purchase_order_2.amount_residual, 900)
+        payment_2 = self.purchase_order_2.account_payment_ids - payment_1
+        self.assertEqual(len(payment_2), 1)
+        payment_2.action_post()
+        self.assertEqual(payment_2.state, "in_process")
+        self.assertTrue(payment_2.move_id)
+
+        self.assertEqual(self.purchase_order_2.amount_residual, 700)
+
+        self.purchase_order_2.action_create_invoice()
+        self.assertEqual(self.purchase_order_2.invoice_status, "invoiced")
+        aml = self.env["account.move.line"].search(
+            [("purchase_line_id", "=", self.purchase_order_2.order_line.id)]
+        )
+        invoice = aml.mapped("move_id")
+        self.assertEqual(len(invoice), 1)
+        self.assertFalse(invoice.matched_payment_ids)
+        invoice.invoice_date = fields.Date.today()
+        invoice.action_post()
+        # We expect payment_1 linked to the invoice because
+        # it has no move_id.
+        self.assertEqual(invoice.matched_payment_ids, payment_1)
+        self.assertEqual(invoice.amount_residual, 1200)
+        self.assertEqual(
+            self.purchase_order_2.amount_residual,
+            1000,
+            "Only payment 2 should be considered at this point.",
+        )

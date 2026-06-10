@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-04-18 08:37+0000\n"
+"PO-Revision-Date: 2023-07-20 10:15+0000\n"
 "Last-Translator: Ivorra78 <informatica@totmaterial.es>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -62,20 +62,28 @@ msgstr "Importe en la moneda del pedido"
 #. module: purchase_advance_payment
 #. odoo-python
 #: code:addons/purchase_advance_payment/wizard/purchase_advance_payment_wizard.py:0
-#, python-format
 msgid "Amount of advance is greater than residual amount on purchase"
 msgstr "El importe anticipado es mayor que el importe pendiente del pedido"
 
 #. module: purchase_advance_payment
 #. odoo-python
 #: code:addons/purchase_advance_payment/wizard/purchase_advance_payment_wizard.py:0
-#, python-format
 msgid "Amount of advance must be positive."
 msgstr "El importe del anticipo debe ser positivo."
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_res_config_settings__auto_post_purchase_advance_payments
 msgid "Auto Post Purchase Advance Payments"
+msgstr ""
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_res_config_settings__auto_reconcile_purchase_advance_payments
+msgid "Auto Reconcile Purchase Advance Payments"
+msgstr ""
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.res_config_settings_view_form_purchase
+msgid "Automatically reconcile payments upon bill confirmation."
 msgstr ""
 
 #. module: purchase_advance_payment
@@ -130,6 +138,13 @@ msgid "If enabled, advance payments created from POs are automatically posted."
 msgstr ""
 
 #. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.res_config_settings_view_form_purchase
+msgid ""
+"If enabled, advance payments created from POs are automatically reconciled "
+"upon bill confirmation."
+msgstr ""
+
+#. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__journal_id
 msgid "Journal"
 msgstr "Diario"
@@ -140,9 +155,9 @@ msgid "Journal Currency"
 msgstr "Moneda del diario"
 
 #. module: purchase_advance_payment
-#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase____last_update
-msgid "Last Modified on"
-msgstr "última modificación el"
+#: model:ir.model,name:purchase_advance_payment.model_account_move
+msgid "Journal Entry"
+msgstr ""
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__write_uid
@@ -170,11 +185,6 @@ msgid "Not Reconciled"
 msgstr ""
 
 #. module: purchase_advance_payment
-#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_payment_search
-msgid "Not Sent"
-msgstr ""
-
-#. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__order_id
 msgid "Order"
 msgstr "Pedido"
@@ -195,6 +205,7 @@ msgid "Partially Paid"
 msgstr "Pagado parcialmente"
 
 #. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_purchase_order__account_payment_ids
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.purchase_order_form
 msgid "Pay purchase advanced"
 msgstr "Pagar anticipo de compra"
@@ -236,13 +247,9 @@ msgstr "Compra"
 
 #. module: purchase_advance_payment
 #: model:ir.model,name:purchase_advance_payment.model_purchase_order
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_payment_form
 msgid "Purchase Order"
 msgstr "Pedido de compra"
-
-#. module: purchase_advance_payment
-#: model:ir.model.fields,field_description:purchase_advance_payment.field_purchase_order__account_payment_ids
-msgid "Purchase Payment"
-msgstr "Pago de la Compra"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__payment_ref
@@ -264,3 +271,6 @@ msgstr ""
 
 #~ msgid "Order Currency"
 #~ msgstr "Moneda del pedido"
+
+#~ msgid "Last Modified on"
+#~ msgstr "última modificación el"

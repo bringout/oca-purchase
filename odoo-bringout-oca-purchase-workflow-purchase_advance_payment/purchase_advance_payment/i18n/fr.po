@@ -6,83 +6,90 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-05-27 09:26+0000\n"
-"Last-Translator: MDgrap <michael.duc@grap.coop>\n"
+"PO-Revision-Date: 2024-10-22 15:06+0000\n"
+"Last-Translator: epanisset <emeric.panisset@camptocamp.com>\n"
 "Language-Team: none\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #. module: purchase_advance_payment
 #: model:ir.model,name:purchase_advance_payment.model_account_voucher_wizard_purchase
-#, fuzzy
 msgid "Account Voucher Wizard Purchase"
-msgstr "Assistant de justificatif comptable d'achat"
+msgstr "Wizard de justificatif comptable d'achat"
 
 #. module: purchase_advance_payment
 #: model:ir.actions.act_window,name:purchase_advance_payment.action_view_account_voucher_wizard
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
 msgid "Advance Payment"
-msgstr "Acompte"
+msgstr "Paiement anticipé"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_purchase_order__advance_payment_status
 msgid "Advance Payment Status"
-msgstr "Statut de l'acompte"
+msgstr "Statut Paiement Anticipé"
 
 #. module: purchase_advance_payment
 #: model:ir.actions.act_window,name:purchase_advance_payment.action_account_advance_payments_payable
 #: model:ir.ui.menu,name:purchase_advance_payment.menu_account_advance_payments_payable
 msgid "Advance Payments"
-msgstr ""
+msgstr "Paiements anticipés"
 
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.purchase_order_kpis_tree
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.purchase_order_view_tree
 msgid "Amount Residual"
-msgstr "Montant résiduel"
+msgstr "Montant Résiduel"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__amount_total
 msgid "Amount Total"
-msgstr "Montant total"
+msgstr "Montant Total"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__amount_advance
 msgid "Amount advanced"
-msgstr "Montant avancé"
+msgstr "Montant Avancé"
 
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
 msgid "Amount in Order Currency"
-msgstr "Montant en devise de la commande"
+msgstr "Montant en devise"
 
 #. module: purchase_advance_payment
 #. odoo-python
 #: code:addons/purchase_advance_payment/wizard/purchase_advance_payment_wizard.py:0
-#, python-format
 msgid "Amount of advance is greater than residual amount on purchase"
-msgstr "Le montant de l'acompte est supérieur au montant résiduel de l'achat"
+msgstr "Le montant de l'avance est supérieur au montant résiduel sur l'achat"
 
 #. module: purchase_advance_payment
 #. odoo-python
 #: code:addons/purchase_advance_payment/wizard/purchase_advance_payment_wizard.py:0
-#, python-format
 msgid "Amount of advance must be positive."
-msgstr "Le montant de l'acompte doit être positif."
+msgstr "Le montant de l'avance doit être positif."
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_res_config_settings__auto_post_purchase_advance_payments
 msgid "Auto Post Purchase Advance Payments"
+msgstr "Validation automatique des paiements anticipés"
+
+#. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_res_config_settings__auto_reconcile_purchase_advance_payments
+msgid "Auto Reconcile Purchase Advance Payments"
+msgstr ""
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.res_config_settings_view_form_purchase
+msgid "Automatically reconcile payments upon bill confirmation."
 msgstr ""
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__available_payment_method_line_ids
 msgid "Available Payment Method Line"
-msgstr ""
+msgstr "Méthodes de Paiement Disponibles"
 
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
@@ -113,67 +120,71 @@ msgstr "Devise"
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__date
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__display_name
 msgid "Display Name"
-msgstr "Nom d'affichage"
+msgstr "Nom Affiché"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.res_config_settings_view_form_purchase
 msgid "If enabled, advance payments created from POs are automatically posted."
 msgstr ""
+"Si activé, les paiements anticipés créés à partir des commandes d'achat sont "
+"automatiquement comptabilisés."
+
+#. module: purchase_advance_payment
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.res_config_settings_view_form_purchase
+msgid ""
+"If enabled, advance payments created from POs are automatically reconciled "
+"upon bill confirmation."
+msgstr ""
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__journal_id
 msgid "Journal"
-msgstr ""
+msgstr "Journal"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__journal_currency_id
 msgid "Journal Currency"
-msgstr "Devise du journal"
+msgstr "Devise du Journal"
 
 #. module: purchase_advance_payment
-#: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase____last_update
-msgid "Last Modified on"
-msgstr "Dernière modification le"
+#: model:ir.model,name:purchase_advance_payment.model_account_move
+msgid "Journal Entry"
+msgstr ""
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__write_uid
 msgid "Last Updated by"
-msgstr "Dernière mise à jour par"
+msgstr "Dernière modification par"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__write_date
 msgid "Last Updated on"
-msgstr "Dernière mise à jour le"
+msgstr "Dernière modification le"
 
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
 msgid "Make advance payment"
-msgstr "Faire un paiement d'acompte"
+msgstr "Faire un paiement anticipé"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields.selection,name:purchase_advance_payment.selection__purchase_order__advance_payment_status__not_paid
 msgid "Not Paid"
-msgstr "Non payé"
+msgstr "Non Payé"
 
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_payment_search
 msgid "Not Reconciled"
-msgstr ""
-
-#. module: purchase_advance_payment
-#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_payment_search
-msgid "Not Sent"
-msgstr ""
+msgstr "Non Réconcilié"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__order_id
@@ -183,7 +194,7 @@ msgstr "Commande"
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_voucher_wizard
 msgid "Order Due Amount"
-msgstr "Montant dû de la commande"
+msgstr "Montant dû sur la Commande"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields.selection,name:purchase_advance_payment.selection__purchase_order__advance_payment_status__paid
@@ -193,32 +204,33 @@ msgstr "Payé"
 #. module: purchase_advance_payment
 #: model:ir.model.fields.selection,name:purchase_advance_payment.selection__purchase_order__advance_payment_status__partial
 msgid "Partially Paid"
-msgstr "Partiellement réglé"
+msgstr "Partiellement Payé"
 
 #. module: purchase_advance_payment
+#: model:ir.model.fields,field_description:purchase_advance_payment.field_purchase_order__account_payment_ids
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.purchase_order_form
 msgid "Pay purchase advanced"
-msgstr "Payer un acompte d'achat"
+msgstr "Payer le paiement en avance"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__payment_method_line_id
 msgid "Payment Method"
-msgstr "Mode de paiement"
+msgstr "Méthode de Paiement"
 
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_supplier_payment_tree
 msgid "Payment Sent?"
-msgstr ""
+msgstr "Paiement Envoyé ?"
 
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.purchase_order_form
 msgid "Payment advances"
-msgstr "Paiements d'acomptes"
+msgstr "Paiements anticipés"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_purchase_order__payment_line_ids
 msgid "Payment move lines"
-msgstr "Lignes de paiements"
+msgstr "Lignes de Paiement"
 
 #. module: purchase_advance_payment
 #: model:ir.model,name:purchase_advance_payment.model_account_payment
@@ -228,7 +240,7 @@ msgstr "Paiements"
 #. module: purchase_advance_payment
 #: model:ir.model,name:purchase_advance_payment.model_res_config_settings
 msgid "Procurement purchase grouping settings"
-msgstr ""
+msgstr "Paramètres de regroupement des achats"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_payment__purchase_id
@@ -237,31 +249,24 @@ msgstr "Achat"
 
 #. module: purchase_advance_payment
 #: model:ir.model,name:purchase_advance_payment.model_purchase_order
+#: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_payment_form
 msgid "Purchase Order"
-msgstr "Bon de commande"
-
-#. module: purchase_advance_payment
-#: model:ir.model.fields,field_description:purchase_advance_payment.field_purchase_order__account_payment_ids
-msgid "Purchase Payment"
-msgstr "Paiement d'achat"
+msgstr "Commande d'Achat"
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_account_voucher_wizard_purchase__payment_ref
 msgid "Ref."
-msgstr ""
+msgstr "Réf."
 
 #. module: purchase_advance_payment
 #: model:ir.model.fields,field_description:purchase_advance_payment.field_purchase_order__amount_residual
 msgid "Residual amount"
-msgstr "Montant résiduel"
+msgstr "Montant Résiduel"
 
 #. module: purchase_advance_payment
 #: model_terms:ir.ui.view,arch_db:purchase_advance_payment.view_account_payment_search
 msgid "Vendor Advance Payments"
-msgstr ""
+msgstr "Paiements anticipés aux fournisseurs"
 
-#~ msgid "Operation"
-#~ msgstr "Opération"
-
-#~ msgid "Order Currency"
-#~ msgstr "Devise de la commande"
+#~ msgid "Not Sent"
+#~ msgstr "Non Envoyé"

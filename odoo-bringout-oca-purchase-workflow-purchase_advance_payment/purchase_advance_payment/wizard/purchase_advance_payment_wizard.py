@@ -1,7 +1,7 @@
 # Copyright (C) 2021 ForgeFlow S.L.
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html)
 
-from odoo import _, api, exceptions, fields, models
+from odoo import api, exceptions, fields, models
 
 
 class AccountVoucherWizardPurchase(models.TransientModel):
@@ -85,8 +85,10 @@ class AccountVoucherWizardPurchase(models.TransientModel):
 
     @api.constrains("amount_advance")
     def check_amount(self):
-        if self.journal_currency_id.compare_amounts(self.amount_advance, 0.0) < 0:
-            raise exceptions.ValidationError(_("Amount of advance must be positive."))
+        if self.journal_currency_id.compare_amounts(self.amount_advance, 0.0) <= 0:
+            raise exceptions.ValidationError(
+                self.env._("Amount of advance must be positive.")
+            )
         if self.env.context.get("active_id", False):
             if (
                 self.currency_id.compare_amounts(
@@ -95,7 +97,9 @@ class AccountVoucherWizardPurchase(models.TransientModel):
                 > 0
             ):
                 raise exceptions.ValidationError(
-                    _("Amount of advance is greater than residual amount on purchase")
+                    self.env._(
+                        "Amount of advance is greater than residual amount on purchase"
+                    )
                 )
 
     @api.model
@@ -104,7 +108,7 @@ class AccountVoucherWizardPurchase(models.TransientModel):
         purchase_ids = self.env.context.get("active_ids", [])
         if not purchase_ids:
             return res
-        purchase_id = fields.first(purchase_ids)
+        purchase_id = purchase_ids[0]
         purchase = self.env["purchase.order"].browse(purchase_id)
         if "amount_total" in fields_list:
             res.update(
@@ -114,20 +118,26 @@ class AccountVoucherWizardPurchase(models.TransientModel):
                     "currency_id": purchase.currency_id.id,
                 }
             )
-        res["journal_id"] = (
-            self.env["account.journal"]
-            .search(
-                [
-                    ("type", "in", ("bank", "cash")),
-                    ("company_id", "=", purchase.company_id.id),
-                    ("outbound_payment_method_line_ids", "!=", False),
-                ],
+        no_currency_journal_domain = [
+            ("type", "in", ("bank", "cash")),
+            ("company_id", "=", purchase.company_id.id),
+            ("outbound_payment_method_line_ids", "!=", False),
+        ]
+        journal_domain = no_currency_journal_domain
+        if purchase.company_id.currency_id != purchase.currency_id:
+            journal_domain.append(
+                ("currency_id", "=", purchase.currency_id.id),
+            )
+        journal = self.env["account.journal"].search(
+            journal_domain,
+            limit=1,
+        )
+        if not journal:
+            journal = self.env["account.journal"].search(
+                no_currency_journal_domain,
                 limit=1,
             )
-            .id
-        )
-        if purchase.partner_ref:
-            res["payment_ref"] = purchase.partner_ref
+        res["journal_id"] = journal.id
         return res
 
     @api.depends("journal_id", "date", "amount_advance", "journal_currency_id")
@@ -144,50 +154,31 @@ class AccountVoucherWizardPurchase(models.TransientModel):
         self.currency_amount = amount_advance
 
     def _prepare_payment_vals(self, purchase):
-        partner_id = purchase.partner_id.id
+        partner_id = purchase.partner_id.commercial_partner_id.id
         return {
             "purchase_id": purchase.id,
             "date": self.date,
             "amount": self.amount_advance,
             "payment_type": "outbound",
             "partner_type": "supplier",
-            "ref": self.payment_ref or purchase.partner_ref or purchase.name,
+            "memo": self.payment_ref or purchase.name,
             "journal_id": self.journal_id.id,
             "currency_id": self.journal_currency_id.id,
             "partner_id": partner_id,
             "payment_method_line_id": self.payment_method_line_id.id,
         }
 
-    def action_fill_amount(self):
-        """Fill advance amount with the order due amount (converted to journal currency)."""
-        self.ensure_one()
-        if self.journal_currency_id != self.currency_id:
-            amount = self.currency_id._convert(
-                self.amount_total,
-                self.journal_currency_id,
-                self.order_id.company_id,
-                self.date or fields.Date.today(),
-            )
-        else:
-            amount = self.amount_total
-        self.amount_advance = amount
-        return {
-            "type": "ir.actions.act_window",
-            "res_model": self._name,
-            "res_id": self.id,
-            "view_mode": "form",
-            "target": "new",
-        }
-
     def make_advance_payment(self):
         """Create customer paylines and validates the payment"""
         self.ensure_one()
-        if self.journal_currency_id.compare_amounts(self.amount_advance, 0.0) <= 0:
-            raise exceptions.ValidationError(_("Amount of advance must be positive."))
         payment_obj = self.env["account.payment"]
+        purchase_obj = self.env["purchase.order"]
 
-        if self.order_id:
-            payment_vals = self._prepare_payment_vals(self.order_id)
+        purchase_ids = self.env.context.get("active_ids", [])
+        if purchase_ids:
+            purchase_id = purchase_ids[0]
+            purchase = purchase_obj.browse(purchase_id)
+            payment_vals = self._prepare_payment_vals(purchase)
             payment = payment_obj.create(payment_vals)
             if bool(
                 self.env["ir.config_parameter"]
@@ -195,14 +186,6 @@ class AccountVoucherWizardPurchase(models.TransientModel):
                 .get_param("purchase_advance_payment.auto_post_advance_payments")
             ):
                 payment.action_post()
-
-            return {
-                "type": "ir.actions.act_window",
-                "res_model": "account.payment",
-                "res_id": payment.id,
-                "view_mode": "form",
-                "target": "current",
-            }
 
         return {
             "type": "ir.actions.act_window_close",
